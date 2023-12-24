@@ -217,13 +217,27 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="nav_link_v_one text-md-end">
+                            <div class="social_media_v_one text-end">
                                 <ul>
                                     <li>
-                                        <a href="#" target="_blank" rel="nofollow">Terms Of Use</a>
+                                        <a href="#"> <span class="fa fa-facebook"></span>
+                                            <small>facebook</small>
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" rel="nofollow">Private Policy</a>
+                                        <a href="#"> <span class="fa fa-twitter"></span>
+                                            <small>twitter</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <span class="fa fa-skype"></span>
+                                            <small>skype</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <span class="fa fa-instagram"></span>
+                                            <small>instagram</small>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
