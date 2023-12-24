@@ -50,8 +50,8 @@
                 <div class="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
                     <div class="header_logo_box">
                         <a href="{{ route('index') }}" class="logo navbar-brand">
-                            <img src="assets/images/logo-default.png" alt="Creote Elementor" class="logo_default">
-                            <img src="assets/images/logo-default.png" alt="Creote Elementor" class="logo__sticky">
+                            <img src="{{ asset('/web/assets/images/logo-default.png') }}" alt="Aurega" class="logo_default">
+                            <img src="{{ asset('/web/assets/images/logo-default.png') }}" alt="Aurega" class="logo__sticky">
                         </a>
                     </div>
                 </div>
@@ -85,6 +85,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Accounting Service</a></h3>
                                                                 <p>Financial Statement Preparation, Account Reconciliation</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -92,7 +93,8 @@
                                                         <div class="content_box_cn style_one">
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Bookkeeping & Payroll</a></h3>
-                                                                <p>monthly reports, Salary Processing, Payroll reporting, Employee Benefits</p>
+                                                                <p>Monthly reports, Salary Processing, Payroll reporting, Employee Benefits</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -101,6 +103,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Financial Consulting Service</a></h3>
                                                                 <p>Business valuation, Due diligence services, financial consulting & advisory for decision-making</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -109,6 +112,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Management Consulting Services</a></h3>
                                                                 <p>Cost accounting and analysis, Budgeting and forecasting, Performance measurement and variance analysis, Risk Assessment</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -117,6 +121,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Chief Financial Officer (CFO) Services</a></h3>
                                                                 <p>Risk Management and Compliance, Financial Reporting and Analysis, Financial Strategy and Planning</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -125,6 +130,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">VAT Service</a></h3>
                                                                 <p>VAT Register, Return Filing, Refund, deregister, Compliance & Advisory, VAT Audit Support</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -133,6 +139,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Tax Consultancy Service</a></h3>
                                                                 <p>Compliance Services, Dispute Resolution, Customs and Excise Duty Advisory</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -141,6 +148,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Internal Auditing Service</a></h3>
                                                                 <p>Internal Controls Evaluation, Risk Assessment, Compliance</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -149,6 +157,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Financing Options</a></h3>
                                                                 <p>Credit Analysis, Debt Restructuring, Loan Facilitation, Financial Planning</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -157,6 +166,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Feasibility Market Research</a></h3>
                                                                 <p>Financial Modeling, Cost Analysis, Market Entry Strategies, Risk Assessment</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -165,6 +175,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Economic Substance Regulations (ESR)</a></h3>
                                                                 <p>Compliances, Assessment and Analysis, Due Diligence</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -173,6 +184,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Anti-Money Laundering (AML)</a></h3>
                                                                 <p>Due Diligence, Transaction Monitoring, AML Software Implementation</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -181,6 +193,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Corporate TAX</a></h3>
                                                                 <p>TAX Planning, Preparation, Tax Treaty Analysis, Tax Dispute Resolution</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -189,6 +202,7 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Software Selection & Implementation</a></h3>
                                                                 <p>Implementing accounting software, Customizing systems for specific business needs, Training and support for accounting software</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -197,12 +211,18 @@
                                                             <div class="txt_content">
                                                                 <h3><a class="subtitle" href="{{ route('index') }}">Corporate Secretarial Services</a></h3>
                                                                 <p>Company incorporation and structuring, corporate governance compliance, Maintenance of statutory records</p>
+                                                                <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-danger mb-3">Know More <i class="icon-right-arrow"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
                                         </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children nav-item">
+                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                            <span>FAQs</span>
+                                        </a>
                                     </li>
                                     <li class="menu-item menu-item-has-children nav-item">
                                         <a href="{{ route('index') }}" class="dropdown-toggle nav-link">

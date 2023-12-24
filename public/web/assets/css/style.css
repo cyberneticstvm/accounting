@@ -568,3 +568,12 @@ input[type="password"] {
   border-radius: 5px;
   font-family: var(--creote-family-one);
 }
+
+.theme-btn.four {
+  text-transform: none !important;
+}
+
+.quotes_box.style_one .icon span,
+.text-white {
+  color: #fff !important;
+}

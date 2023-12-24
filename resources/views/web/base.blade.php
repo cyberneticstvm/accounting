@@ -362,6 +362,21 @@
                 <li class="floating_menu_text {{ (request()->segment(1) == '') ? 'active' : '' }}">
                     <a href="/"> Home </a>
                 </li>
+                <li class="floating_menu_text {{ (request()->segment(1) == 'about') ? 'active' : '' }}">
+                    <a href="/"> About Us </a>
+                </li>
+                <li class="floating_menu_text {{ (request()->segment(1) == 'services') ? 'active' : '' }}">
+                    <a href="/"> Services </a>
+                </li>
+                <li class="floating_menu_text {{ (request()->segment(1) == 'faqs') ? 'active' : '' }}">
+                    <a href="/"> FAQs </a>
+                </li>
+                <li class="floating_menu_text {{ (request()->segment(1) == 'blog') ? 'active' : '' }}">
+                    <a href="/"> Blog </a>
+                </li>
+                <li class="floating_menu_text {{ (request()->segment(1) == 'contact') ? 'active' : '' }}">
+                    <a href="/"> Contact Us </a>
+                </li>
             </ul>
         </div>
         <!---==============floating menu=================-->
