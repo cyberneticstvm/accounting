@@ -82,7 +82,7 @@
                                 <div class="about_company_inner">
                                     <div class="footer_logo">
                                         <a href="#" target="_blank" rel="nofollow">
-                                            <img src="assets/images/logo-white.png" alt="logo" />
+                                            <img src="{{ asset('/web/assets/images/logo-white.png') }}" alt="logo" />
                                         </a>
                                     </div>
                                     <!--===============spacing==============-->
@@ -95,7 +95,7 @@
                                         </p>
                                         <div class="consulting">
                                             <div class="image">
-                                                <img src="assets/images/authour-image.png" alt="need help" />
+                                                <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="need help" />
                                             </div>
                                             <div class="help_con">
                                                 <h6>Need Help?</h6>
@@ -306,7 +306,7 @@
                         <div class="col-lg-7 col-md-12 about_company_inner">
                             <div class="abt_content">
                                 <div class="logo">
-                                    <img src="assets/images/logo-default.png" alt="img" class="company_logo_modal">
+                                    <img src="{{ asset('/web/assets/images/logo-default.png') }}" alt="img" class="company_logo_modal">
                                 </div>
                                 <div class="text">
                                     <p> The great explorer of the truth, the master-builder of human happiness no one rejects
@@ -320,27 +320,27 @@
                                     <div class="post_enable">
                                         <div class="modal_post_grid">
                                             <a href="blog-single.html">
-                                                <img width="852" height="812" src="assets/images/blog/blog-image-9.jpg" class="main_img wp-post-image" alt="img" />
+                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="main_img wp-post-image" alt="img" />
                                             </a>
                                         </div>
                                         <div class="modal_post_grid">
                                             <a href="blog-single.html">
-                                                <img width="852" height="812" src="assets/images/blog/blog-image-8.jpg" class="main_img wp-post-image" alt="img" />
+                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-8.jpg') }}" class="main_img wp-post-image" alt="img" />
                                             </a>
                                         </div>
                                         <div class="modal_post_grid">
                                             <a href="blog-single.html">
-                                                <img width="852" height="812" src="assets/images/blog/blog-image-7.jpg" class="main_img wp-post-image" alt="img" />
+                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-7.jpg') }}" class="main_img wp-post-image" alt="img" />
                                             </a>
                                         </div>
                                         <div class="modal_post_grid">
                                             <a href="blog-single.html">
-                                                <img width="852" height="812" src="assets/images/blog/blog-image-6.jpg" class="main_img wp-post-image" alt="img" />
+                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-6.jpg') }}" class="main_img wp-post-image" alt="img" />
                                             </a>
                                         </div>
                                         <div class="modal_post_grid">
                                             <a href="blog-single.html">
-                                                <img width="852" height="812" src="assets/images/blog/blog-image-5.jpg" class="main_img wp-post-image" alt="img" />
+                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-5.jpg') }}" class="main_img wp-post-image" alt="img" />
                                             </a>
                                         </div>
                                     </div>

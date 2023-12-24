@@ -262,13 +262,11 @@
                     </div>
                     <div class="col-xxl-2 col-xl-2 col-md-12"></div>
                 </div>
-
             </div>
-
         </div>
     </section>
     <!---tab---->
-    <section class="tab-section bg_op_1" style="background-image:url(assets/images/tab-sec-bg.jpg);">
+    <section class="tab-section bg_op_1" style="background-image:url('{{ asset("/web/assets/images/tab-sec-bg.jpg") }}');">
         <!--===============spacing==============-->
         <div class="pd_top_100"></div>
         <!--===============spacing==============-->
@@ -377,6 +375,180 @@
         <!--===============spacing==============-->
     </section>
     <!---tab-end--->
+    <section class="testimonial-section">
+        <!--===============spacing==============-->
+        <div class="pd_bottom_80"></div>
+        <!--===============spacing==============-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title_all_box style_one text-center dark_color">
+                        <div class="title_sections ">
+                            <div class="before_title">Our Clients</div>
+                            <h2>Customers Experience</h2>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_15"></div>
+                        <!--===============spacing==============-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <div class="testimonial_sec position-relative style_v2_one">
+                        <div class="swiper-container" data-swiper='{
+                              "autoplay": {
+                                "delay": 6000
+                              },
+                              "freeMode": true,
+                              "loop": true,
+                              "speed": 1000,
+                              "centeredSlides": false,
+                              "slidesPerView": 1,
+                              "spaceBetween": 10,
+                              "pagination": {
+                                "el": ".swiper-pagination",
+                                "clickable": true
+                              },
+                              "navigation": {
+                                 "nextEl": ".next-single-one",
+                                 "prevEl": ".prev-single-one"
+                               },
+                              "breakpoints": {
+                                 "1200": {
+                                    "slidesPerView": 1
+                                 },
+                                 "1024": {
+                                  "slidesPerView": 1 
+                                 },
+                                "768": {
+                                  "slidesPerView": 1 
+                                },
+                                "576": {
+                                  "slidesPerView": 1 
+                                },
+                                "0": {
+                                  "slidesPerView": 1 
+                                }
+                              }
+                            }'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial_box clearfix">
+                                        <div class="image">
+                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                        </div>
+                                        <div class="authour_details">
+                                            <div class="b_image">
+                                                <img src="{{ asset('/web/assets/images/CLIENT-logo-1.png') }}" alt="image">
+                                            </div>
+                                            <div class="comment">
+                                                While running an early stage startup everything feels
+                                                hard, that’s why it’s been so nice to have our accounting
+                                                feel easy. We recommed Qetus.
+                                            </div>
+                                            <div class="details clearfix">
+                                                <div class="c_image">
+                                                    <img src="{{ asset('/web/assets/images/testi-2.png') }}" alt="image">
+                                                </div>
+                                                <div class="c_content">
+                                                    <div class="content_in">
+                                                        <h2>Jacob Leonardo</h2>
+                                                        <span>Senior Manager of Excel Solution</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial_box clearfix">
+                                        <div class="image">
+                                            <img src="{{ asset('/web/assets/images/banner-five-bg.jpg') }}" alt="image">
+                                        </div>
+                                        <div class="authour_details">
+                                            <div class="b_image">
+                                                <img src="{{ asset('/web/assets/images/CLIENT-logo-1.png') }}" alt="image">
+                                            </div>
+                                            <div class="comment">
+                                                While running an early stage startup everything feels
+                                                hard, that’s why it’s been so nice to have our accounting
+                                                feel easy. We recommed Qetus.
+                                            </div>
+                                            <div class="details clearfix">
+                                                <div class="c_image">
+                                                    <img src="{{ asset('/web/assets/images/testi-1.png') }}" alt="image">
+                                                </div>
+                                                <div class="c_content">
+                                                    <div class="content_in">
+                                                        <h2>Jacob Leonardo</h2>
+                                                        <span>Senior Manager of Excel Solution</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star empty"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial_box clearfix">
+                                        <div class="image">
+                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                        </div>
+                                        <div class="authour_details">
+                                            <div class="b_image">
+                                                <img src="{{ asset('/web/assets/images/CLIENT-logo-1.png') }}" alt="image">
+                                            </div>
+                                            <div class="comment">
+                                                While running an early stage startup everything feels
+                                                hard, that’s why it’s been so nice to have our accounting
+                                                feel easy. We recommed Qetus.
+                                            </div>
+                                            <div class="details clearfix">
+                                                <div class="c_image">
+                                                    <img src="{{ asset('/web/assets/images/testi-2.png') }}" alt="image">
+                                                </div>
+                                                <div class="c_content">
+                                                    <div class="content_in">
+                                                        <h2>Jacob Leonardo</h2>
+                                                        <span>Senior Manager of Excel Solution</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star empty"></span><span class="fa fa-star empty"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrows">
+                            <div class="prev-single-one"></div>
+                            <div class="next-single-one"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+        <!--===============spacing==============-->
+        <div class="pd_bottom_80"></div>
+        <!--===============spacing==============-->
+    </section>
 </div>
 <!--===============PAGE CONTENT END==============-->
 @endsection
