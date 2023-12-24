@@ -1,0 +1,239 @@
+<div class="header_area " id="header_contents">
+    <div class="top_bar style_three bg_op_1 pd_top_20 pd_bottom_5 d_md_none" style="background: url('{{ asset("/web/assets/images/home-11-patter-1.jpg") }}');">
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-12 m-auto">
+                    <div class="top_inner">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="footer_contact_list light_color type_one">
+                                    <div class="same_contact phone">
+                                        <span class="icon-telephone"></span>
+                                        <div class="content">
+                                            <h6 class="titles"> Phone</h6>
+                                            <a href="tel:+971506939558">+(971) 50 693 9558 </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="footer_contact_list light_color type_one">
+                                    <div class="same_contact mail">
+                                        <span class="icon-mail"></span>
+                                        <div class="content">
+                                            <h6 class="titles"> Mail Us</h6>
+                                            <a href="mailto:mkt@auregagroup.com">mkt@auregagroup.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="footer_contact_list light_color type_one">
+                                    <div class="same_contact address">
+                                        <span class="icon-location2"></span>
+                                        <div class="content">
+                                            <h6 class="titles"> Address</h6>
+                                            <p>#106, Bay Square 11, Business Bay, Dubai</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header header_default style_one style_two_remade get_sticky_header">
+        <div class="auto-container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
+                    <div class="header_logo_box">
+                        <a href="{{ route('index') }}" class="logo navbar-brand">
+                            <img src="assets/images/logo-default.png" alt="Creote Elementor" class="logo_default">
+                            <img src="assets/images/logo-default.png" alt="Creote Elementor" class="logo__sticky">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-3 col-sm-3 col-xs-3 menu_column">
+                    <div class="navbar_togglers hamburger_menu">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                    <div class="header_content_collapse">
+                        <div class="header_menu_box">
+                            <div class="navigation_menu">
+                                <ul id="myNavbar" class="navbar_nav">
+                                    <li class="menu-item  menu-item-has-children active dropdown_full position-static nav-item">
+                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                            <span>Home</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item  menu-item-has-children active dropdown_full position-static nav-item">
+                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                            <span>About Us</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children dropdown dropdown_full position-static mega_menu nav-item">
+                                        <a href="javascript:void(0)" class="dropdown-toggle nav-link"><span>Services</span></a>
+                                        <ul class="dropdown-menu width_60_percentage">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Accounting Service</a></h3>
+                                                                <p>Financial Statement Preparation, Account Reconciliation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Bookkeeping & Payroll</a></h3>
+                                                                <p>monthly reports, Salary Processing, Payroll reporting, Employee Benefits</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Financial Consulting Service</a></h3>
+                                                                <p>Business valuation, Due diligence services, financial consulting & advisory for decision-making</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Management Consulting Services</a></h3>
+                                                                <p>Cost accounting and analysis, Budgeting and forecasting, Performance measurement and variance analysis, Risk Assessment</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Chief Financial Officer (CFO) Services</a></h3>
+                                                                <p>Risk Management and Compliance, Financial Reporting and Analysis, Financial Strategy and Planning</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">VAT Service</a></h3>
+                                                                <p>VAT Register, Return Filing, Refund, deregister, Compliance & Advisory, VAT Audit Support</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Tax Consultancy Service</a></h3>
+                                                                <p>Compliance Services, Dispute Resolution, Customs and Excise Duty Advisory</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Internal Auditing Service</a></h3>
+                                                                <p>Internal Controls Evaluation, Risk Assessment, Compliance</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Financing Options</a></h3>
+                                                                <p>Credit Analysis, Debt Restructuring, Loan Facilitation, Financial Planning</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Feasibility Market Research</a></h3>
+                                                                <p>Financial Modeling, Cost Analysis, Market Entry Strategies, Risk Assessment</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Economic Substance Regulations (ESR)</a></h3>
+                                                                <p>Compliances, Assessment and Analysis, Due Diligence</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Anti-Money Laundering (AML)</a></h3>
+                                                                <p>Due Diligence, Transaction Monitoring, AML Software Implementation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Corporate TAX</a></h3>
+                                                                <p>TAX Planning, Preparation, Tax Treaty Analysis, Tax Dispute Resolution</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Software Selection & Implementation</a></h3>
+                                                                <p>Implementing accounting software, Customizing systems for specific business needs, Training and support for accounting software</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Corporate Secretarial Services</a></h3>
+                                                                <p>Company incorporation and structuring, corporate governance compliance, Maintenance of statutory records</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children nav-item">
+                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                            <span>Blog</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children nav-item">
+                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                            <span>Contact Us</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header_right_content">
+                            <ul>
+                                <li>
+                                    <button type="button" class="search-toggler"><i class="icon-search"></i></button>
+                                </li>
+                                <li class="header-button">
+                                    <a href="#" target="_blank" rel="" class="theme-btn one"> Get In Touch </a>
+                                </li>
+                                <li>
+                                    <button type="button" class="contact-toggler"><i class="icon-bar"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of the loop -->
+</div>
