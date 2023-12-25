@@ -577,3 +577,7 @@ input[type="password"] {
 .text-white {
   color: #fff !important;
 }
+
+.text-justify {
+  text-align: justify !important;
+}

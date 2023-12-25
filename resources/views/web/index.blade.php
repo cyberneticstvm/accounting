@@ -260,11 +260,13 @@
                             <!--===============spacing==============-->
                         </div>
                     </div>
-                    <div class="col-xxl-2 col-xl-2 col-md-12"></div>
                 </div>
             </div>
         </div>
     </section>
+    <!--===============spacing==============-->
+    <div class="pd_bottom_70"></div>
+    <!--===============spacing==============-->
     <!---tab---->
     <section class="tab-section bg_op_1" style="background-image:url('{{ asset("/web/assets/images/tab-sec-bg.jpg") }}');">
         <!--===============spacing==============-->
@@ -272,6 +274,17 @@
         <!--===============spacing==============-->
         <div class="container">
             <div class="row">
+                <div class="col-lg-12">
+                    <div class="title_all_box style_one text-center dark_color">
+                        <div class="title_sections ">
+                            <div class="before_title">Why Choose Aurega</div>
+                            <h2>Customers Experience</h2>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_15"></div>
+                        <!--===============spacing==============-->
+                    </div>
+                </div>
                 <div class="tabs_all_box  tabs_all_box_start type_one">
                     <div class="tab_over_all_box">
                         <div class="tabs_header clearfix">
@@ -307,8 +320,6 @@
                                             <h2>Expertise and Experience</h2>
 
                                             <p>At AUREGA ACCOUNTING SERVICES our wealth of experience spans the intricacies of UAE accounting, bookkeeping, and taxation. We're well-versed in local regulations, allowing us to provide accurate, reliable, and up-to-date advice to businesses of all sizes.</p>
-
-                                            <a href="#" target="_blank" rel="nofollow" class="rd_more">Read More <i class="icon-right-arrow"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -320,47 +331,39 @@
                                             <h2>Personalized Service</h2>
 
                                             <p>We understand that each client is unique. That's why we tailor our services to suit your individual requirements, ensuring that you receive personalized attention and solutions crafted specifically for your business needs.</p>
-
-                                            <a href="#" target="_blank" rel="nofollow" class="rd_more">Read More <i class="icon-right-arrow"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="s_tab fade" id="tabtabthree">
-                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/about-4.jpg") }}')">
+                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/testi-image.jpg") }}')">
                                         <div class="content_image">
                                             <h6>Why Choose Aurega</h6>
 
                                             <h2>Cost-Effectiveness</h2>
 
                                             <p>While our expertise is unmatched, we believe in offering cost-effective solutions. Our services are structured to deliver high value without straining your budget, allowing you to invest your resources where they matter most.</p>
-
-                                            <a href="#" target="_blank" rel="nofollow" class="rd_more">Read More <i class="icon-right-arrow"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="s_tab fade" id="tabtabtfour">
-                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/about-2.jpg") }}')">
+                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/about-4.jpg") }}')">
                                         <div class="content_image">
                                             <h6>Why Choose Aurega</h6>
 
                                             <h2>Unwavering Commitment</h2>
 
                                             <p>We take your success personally, dedicating ourselves to providing exceptional service and ongoing support every step of the way.</p>
-
-                                            <a href="#" target="_blank" rel="nofollow" class="rd_more">Read More <i class="icon-right-arrow"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="s_tab fade" id="tabtabfive">
-                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/about-3.jpg") }}')">
+                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/project-2-img.jpg") }}')">
                                         <div class="content_image">
                                             <h6>Why Choose Aurega</h6>
 
                                             <h2>Timely and Reliable Service</h2>
 
                                             <p>We recognize the importance of timely deliverables. Our commitment to efficiency ensures that deadlines are met without compromising quality.</p>
-
-                                            <a href="#" target="_blank" rel="nofollow" class="rd_more">Read More <i class="icon-right-arrow"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -385,7 +388,7 @@
                     <div class="title_all_box style_one text-center dark_color">
                         <div class="title_sections ">
                             <div class="before_title">Our Clients</div>
-                            <h2>Customers Experience</h2>
+                            <h2>Customers Feedback</h2>
                         </div>
                         <!--===============spacing==============-->
                         <div class="pd_bottom_15"></div>
@@ -446,7 +449,7 @@
                                             </div>
                                             <div class="comment">
                                                 While running an early stage startup everything feels
-                                                hard, that’s why it’s been so nice to have our accounting
+                                                hard, that's why it's been so nice to have our accounting
                                                 feel easy. We recommed Qetus.
                                             </div>
                                             <div class="details clearfix">
@@ -479,7 +482,7 @@
                                             </div>
                                             <div class="comment">
                                                 While running an early stage startup everything feels
-                                                hard, that’s why it’s been so nice to have our accounting
+                                                hard, that's why it's been so nice to have our accounting
                                                 feel easy. We recommed Qetus.
                                             </div>
                                             <div class="details clearfix">

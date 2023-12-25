@@ -47,20 +47,20 @@
         <!---==============footer start =================-->
         <div class="footer_area footer_two" id="footer_contents">
             <div class="container">
-                <section class="newsteller mr_bottom_minus_110 style_two" style="background-image:url('{{ asset("/web/assets/images/testi-image.jpg") }}')">
+                <section class="newsteller mr_bottom_minus_110 style_two" style="background-image:url('{{ asset("/web/assets/images/about/testi-image.jpg") }}')">
                     <div class="auto-container">
                         <div class="inner_stell">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="content">
-                                        <h2>Join Our Mailing List</h2>
-                                        <p>For receiving our news and updates in your inbox directly. </p>
+                                        <h2>Request a call back</h2>
+                                        <p>Drop your email / mobile (with country code) and we will reach out you shortly. </p>
                                     </div>
                                     <div class="item_scubscribe">
                                         <form class="mc4wp-form" method="post" data-name="Subscibe">
                                             <div class="mc4wp-form-fields">
-                                                <input type="email" name="EMAIL" placeholder="Your email address" required="">
-                                                <input type="submit" value="Sign up">
+                                                <input type="text" name="EMAIL" placeholder="Your email / mobile" required="">
+                                                <input type="submit" value="Request">
                                             </div>
                                         </form>
                                     </div>
@@ -81,17 +81,16 @@
                             <div class="footer_widgets about_company light_color">
                                 <div class="about_company_inner">
                                     <div class="footer_logo">
-                                        <a href="#" target="_blank" rel="nofollow">
-                                            <img src="{{ asset('/web/assets/images/logo-white.png') }}" alt="logo" />
-                                        </a>
+                                        <h3><a class="text-white" href="{{ route('index') }}" target="_blank" rel="nofollow">
+                                                Aurega
+                                            </a></h3>
                                     </div>
                                     <!--===============spacing==============-->
                                     <div class="mr_bottom_20"></div>
                                     <!--===============spacing==============-->
                                     <div class="content_box">
-                                        <p>
-                                            Duty the obligations of business will frequently occur that pleasure have too
-                                            repudiated annoyances endures accepted.
+                                        <p class="text-justify">
+                                            We are committed to being your trusted partner, providing comprehensive accounting and tax advisory services.
                                         </p>
                                         <div class="consulting">
                                             <div class="image">
@@ -100,7 +99,7 @@
                                             <div class="help_con">
                                                 <h6>Need Help?</h6>
                                                 <h2>
-                                                    <a href="#" target="_blank" rel="nofollow"> Free Consultation</a>
+                                                    <a href="tel:+971506939558" target="_blank" rel="nofollow"> Free Consultation</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -113,7 +112,7 @@
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
                             <div class="footer_widgets wid_tit style_one">
                                 <div class="fo_wid_title">
-                                    <h2>Information</h2>
+                                    <h2>Services</h2>
                                 </div>
                             </div>
                             <!--===============spacing==============-->
@@ -125,12 +124,14 @@
                                         <div class="navigation_foo_inner">
                                             <div class="menu-information-container">
                                                 <ul class="menu">
-                                                    <li class="menu-item"><a href="#">How it’s Work</a></li>
-                                                    <li class="menu-item"><a href="#">Partners</a></li>
-                                                    <li class="menu-item"><a href="#">Testimonials</a></li>
-                                                    <li class="menu-item"><a href="#">Key Areas</a></li>
-                                                    <li class="menu-item"><a href="#">Case Studies</a></li>
-                                                    <li class="menu-item"><a href="#">Pricing</a></li>
+                                                    <li class="menu-item"><a href="#">Accounting</a></li>
+                                                    <li class="menu-item"><a href="#">Bookkeeping & Payroll</a></li>
+                                                    <li class="menu-item"><a href="#">Financial Consulting</a></li>
+                                                    <li class="menu-item"><a href="#">Management Consulting</a></li>
+                                                    <li class="menu-item"><a href="#">CFO</a></li>
+                                                    <li class="menu-item"><a href="#">VAT</a></li>
+                                                    <li class="menu-item"><a href="#">Tax Consultation</a></li>
+                                                    <li class="menu-item"><a href="#">Internal Auditing</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -141,7 +142,7 @@
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
                             <div class="footer_widgets wid_tit style_one">
                                 <div class="fo_wid_title">
-                                    <h2>Essentials</h2>
+                                    <h2>Services</h2>
                                 </div>
                             </div>
                             <!--===============spacing==============-->
@@ -152,12 +153,13 @@
                                     <div class="navigation_foo_inner">
 
                                         <ul class="menu">
-                                            <li class="menu-item"><a href="#">Careers</a></li>
-                                            <li class="menu-item"><a href="#">Infrastructure</a></li>
-                                            <li class="menu-item"><a href="#">Client Support</a></li>
-                                            <li class="menu-item"><a href="#">Privacy Policy</a></li>
-                                            <li class="menu-item"><a href="#">Terms of Use</a></li>
-                                            <li class="menu-item"><a href="#">Sitemap</a></li>
+                                            <li class="menu-item"><a href="#">Financing Options</a></li>
+                                            <li class="menu-item"><a href="#">Feasibility Market Research</a></li>
+                                            <li class="menu-item"><a href="#">ESR</a></li>
+                                            <li class="menu-item"><a href="#">AML</a></li>
+                                            <li class="menu-item"><a href="#">Corporate TAX</a></li>
+                                            <li class="menu-item"><a href="#">Software Selection & Implementation</a></li>
+                                            <li class="menu-item"><a href="#">Corporate Secretarial</a></li>
                                         </ul>
 
                                     </div>
@@ -179,22 +181,26 @@
                                     <div class="foo_cont_inner">
                                         <div class="top">
                                             <h6> Location</h6>
-                                            <p> 280 Granite Run Drive Suite #200
-                                                Lancaster, PA 1760
+                                            <p> #106, Bay Square 11, Business Bay, Dubai
                                             </p>
                                         </div>
                                         <div class="bottom">
                                             <h6> Contact</h6>
                                             <div class="con_content">
                                                 <h5> Phone :</h5>
-                                                <a href="tel:+9806071234"> +98 060 712 34</a>
+                                                <a href="tel:+971506939558"> +(971) 50 693 9558</a>
                                             </div>
                                             <div class="con_content">
                                                 <h5> Mail Us :</h5>
-                                                <a href="tel:sendmail@creote.com"> sendmail@creote.com</a>
+                                                <a href="tel:mkt@auregagroup.com"> mkt@auregagroup.com</a>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="footer_logo mt-3">
+                                    <a href="https://auregagroup.com" target="_blank" rel="nofollow">
+                                        <img src="{{ asset('/web/assets/images/aurega-logo.webp') }}" alt="logo">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +218,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="footer_copy_content">
-                                © 2023 <a href="https://themeforest.net/user/steelthemes">Steelthemes.</a> All Rights
+                                © {{ date('Y') }} <a href="https://auregagroup.com" target="_blank">Aurega Group.</a> All Rights
                                 Reserved.
                             </div>
                         </div>
@@ -220,22 +226,22 @@
                             <div class="social_media_v_one text-end">
                                 <ul>
                                     <li>
-                                        <a href="#"> <span class="fa fa-facebook"></span>
+                                        <a href="https://www.facebook.com/auregagroup/" target="_blank"> <span class="fa fa-facebook"></span>
                                             <small>facebook</small>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <span class="fa fa-twitter"></span>
+                                        <a href="https://x.com" target="_blank"> <span class="fa fa-twitter"></span>
                                             <small>twitter</small>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <span class="fa fa-skype"></span>
-                                            <small>skype</small>
+                                        <a href="https://www.linkedin.com/company/auregaglobal/"> <span class="fa fa-linkedin"></span>
+                                            <small>linkedin</small>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <span class="fa fa-instagram"></span>
+                                        <a href="https://www.instagram.com/auregagroup/" target="_blank"> <span class="fa fa-instagram"></span>
                                             <small>instagram</small>
                                         </a>
                                     </li>
@@ -307,7 +313,7 @@
                                         </label>
                                     </p>
                                     <p>
-                                        <label> Your message (optional)<br />
+                                        <label> Your message<br />
                                             <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter Your Message"></textarea>
                                             <br />
                                             <i class="fa fa-comments"></i><br />
@@ -323,11 +329,8 @@
                                     <img src="{{ asset('/web/assets/images/logo-default.png') }}" alt="img" class="company_logo_modal">
                                 </div>
                                 <div class="text">
-                                    <p> The great explorer of the truth, the master-builder of human happiness no one rejects
-                                        dislikes avoids pleasure itself because it is pleasure but because know who do not those
-                                        how to pursue pleasures rationally encounter consequences that are extremely painful
-                                        desires to obtain.</p>
-                                    <a href="#">Read More</a>
+                                    <p> We understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
+                                    <a href="{{ route('index') }}">Read More</a>
                                 </div>
                                 <div class="post_contet_modal">
                                     <h2> Latest News</h2>
@@ -360,7 +363,7 @@
                                     </div>
                                 </div>
                                 <div class="copright">
-                                    © 2023 Creote. All Rights Reserved.
+                                    © {{ date('Y') }} Aurega Group. All Rights Reserved.
                                 </div>
                             </div>
                         </div>
