@@ -199,7 +199,7 @@
                                 </div>
                                 <div class="footer_logo mt-3">
                                     <a href="https://auregagroup.com" target="_blank" rel="nofollow">
-                                        <img src="{{ asset('/web/assets/images/aurega-logo.webp') }}" alt="logo">
+                                        <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="logo">
                                     </a>
                                 </div>
                             </div>
@@ -326,7 +326,7 @@
                         <div class="col-lg-7 col-md-12 about_company_inner">
                             <div class="abt_content">
                                 <div class="logo">
-                                    <img src="{{ asset('/web/assets/images/logo-default.png') }}" alt="img" class="company_logo_modal">
+                                    <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="img" class="company_logo_modal">
                                 </div>
                                 <div class="text">
                                     <p> We understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>

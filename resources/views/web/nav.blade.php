@@ -50,8 +50,8 @@
                 <div class="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
                     <div class="header_logo_box">
                         <a href="{{ route('index') }}" class="logo navbar-brand">
-                            <img src="{{ asset('/web/assets/images/logo-default.png') }}" alt="Aurega" class="logo_default">
-                            <img src="{{ asset('/web/assets/images/logo-default.png') }}" alt="Aurega" class="logo__sticky">
+                            <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega" class="logo_default">
+                            <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega" class="logo__sticky">
                         </a>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                                         <a href="javascript:void(0)" class="dropdown-toggle nav-link"><span>Services</span></a>
                                         <ul class="dropdown-menu width_60_percentage">
                                             <li>
-                                                <div class="row">
+                                                <!-- <div class="row">
                                                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
                                                         <div class="content_box_cn style_one">
                                                             <div class="txt_content">
@@ -215,7 +215,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </li>
                                         </ul>
                                     </li>
