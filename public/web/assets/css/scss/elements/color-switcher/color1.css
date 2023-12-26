@@ -1,6 +1,8 @@
 :root {
-  --primary-color-one: #e5102a;
-  --menu-active-color: #e5102a;
+  /* --primary-color-one: #e5102a;
+  --menu-active-color: #e5102a; */
+  --primary-color-one: #30D5C8;
+  --menu-active-color: #30D5C8;
   --primary-color-two: #222222;
   --heading-dark: #222222;
   --link-color-dark: #222222;
@@ -20,4 +22,6 @@
 
 .footer_seven {
   padding-top: 80px;
-}/*# sourceMappingURL=color1.css.map */
+}
+
+/*# sourceMappingURL=color1.css.map */

@@ -581,3 +581,46 @@ input[type="password"] {
 .text-justify {
   text-align: justify !important;
 }
+
+.header.style_one.style_two_remade .auto-container,
+.default_sickty_heaad.style_one.style_two_remade .auto-container {
+  padding: 0 !important;
+}
+
+.top_bar {
+  background: #3b3e40 !important;
+}
+
+.header.style_one.style_two_remade .auto-container,
+.default_sickty_heaad.style_one.style_two_remade .auto-container,
+.header.style_one.style_two_remade .auto-container:before,
+.default_sickty_heaad.style_one.style_two_remade .auto-container:before {
+  background: var(--primary-color-two) !important
+}
+
+.header .header_content_collapse .navigation_menu .navbar_nav li a.nav-link,
+.default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li a.nav-link {
+  color: #fff !important;
+}
+
+.header .hamburger_menu .line,
+.default_sickty_heaad .hamburger_menu .line {
+  background-color: #30D5C8 !important;
+}
+
+body.home .page_header_default {
+  padding: 10px 0px !important;
+}
+
+.page_header_default {
+  min-height: auto !important;
+}
+
+.device-margin {
+  margin-top: 10% !important;
+}
+
+.title_all_box.style_one .title_sections .before_title,
+.title_all_box.style_two .title_sections .before_title {
+  text-decoration: none !important;
+}

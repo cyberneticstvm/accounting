@@ -1,5 +1,5 @@
 <div class="header_area " id="header_contents">
-    <div class="top_bar style_three bg_op_1 pd_top_20 pd_bottom_5 d_md_none" style="background: url('{{ asset("/web/assets/images/home-11-patter-1.jpg") }}');">
+    <div class="top_bar style_three bg_op_1 pd_top_20 pd_bottom_5 d_md_none">
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-12 m-auto">
@@ -11,7 +11,7 @@
                                         <span class="icon-telephone"></span>
                                         <div class="content">
                                             <h6 class="titles"> Phone</h6>
-                                            <a href="tel:+971506939558">+(971) 50 693 9558 </a>
+                                            <a href="tel:+971503446939">+(971) 50 344 6939 </a>
                                         </div>
                                     </div>
                                 </div>
@@ -22,7 +22,7 @@
                                         <span class="icon-mail"></span>
                                         <div class="content">
                                             <h6 class="titles"> Mail Us</h6>
-                                            <a href="mailto:mkt@auregagroup.com">mkt@auregagroup.com</a>
+                                            <a href="mailto:aas@auregagroup.com">aas@auregagroup.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -65,21 +65,193 @@
                         <div class="header_menu_box">
                             <div class="navigation_menu">
                                 <ul id="myNavbar" class="navbar_nav">
-                                    <li class="menu-item  menu-item-has-children active dropdown_full position-static nav-item">
+                                    <li class="menu-item  menu-item-has-children dropdown_full position-static nav-item {{ (request()->segment(1) == '') ? 'active' : '' }}">
                                         <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
                                             <span>Home</span>
                                         </a>
                                     </li>
-                                    <li class="menu-item  menu-item-has-children active dropdown_full position-static nav-item">
-                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                    <li class="menu-item  menu-item-has-children dropdown_full position-static nav-item {{ (request()->segment(1) == 'about') ? 'active' : '' }}">
+                                        <a href="{{ route('about') }}" class="dropdown-toggle nav-link">
                                             <span>About Us</span>
                                         </a>
                                     </li>
-                                    <li class="menu-item menu-item-has-children dropdown dropdown_full position-static mega_menu nav-item">
+                                    <li class="menu-item menu-item-has-children dropdown dropdown_full position-static mega_menu nav-item {{ (request()->segment(1) == 'services') ? 'active' : '' }}">
                                         <a href="javascript:void(0)" class="dropdown-toggle nav-link"><span>Services</span></a>
                                         <ul class="dropdown-menu width_60_percentage">
                                             <li>
-                                                <!-- <div class="row">
+                                                <div class="row">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Accounting</a></h3>
+                                                                <div class="list_item_box style_two style_list">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Accounting Service (Financial Statement Preparation, Account Reconciliation)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Bookkeeping & Payroll (monthly reports, Salary Processing, Payroll reporting, Employee Benefits) </a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Internal Auditing Service (Internal Controls Evaluation, Risk Assessment, Compliance) </a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-info mb-3">Know More <i class="icon-right-arrow"></i></a>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Taxation</a></h3>
+                                                                <div class="list_item_box style_two style_list">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    VAT Service (VAT Register, Return Filing, Refund, deregister, Compliance & Advisory, VAT Audit Support)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Tax Consultancy Service (Compliance Services, Dispute Resolution, Customs and Excise Duty Advisory) </a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Corporate TAX (TAX Planning, Preparation, Tax Treaty Analysis, Tax Dispute Resolution) </a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-info mb-3">Know More <i class="icon-right-arrow"></i></a>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
+                                                        <div class="content_box_cn style_one">
+                                                            <div class="txt_content">
+                                                                <h3><a class="subtitle" href="{{ route('index') }}">Finance & Management</a></h3>
+                                                                <div class="list_item_box style_two style_list">
+                                                                    <ul class="list-inline">
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Financial Consulting Service (Business valuation, Due diligence services, financial consulting & advisory for decision-making)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Management Consulting Services (Cost accounting and analysis, Budgeting and forecasting, Performance measurement and variance analysis, Risk Assessment)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Chief Financial Officer (CFO) Services (Risk Management and Compliance, Financial Reporting and Analysis, Financial Strategy and Planning)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Financing Options (Credit Analysis, Debt Restructuring, Loan Facilitation, Financial Planning)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Feasibility Market Research (Financial Modeling, Cost Analysis, Market Entry Strategies, Risk Assessment)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Economic Substance Regulations (ESR) (Compliances, Assessment and Analysis, Due Diligence)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Anti-Money Laundering (AML) (Due Diligence, Transaction Monitoring, AML Software Implementation)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Software Selection & Implementation (Implementing accounting software, Customizing systems for specific business needs, Training and support for accounting software)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <li class="list_items pd_bottom_10">
+                                                                            <small class="d-flex align-items-center">
+                                                                                <span class="icon_bx">
+                                                                                    <i class=" icon-checked"></i>
+                                                                                </span>
+                                                                                <a class="nav_link" href="#" target="&quot;_blank&quot;" rel="&quot;nofollow&quot;">
+                                                                                    Corporate Secretarial Services (Company incorporation and structuring, corporate governance compliance, Maintenance of statutory records)</a>
+                                                                            </small>
+                                                                        </li>
+                                                                        <a href="{{ route('index') }}" rel="nofollow" class="theme-btn four pull-right text-info mb-3">Know More <i class="icon-right-arrow"></i></a>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="row">
                                                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
                                                         <div class="content_box_cn style_one">
                                                             <div class="txt_content">
@@ -219,18 +391,18 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children nav-item">
-                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                    <li class="menu-item menu-item-has-children nav-item {{ (request()->segment(1) == 'faqs') ? 'active' : '' }}">
+                                        <a href="{{ route('faqs') }}" class="dropdown-toggle nav-link">
                                             <span>FAQs</span>
                                         </a>
                                     </li>
                                     <li class="menu-item menu-item-has-children nav-item">
-                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                        <a href="{{ route('blog') }}" class="dropdown-toggle nav-link {{ (request()->segment(1) == 'blog') ? 'active' : '' }}">
                                             <span>Blog</span>
                                         </a>
                                     </li>
-                                    <li class="menu-item menu-item-has-children nav-item">
-                                        <a href="{{ route('index') }}" class="dropdown-toggle nav-link">
+                                    <li class="menu-item menu-item-has-children nav-item {{ (request()->segment(1) == 'contact') ? 'active' : '' }}">
+                                        <a href="{{ route('contact') }}" class="dropdown-toggle nav-link">
                                             <span>Contact Us</span>
                                         </a>
                                     </li>

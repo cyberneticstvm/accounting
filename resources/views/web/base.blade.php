@@ -99,7 +99,7 @@
                                             <div class="help_con">
                                                 <h6>Need Help?</h6>
                                                 <h2>
-                                                    <a href="tel:+971506939558" target="_blank" rel="nofollow"> Free Consultation</a>
+                                                    <a href="tel:+971503446939" target="_blank" rel="nofollow"> Free Consultation</a>
                                                 </h2>
                                             </div>
                                         </div>
@@ -188,11 +188,11 @@
                                             <h6> Contact</h6>
                                             <div class="con_content">
                                                 <h5> Phone :</h5>
-                                                <a href="tel:+971506939558"> +(971) 50 693 9558</a>
+                                                <a href="tel:+971503446939"> +(971) 50 344 6939</a>
                                             </div>
                                             <div class="con_content">
                                                 <h5> Mail Us :</h5>
-                                                <a href="tel:mkt@auregagroup.com"> mkt@auregagroup.com</a>
+                                                <a href="tel:aas@auregagroup.com"> aas@auregagroup.com</a>
                                             </div>
                                         </div>
                                     </div>
