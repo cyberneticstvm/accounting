@@ -21,5 +21,8 @@ Route::middleware(['web'])->group(function () {
         Route::get('/faqs', 'faqs')->name('faqs');
         Route::get('/blog', 'blog')->name('blog');
         Route::get('/contact', 'contact')->name('contact');
+        Route::get('/services/accounting', 'contact')->name('services.accounting');
+        Route::get('/services/tax', 'contact')->name('services.tax');
+        Route::get('/services/finance', 'contact')->name('services.finance');
     });
 });
