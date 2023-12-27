@@ -37,7 +37,7 @@ class BlogController extends Controller
             'featured_image' => 'required|mimes:jpg,jpeg,png,webp|max:1024',
         ]);
         $input = $request->all();
-        $input['slug'] = strtolower(str_replace('', '-', $request->slug));
+        $input['slug'] = strtolower(str_replace(' ', '-', $request->slug));
         if ($request->file('featured_image')) :
             $path = 'blog/featured_images';
             $fname = time() . '_' . $request->file('featured_image')->getClientOriginalName();
@@ -80,7 +80,7 @@ class BlogController extends Controller
             'image' => 'sometimes|required|mimes:jpg,jpeg,png,webp|max:1024',
         ]);
         $input = $request->all();
-        $input['slug'] = strtolower(str_replace('', '-', $request->slug));
+        $input['slug'] = strtolower(str_replace(' ', '-', $request->slug));
         $input['updated_by'] = $request->user()->id;
         if ($request->file('featured_image')) :
             $path = 'blog/featured_images';
