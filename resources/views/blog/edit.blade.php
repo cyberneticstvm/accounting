@@ -46,7 +46,7 @@
                             @enderror
                         </div>
                         <div class="col-12 mt-3">
-                            <label>Featured Image</label> (1200px Width X 750px Height, Max size 1MB)<br>
+                            <label>Featured Image</label> (750px Width X 420px Height, Max size 1MB)<br>
                             {{ html()->file($name='featured_image')->class('form-control') }}
                         </div>
                         <div class="col-12 mt-3">
