@@ -102,11 +102,16 @@
                                                     <a href="tel:+971503446939" target="_blank" rel="nofollow"> Free Consultation</a>
                                                 </h2>
                                             </div>
+                                            <div class="help_con">
+                                                <h6> Careers</h6>
+                                                <div class="con_content">
+                                                    <h2><a href="https://auregagroup.com/careers" target="_blank">Careers</a></h2>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-lg-1 hidden-lg"></div>
                         <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
