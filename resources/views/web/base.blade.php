@@ -388,7 +388,7 @@
                 <li class="floating_menu_text {{ (request()->segment(1) == 'faqs') ? 'active' : '' }}">
                     <a href="/"> FAQs </a>
                 </li>
-                <li class="floating_menu_text {{ (request()->segment(1) == 'blog') ? 'active' : '' }}">
+                <li class="floating_menu_text {{ (request()->segment(1) == 'blogs') ? 'active' : '' }}">
                     <a href="/"> Blog </a>
                 </li>
                 <li class="floating_menu_text {{ (request()->segment(1) == 'contact') ? 'active' : '' }}">

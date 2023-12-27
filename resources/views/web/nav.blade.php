@@ -397,7 +397,7 @@
                                         </a>
                                     </li>
                                     <li class="menu-item menu-item-has-children nav-item">
-                                        <a href="{{ route('blog') }}" class="dropdown-toggle nav-link {{ (request()->segment(1) == 'blog') ? 'active' : '' }}">
+                                        <a href="{{ route('blogs') }}" class="dropdown-toggle nav-link {{ (request()->segment(1) == 'blogs') ? 'active' : '' }}">
                                             <span>Blog</span>
                                         </a>
                                     </li>

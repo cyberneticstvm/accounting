@@ -30,7 +30,7 @@ class WebController extends Controller
         return view('web.faqs', compact('title', 'keywords', 'description'));
     }
 
-    public function blog()
+    public function blogs()
     {
         $title = "";
         $keywords = "";

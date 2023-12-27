@@ -22,7 +22,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('/about', 'about')->name('about');
         Route::get('/faqs', 'faqs')->name('faqs');
-        Route::get('/blog', 'blog')->name('blog');
+        Route::get('/blogs', 'blogs')->name('blogs');
         Route::get('/contact', 'contact')->name('contact');
         Route::get('/services/accounting', 'contact')->name('services.accounting');
         Route::get('/services/tax', 'contact')->name('services.tax');
