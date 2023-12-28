@@ -10,6 +10,7 @@
                         <div class="contact_form_box_inner">
                             <div class="contact_form_shortcode">
                                 <form method="post" action="{{ route('contact.submit') }}" role="form">
+                                    @csrf
                                     <div class="controls">
                                         <div class="row">
                                             <div class="col-sm-12">
@@ -49,9 +50,6 @@
                                         </div>
                                     </div>
                                 </form>
-
-
-
                             </div>
                         </div>
                     </div>
