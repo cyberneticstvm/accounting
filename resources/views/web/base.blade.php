@@ -20,7 +20,7 @@
     <link rel='stylesheet' href="{{ asset('/web/assets/css/icomoon.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{ asset('/web/assets/css/flexslider.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{ asset('/web/assets/css/font-awesome.min.css') }}" type='text/css' media='all' />
-    <link rel='stylesheet' href="{{ asset('/web/assets/css/style.css?v=1') }}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{ asset('/web/assets/css/style.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{ asset('/web/assets/css/scss/elements/theme-css.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' id="creote-color-switcher-css" href="{{ asset('/web/assets/css/scss/elements/color-switcher/color1.css') }}" type='text/css' media='all' />
     <!-- Style-->
