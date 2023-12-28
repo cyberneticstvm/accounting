@@ -61,7 +61,7 @@
                                             @csrf
                                             <div class="mc4wp-form-fields">
                                                 <input type="text" name="email_mobile" placeholder="Your email / mobile" required="">
-                                                <input type="submit" value="Request">
+                                                <input type="submit" class="btn-submit" value="Request">
                                             </div>
                                         </form>
                                     </div>
@@ -429,6 +429,14 @@
     <!-- main-js -->
     <script type='text/javascript' src="{{ asset('web/assets/js/creote-extension.js') }}"></script>
     <!---========================== javascript ==========================-->
+    <script>
+        $(function() {
+            $('form').submit(function() {
+                $(".btn-submit").attr("disabled", true);
+                $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");
+            });
+        });
+    </script>
 </body>
 
 </html>
