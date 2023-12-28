@@ -3,6 +3,7 @@
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\EmailController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,6 +30,10 @@ Route::middleware(['web'])->group(function () {
         Route::get('/services/tax-advisory', 'tax')->name('services.tax');
         Route::get('/services/financial-and-management-accounting-consultancy', 'finance')->name('services.finance');
         Route::get('/services/vat-services', 'vat')->name('services.vat');
+    });
+
+    Route::controller(EmailController::class)->group(function () {
+        Route::post('/contact', 'contactsubmit')->name('contact.submit');
     });
 });
 

@@ -9,7 +9,7 @@
                     <div class="contact_form_box_all type_one">
                         <div class="contact_form_box_inner">
                             <div class="contact_form_shortcode">
-                                <form id="contact-form" method="post" action="contact.php" role="form">
+                                <form id="contact-form" method="post" action="{{ route('contact.submit') }}" role="form">
 
                                     <div class="messages"></div>
 
@@ -32,10 +32,9 @@
                                             <div class="col-sm-12">
                                                 <div class="form-group">
                                                     <label> Your Contact Number<br /></label>
-                                                    <input type="text" name="subject" required="required" placeholder=" Contact Number">
+                                                    <input type="text" name="contact_number" required="required" placeholder=" Contact Number">
                                                 </div>
                                             </div>
-
 
                                             <div class="col-sm-12">
                                                 <div class="form-group">
