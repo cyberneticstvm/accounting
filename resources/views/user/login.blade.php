@@ -12,7 +12,7 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/assets/images/aurega/favicon.ico') }}">
+    <link rel="icon" href="{{ asset('/web/assets/images/favicon.ico') }}" type="image/x-icon">
     <!-- Template CSS -->
     <link href="{{ asset('/backend/assets/css/main.css') }}" rel="stylesheet" type="text/css" />
 </head>
