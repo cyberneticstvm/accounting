@@ -431,6 +431,7 @@
     <!---========================== javascript ==========================-->
     <script>
         $(function() {
+            alert('sdf')
             $('form').submit(function() {
                 $(".btn-submit").attr("disabled", true);
                 $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");
