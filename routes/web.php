@@ -25,9 +25,10 @@ Route::middleware(['web'])->group(function () {
         Route::get('/blogs', 'blogs')->name('blogs');
         Route::get('/blogs/{slug}', 'blog')->name('blog.single');
         Route::get('/contact', 'contact')->name('contact');
-        Route::get('/services/accounting', 'contact')->name('services.accounting');
-        Route::get('/services/tax', 'contact')->name('services.tax');
-        Route::get('/services/finance', 'contact')->name('services.finance');
+        Route::get('/services/accounting-and-bookkeeping', 'accounting')->name('services.accounting');
+        Route::get('/services/tax-advisory', 'tax')->name('services.tax');
+        Route::get('/services/financial-and-management-accounting-consultancy', 'finance')->name('services.finance');
+        Route::get('/services/vat-services', 'vat')->name('services.vat');
     });
 });
 

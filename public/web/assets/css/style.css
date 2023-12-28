@@ -628,3 +628,23 @@ body.home .page_header_default {
 .hidden {
   display: none !important;
 }
+
+.menu-title {
+  color: var(--primary-color-one) !important;
+  font-size: medium !important;
+  font-weight: 600 !important;
+}
+
+.four {
+  color: var(--primary-color-one) !important;
+}
+
+.title_all_box.style_three .title_sections .title,
+.title_all_box.style_three .title_sections h1,
+.title_all_box.style_three .title_sections h2,
+.title_all_box.style_three .title_sections h3,
+.title_all_box.style_three .title_sections h4,
+.title_all_box.style_three .title_sections h5,
+.title_all_box.style_three .title_sections h6 {
+  font-size: 35px !important;
+}

@@ -57,4 +57,36 @@ class WebController extends Controller
         $description = "";
         return view('web.contact', compact('title', 'keywords', 'description'));
     }
+
+    public function accounting()
+    {
+        $title = "";
+        $keywords = "";
+        $description = "";
+        return view('web.services.accounting', compact('title', 'keywords', 'description'));
+    }
+
+    public function tax()
+    {
+        $title = "";
+        $keywords = "";
+        $description = "";
+        return view('web.services.tax', compact('title', 'keywords', 'description'));
+    }
+
+    public function finance()
+    {
+        $title = "";
+        $keywords = "";
+        $description = "";
+        return view('web.services.finance', compact('title', 'keywords', 'description'));
+    }
+
+    public function vat()
+    {
+        $title = "";
+        $keywords = "";
+        $description = "";
+        return view('web.services.vat', compact('title', 'keywords', 'description'));
+    }
 }

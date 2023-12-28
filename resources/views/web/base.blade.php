@@ -236,7 +236,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://x.com" target="_blank"> <span class="fa fa-twitter"></span>
+                                        <a href="https://x.com/Auregagroup" target="_blank"> <span class="fa fa-twitter"></span>
                                             <small>twitter</small>
                                         </a>
                                     </li>
