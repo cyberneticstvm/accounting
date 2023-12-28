@@ -33,7 +33,7 @@ Route::middleware(['web'])->group(function () {
     });
 
     Route::controller(EmailController::class)->group(function () {
-        Route::post('/contact', 'contactsubmit')->name('contact.submit');
+        Route::post('/contact', 'contactSubmit')->name('contact.submit');
     });
 });
 

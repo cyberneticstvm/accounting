@@ -9,10 +9,7 @@
                     <div class="contact_form_box_all type_one">
                         <div class="contact_form_box_inner">
                             <div class="contact_form_shortcode">
-                                <form id="contact-form" method="post" action="{{ route('contact.submit') }}" role="form">
-
-                                    <div class="messages"></div>
-
+                                <form method="post" action="{{ route('contact.submit') }}" role="form">
                                     <div class="controls">
                                         <div class="row">
                                             <div class="col-sm-12">
