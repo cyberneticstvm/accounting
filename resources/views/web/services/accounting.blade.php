@@ -62,7 +62,7 @@
 
                     </div>
                 </div>
-                <div class="col-xl-6 mt-5">
+                <div class="col-xl-6">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
                             <h3><a href="javascript:void(0)">Comprehensive Accounting Solutions</a></h3>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 mt-5">
+                <div class="col-xl-6">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
                             <h3><a href="javascript:void(0)">Strategic Tax Advisory</a></h3>
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 mt-5">
+                <div class="col-xl-6">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
                             <h3><a href="javascript:void(0)">VAT Consultation and Compliance</a></h3>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 mt-5">
+                <div class="col-xl-6">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
                             <h3><a href="javascript:void(0)">Financial Planning and Advisory</a></h3>
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row gutter_15px">
+            <div class="row gutter_15px mt-5">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="icon_box_all  style_two">
                         <div class="icon_content  icon_imgs ">

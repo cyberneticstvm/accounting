@@ -92,7 +92,7 @@
                         <div class="title_sections left">
                             <div class="before_title"> Know who we are </div>
                             <h2> Aurega </h2>
-                            <p> At <a href="{{ route('index') }}">AUREGA</a>, we understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
+                            <p class="text-justify"> At <a href="{{ route('index') }}">AUREGA</a>, we understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
                         </div>
                     </div>
                     <!--===============spacing==============-->
@@ -108,7 +108,7 @@
                                 <h2>
                                     <a href="#" target="_blank" rel="nofollow">Our Approach to Simplifying Your Financials</a>
                                 </h2>
-                                <p> Navigating the intricate web of financial obligations can be overwhelming for businesses. From intricate tax regulations to the meticulous demands of bookkeeping, the complexities can hinder growth and efficiency. At <a href="{{ route('index') }}">AUREGA ACCOUNTING SERVICES</a>, we believe in liberating you from these burdens, enabling you to focus on what truly matters - the success of your business.</p>
+                                <p class="text-justify"> Navigating the intricate web of financial obligations can be overwhelming for businesses. From intricate tax regulations to the meticulous demands of bookkeeping, the complexities can hinder growth and efficiency. At <a href="{{ route('index') }}">AUREGA ACCOUNTING SERVICES</a>, we believe in liberating you from these burdens, enabling you to focus on what truly matters - the success of your business.</p>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                                 <h2>
                                     <a href="#" target="_blank" rel="nofollow"> Tailored Solutions for Your Peace of Mind </a>
                                 </h2>
-                                <p> Our mission is to streamline and simplify your financial operations. We understand the challenges businesses encounter and tailor our services to alleviate these complexities. Whether it's meticulous bookkeeping, strategic tax planning, or ensuring compliance with local regulations, we've got you covered.</p>
+                                <p class="text-justify"> Our mission is to streamline and simplify your financial operations. We understand the challenges businesses encounter and tailor our services to alleviate these complexities. Whether it's meticulous bookkeeping, strategic tax planning, or ensuring compliance with local regulations, we've got you covered.</p>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                                 <h2>
                                     <a href="#" target="_blank" rel="nofollow"> Empowering Your Growth </a>
                                 </h2>
-                                <p> By entrusting us with your financial management, you gain more than just accurate numbers and compliance. You gain the freedom to channel your energy and resources into propelling your business forward. With our support, your financial complexities dissolve, leaving you free to pursue your entrepreneurial vision.</p>
+                                <p class="text-justify"> By entrusting us with your financial management, you gain more than just accurate numbers and compliance. You gain the freedom to channel your energy and resources into propelling your business forward. With our support, your financial complexities dissolve, leaving you free to pursue your entrepreneurial vision.</p>
                             </div>
                         </div>
                     </div>
@@ -203,8 +203,8 @@
                                 <h2>
                                     <a href="#" target="_blank" rel="nofollow"> Experience Relief Today </a>
                                 </h2>
-                                <p> Don't let financial intricacies hinder your business growth. Partner with [Your Company] to experience a seamless, simplified approach to managing your finances. Together, we'll navigate the complexities, allowing you to focus on what truly matters - the success and prosperity of your business.</p>
-                                <p>"Choosing <a href="{{ route('index') }}">AUREGA</a> means opting for a committed partner dedicated to providing not just accounting services, but a comprehensive financial strategy aligned with your company goals. Our exceptional expertise, personalized approach, commitment to compliance, and track record of excellence make us a top choice for your businesses seeking reliable accounting services in the UAE."</p>
+                                <p class="text-justify"> Don't let financial intricacies hinder your business growth. Partner with [Your Company] to experience a seamless, simplified approach to managing your finances. Together, we'll navigate the complexities, allowing you to focus on what truly matters - the success and prosperity of your business.</p>
+                                <p class="text-justify">"Choosing <a href="{{ route('index') }}">AUREGA</a> means opting for a committed partner dedicated to providing not just accounting services, but a comprehensive financial strategy aligned with your company goals. Our exceptional expertise, personalized approach, commitment to compliance, and track record of excellence make us a top choice for your businesses seeking reliable accounting services in the UAE."</p>
                             </div>
                         </div>
                     </div>
