@@ -16,9 +16,11 @@ class RequestCallbackEmail extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    protected $data;
+
+    public function __construct($request)
     {
-        //
+        $this->data = $request;
     }
 
     /**
@@ -27,7 +29,7 @@ class RequestCallbackEmail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Request Callback Email',
+            subject: 'Request Callback Email / Mobile',
         );
     }
 
@@ -37,7 +39,8 @@ class RequestCallbackEmail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'emails.callback',
+            with: ['data' => $this->data]
         );
     }
 

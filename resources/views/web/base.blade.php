@@ -57,9 +57,10 @@
                                         <p>Drop your email / mobile (with country code) and we will reach out you shortly. </p>
                                     </div>
                                     <div class="item_scubscribe">
-                                        <form class="mc4wp-form" method="post" data-name="Subscibe">
+                                        <form class="mc4wp-form" method="post" action="{{ route('request.callback.submit') }}">
+                                            @csrf
                                             <div class="mc4wp-form-fields">
-                                                <input type="text" name="EMAIL" placeholder="Your email / mobile" required="">
+                                                <input type="text" name="email_mobile" placeholder="Your email / mobile" required="">
                                                 <input type="submit" value="Request">
                                             </div>
                                         </form>
