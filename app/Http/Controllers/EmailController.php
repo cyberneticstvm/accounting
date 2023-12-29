@@ -32,9 +32,9 @@ class EmailController extends Controller
 
     public function successMessage()
     {
-        $title = "";
-        $keywords = "";
-        $description = "";
+        $title = "Aurega Accounting and Tax Advisory - Success Message";
+        $keywords = "Accounting, Tax, VAT, Finance";
+        $description = "Aurega Accounting and Tax Advisory";
         return view('web.message', compact('title', 'keywords', 'description'));
     }
 }
