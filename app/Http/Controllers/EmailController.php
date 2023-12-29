@@ -18,6 +18,7 @@ class EmailController extends Controller
             'message' => 'required',
         ]);
         Mail::to('mail@cybernetics.me')->send(new ContactUsEmail($request));
+        return redirect()->route('success.message')->with("success", "We have recieved your message successfully. Our team will reach out you shortly.");
     }
 
     public function requestCallBack(Request $request)
@@ -26,5 +27,6 @@ class EmailController extends Controller
             'email_mobile' => 'required',
         ]);
         Mail::to('mail@cybernetics.me')->send(new RequestCallbackEmail($request));
+        return redirect()->route('success.message')->with("success", "We have recieved your callback request successfully. Our team will reach out you shortly.");
     }
 }
