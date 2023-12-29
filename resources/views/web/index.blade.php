@@ -469,21 +469,19 @@
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/CLIENT-logo-1.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
                                             </div>
-                                            <div class="comment">
-                                                While running an early stage startup everything feels
-                                                hard, that's why it's been so nice to have our accounting
-                                                feel easy. We recommed Qetus.
+                                            <div class="comment text-justify">
+                                                I am highly impressed with the exceptional services provided by AUREGA Accounting Services. They have demonstrated exceptional knowledge and expertise in managing our company's financial records. Their attention to detail, professionalism, and prompt service have been instrumental in our financial success.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/testi-2.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
-                                                        <h2>Jacob Leonardo</h2>
-                                                        <span>Senior Manager of Excel Solution</span>
+                                                        <h2>Mr. Adhil Mahmood</h2>
+                                                        <span>Dolphin Aqua LLC</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -498,31 +496,29 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/banner-five-bg.jpg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/CLIENT-logo-1.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
                                             </div>
-                                            <div class="comment">
-                                                While running an early stage startup everything feels
-                                                hard, that's why it's been so nice to have our accounting
-                                                feel easy. We recommed Qetus.
+                                            <div class="comment text-justify">
+                                                I would like to express my deep appreciation for the outstanding support provided by AUREGA Accounting & Tax Advisory. Their commitment to client satisfaction and their meticulous approach make them the go-to accounting firm.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/testi-1.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
-                                                        <h2>Jacob Leonardo</h2>
-                                                        <span>Senior Manager of Excel Solution</span>
+                                                        <h2>Ms. Emily</h2>
+                                                        <span>Armada Enterprises</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="rating">
                                                 <ul>
-                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star empty"></span></li>
+                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -535,27 +531,87 @@
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/CLIENT-logo-1.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
                                             </div>
-                                            <div class="comment">
-                                                While running an early stage startup everything feels
-                                                hard, that’s why it’s been so nice to have our accounting
-                                                feel easy. We recommed Qetus.
+                                            <div class="comment text-justify">
+                                                AUREGA has been an invaluable asset to our organization. Their expertise in tax planning and strategic financial advice has helped us optimize our financial resources. Their professionalism, reliability, and proactive approach make them a trusted partner for any business seeking top-notch accounting services.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/testi-2.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
-                                                        <h2>Jacob Leonardo</h2>
-                                                        <span>Senior Manager of Excel Solution</span>
+                                                        <h2>Mr. Ravi </h2>
+                                                        <span>AMA Trading LLC</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="rating">
                                                 <ul>
-                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star empty"></span><span class="fa fa-star empty"></span></li>
+                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial_box clearfix">
+                                        <div class="image">
+                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                        </div>
+                                        <div class="authour_details">
+                                            <div class="b_image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
+                                            </div>
+                                            <div class="comment text-justify">
+                                                I am extremely satisfied with the exceptional accounting services provided by AUREGA Accounting Services. Their attention to detail, prompt responsiveness, and personalized approach have made them an indispensable resource for our company.
+                                            </div>
+                                            <div class="details clearfix">
+                                                <div class="c_image">
+                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
+                                                </div>
+                                                <div class="c_content">
+                                                    <div class="content_in">
+                                                        <h2>Mrs. Sophia Davis</h2>
+                                                        <span>Chelsea Café</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial_box clearfix">
+                                        <div class="image">
+                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                        </div>
+                                        <div class="authour_details">
+                                            <div class="b_image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
+                                            </div>
+                                            <div class="comment text-justify">
+                                                Aurega Accounting Service’s expertise in financial analysis and forecasting has helped us make informed decisions and achieve our growth targets. Their professionalism, integrity, and commitment to excellence make them a trusted partner for any organization looking for top-quality accounting services.
+                                            </div>
+                                            <div class="details clearfix">
+                                                <div class="c_image">
+                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
+                                                </div>
+                                                <div class="c_content">
+                                                    <div class="content_in">
+                                                        <h2>Mr. Michael </h2>
+                                                        <span>L & L Holdings </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span><span class="fa fa-star fill"></span></li>
                                                 </ul>
                                             </div>
                                         </div>

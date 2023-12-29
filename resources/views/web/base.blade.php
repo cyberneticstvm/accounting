@@ -306,7 +306,7 @@
                                     <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="img" class="company_logo_modal">
                                 </div>
                                 <div class="text">
-                                    <p> We understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
+                                    <p class="text-justify"> We understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
                                     <a href="{{ route('about') }}">Read More</a>
                                 </div>
                                 <div class="post_contet_modal">
