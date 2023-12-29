@@ -32,6 +32,6 @@ class EmailController extends Controller
 
     public function successMessage()
     {
-        return view('email.message');
+        return view('message');
     }
 }
