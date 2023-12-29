@@ -7,12 +7,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     @if(session()->has('success'))
-                    <div class="alert alert-success text-white">
+                    <div class="alert alert-success text-success">
                         {{ session()->get('success') }}
                     </div>
                     @endif
                     @if(session()->has('error'))
-                    <div class="alert alert-danger text-white">
+                    <div class="alert alert-danger text-danger">
                         {{ session()->get('error') }}
                     </div>
                     @endif
