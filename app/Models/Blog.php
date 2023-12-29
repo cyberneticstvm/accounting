@@ -16,4 +16,9 @@ class Blog extends Model
     {
         return $this->status == 1 ? 'Published' : 'Draft';
     }
+
+    public function comments()
+    {
+        return $this->hasMany(Comment::class, 'blog_id', 'id');
+    }
 }

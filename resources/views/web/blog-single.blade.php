@@ -24,6 +24,72 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="single_content_lower">
+                            <div class="tags_and_share">
+                                <div class="d-flex">
+                                    <div class="tags_content left_one">
+                                        <div class="box_tags_psot">
+                                            <div class="title">Tags</div>
+                                            {{ $blog->hashtags }}
+                                        </div>
+                                    </div>
+                                    <div class="share_content right_one">
+                                        <div class="share_socail">
+                                            <div class="title">Share</div>
+                                            <button class="m_icon" title="facebook" data-sharer="facebook" data-title="blog single" data-url="{{ route('blog.single', $blog->slug) }}">
+                                                <i class="fa fa-facebook"></i>
+                                            </button>
+                                            <button class="m_icon" title="twitter" data-sharer="twitter" data-title="blog single" data-url="{{ route('blog.single', $blog->slug) }}">
+                                                <i class="fa fa-twitter"></i>
+                                            </button>
+                                            <button class="m_icon" title="whatsapp" data-sharer="whatsapp" data-title="blog single" data-url="{{ route('blog.single', $blog->slug) }}">
+                                                <i class="fa fa-whatsapp"></i>
+                                            </button>
+                                            <button class="m_icon" title="linkedin" data-sharer="linkedin" data-title="blog single" data-url="{{ route('blog.single', $blog->slug) }}" data-to="+44555-03564">
+                                                <i class="fa fa-linkedin"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sec_comments padding-t-8 padding-b-3" id="comment">
+                                <div class="container_no">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-12">
+                                            <div id="respond" class="comment-respond">
+                                                <h3 id="reply-title" class="comment-reply-title">
+                                                    Post a comment
+                                                </h3>
+                                                <form action="{{ route('blog.comment) }}" method="post">
+                                                    @csrf
+                                                    <input type="hidden" name="blog_id" value="{{ encrypt($blog->id) }}" />
+                                                    <p class="title_para">Your email address will not be published.</p>
+                                                    <p class="comment-form-comment"><label for="comment">Leave a
+                                                            Reply</label><textarea placeholder="Write your comment here..." id="comment" name="comment" rows="12" aria-required="true"></textarea></p>
+                                                    <p class="comment-form-author">
+                                                        <label for="name">Full Name</label>
+                                                        <input id="author" placeholder="ex. John Doe" name="author" type="text" value="" size="30" aria-required="true">
+                                                    </p>
+                                                    <p class="comment-form-email">
+                                                        <label for="email">Email address</label>
+                                                        <input id="email" placeholder="ex. john@mail.com" name="email" type="text" value="" size="30" aria-required="true">
+                                                    </p>
+                                                    <p class="comment-form-url">
+                                                        <label for="contact_number">Contact Number</label>
+                                                        <input id="contact_number" name="contact_number" placeholder="Contact Number" type="text" value="" size="30">
+                                                    </p>
+                                                    <div class="clearfix"></div>
+                                                    <p class="form-submit">
+                                                        <input name="submit" type="submit" id="submit" class="submit btn-submit" value="Post  comment">
+                                                    </p>
+                                                </form>
+                                            </div>
+                                            <!-- #respond -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                     <!--===============spacing==============-->
                     <div class="pd_bottom_70"></div>

@@ -297,35 +297,36 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-12 form_inner">
                             <div class="form_content">
-                                <form class="contact-form" method="post" action="sendemail.php">
+                                <form method="post" action="{{ route('contact.submit') }}">
+                                    @csrf
                                     <p>
                                         <label> Your name<br />
-                                            <input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Name" />
+                                            <input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Name" required />
                                             <br />
                                             <i class="fa fa-user"></i><br />
                                         </label>
                                     </p>
                                     <p><label> Your email<br />
-                                            <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Email" />
+                                            <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Email" required />
                                             <br />
                                             <i class="fa fa-envelope"></i><br />
                                         </label>
                                     </p>
                                     <p>
-                                        <label> Subject<br />
-                                            <input type="text" name="subject" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Subject" />
+                                        <label> Contact Number<br />
+                                            <input type="text" name="contact_number" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Contact Number" required />
                                             <br />
-                                            <i class="fa fa-folder"></i><br />
+                                            <i class="fa fa-mobile"></i><br />
                                         </label>
                                     </p>
                                     <p>
                                         <label> Your message<br />
-                                            <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter Your Message"></textarea>
+                                            <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter Your Message" required></textarea>
                                             <br />
                                             <i class="fa fa-comments"></i><br />
                                         </label>
                                     </p>
-                                    <p><input type="submit" value="Submit" /></p>
+                                    <p><input class="btn-submit" type="submit" value="Submit" /></p>
                                 </form>
                             </div>
                         </div>
@@ -336,36 +337,19 @@
                                 </div>
                                 <div class="text">
                                     <p> We understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
-                                    <a href="{{ route('index') }}">Read More</a>
+                                    <a href="{{ route('about') }}">Read More</a>
                                 </div>
                                 <div class="post_contet_modal">
-                                    <h2> Latest News</h2>
+                                    <h2> Latest Blogs</h2>
                                     <div class="post_enable">
+                                        @forelse(blogs() as $key => $item)
                                         <div class="modal_post_grid">
-                                            <a href="blog-single.html">
-                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="main_img wp-post-image" alt="img" />
+                                            <a href="{{ route('blog.single', $item->slug) }}">
+                                                <img width="852" height="812" src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="main_img wp-post-image" alt="{{ $item->title }}" />
                                             </a>
                                         </div>
-                                        <div class="modal_post_grid">
-                                            <a href="blog-single.html">
-                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-8.jpg') }}" class="main_img wp-post-image" alt="img" />
-                                            </a>
-                                        </div>
-                                        <div class="modal_post_grid">
-                                            <a href="blog-single.html">
-                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-7.jpg') }}" class="main_img wp-post-image" alt="img" />
-                                            </a>
-                                        </div>
-                                        <div class="modal_post_grid">
-                                            <a href="blog-single.html">
-                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-6.jpg') }}" class="main_img wp-post-image" alt="img" />
-                                            </a>
-                                        </div>
-                                        <div class="modal_post_grid">
-                                            <a href="blog-single.html">
-                                                <img width="852" height="812" src="{{ asset('/web/assets/images/blog/blog-image-5.jpg') }}" class="main_img wp-post-image" alt="img" />
-                                            </a>
-                                        </div>
+                                        @empty
+                                        @endforelse
                                     </div>
                                 </div>
                                 <div class="copright">

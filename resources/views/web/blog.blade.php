@@ -19,7 +19,7 @@
                                 <div class="overlay"> </div>
                                 <img src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="img-fluid" alt="img">
                                 <div class="category">
-                                    <a href="{{ route('blog.single', $item->id) }}" class="categories"><i class="icon-folder"></i>Aurega</a>
+                                    <a href="{{ route('blog.single', $item->slug) }}" class="categories"><i class="icon-folder"></i>Aurega</a>
                                 </div>
                                 <div class="content_mid">
                                     <span class="date_in_number">{{ $item->created_at->format('d, M Y') }}</span>
