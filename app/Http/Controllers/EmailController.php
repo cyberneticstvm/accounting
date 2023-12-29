@@ -13,7 +13,7 @@ class EmailController extends Controller
 
     public function __construct()
     {
-        $this->email = 'mail@cybernetics.me'; //'aas@auregagroup.com';
+        $this->email = 'aas@auregagroup.com';
     }
 
     public function contactSubmit(Request $request)
