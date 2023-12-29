@@ -35,6 +35,7 @@ Route::middleware(['web'])->group(function () {
     Route::controller(EmailController::class)->group(function () {
         Route::post('/contact', 'contactSubmit')->name('contact.submit');
         Route::post('/requestcallback', 'requestCallBack')->name('request.callback.submit');
+        Route::get('/message', 'successMessage')->name('success.message');
     });
 });
 

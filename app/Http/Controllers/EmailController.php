@@ -29,4 +29,9 @@ class EmailController extends Controller
         Mail::to('mail@cybernetics.me')->send(new RequestCallbackEmail($request));
         return redirect()->route('success.message')->with("success", "We have recieved your callback request successfully. Our team will reach out you shortly.");
     }
+
+    public function successMessage()
+    {
+        return view('email.message');
+    }
 }
