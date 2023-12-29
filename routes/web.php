@@ -59,6 +59,8 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::put('/blog/edit/{id}', [BlogController::class, 'update'])->name('blog.update');
     Route::get('/blog/delete/{id}', [BlogController::class, 'destroy'])->name('blog.delete');
 
+    Route::get('/comments/{id}', [BlogController::class, 'comments'])->name('blog.comments');
+
 
     Route::get('/user', [UserController::class, 'index'])->name('user');
     Route::get('/user/create', [UserController::class, 'create'])->name('user.create');

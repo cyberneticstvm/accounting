@@ -16,7 +16,7 @@
                                     <h6>Beyond Accounting, Crafting Strategies</h6>
                                     <p class="description">Financial Statement Preparation, Account Reconciliation, Cost Accounting and more...
                                     </p>
-                                    <a href="{{ route('services.accounting') }}" target="_blank" rel="nofollow" class="theme-btn one  animated _zoomIn">
+                                    <a href="{{ route('services.accounting') }}" class="theme-btn one  animated _zoomIn">
                                         Read More </a>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                     <h6>Beyond Accounting, Crafting Strategies</h6>
                                     <p class="description">Monthly and yearly reports, Salary Processing, Payroll reporting, Employee Benefits and more...
                                     </p>
-                                    <a href="{{ route('services.accounting') }}" target="_blank" rel="nofollow" class="theme-btn one">
+                                    <a href="{{ route('services.accounting') }}" class="theme-btn one">
                                         Read More </a>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@
                                     <p class="description">Duty obligations of business it will
                                         frequently occur that pleasures have to be repudiated and annoyances accepted.
                                     </p>
-                                    <a href="{{ route('services.finance') }}" target="_blank" rel="nofollow" class="theme-btn one">
+                                    <a href="{{ route('services.finance') }}" class="theme-btn one">
                                         Read More </a>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                                     <h6>Beyond Accounting, Crafting Strategies</h6>
                                     <p class="description">Our advisory services encompass comprehensive financial planning, budgeting, and strategic guidance to help you achieve your long-term goals.
                                     </p>
-                                    <a href="{{ route('services.tax') }}" target="_blank" rel="nofollow" class="theme-btn one">
+                                    <a href="{{ route('services.tax') }}" class="theme-btn one">
                                         Read More </a>
                                 </div>
                             </div>

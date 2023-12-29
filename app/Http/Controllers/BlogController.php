@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Blog;
+use App\Models\Comment;
 use Illuminate\Http\Request;
 
 class BlogController extends Controller
@@ -14,6 +15,12 @@ class BlogController extends Controller
     {
         $blogs = Blog::latest()->paginate(10);
         return view('blog.index', compact('blogs'));
+    }
+
+    public function comments(string $id)
+    {
+        $comments = Comment::where('blog_id', decrypt($id))->latest()->get();
+        return view('blog.comments', compact('comments'));
     }
 
     /**
