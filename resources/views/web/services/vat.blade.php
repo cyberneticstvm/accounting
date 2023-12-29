@@ -8,13 +8,13 @@
                 <div class="col-xl-6 col-lg-12 mb-5 mb-lg-5 mb-xl-0">
                     <div class="image_boxes style_four">
                         <div class="image_box one">
-                            <img src="{{ asset('/web/assets/images/about/about-11.jpg') }}" class="img-fluid" alt="about">
+                            <img src="{{ asset('/web/assets/images/about/vat-img1.webp') }}" class="img-fluid" alt="about">
                         </div>
                         <div class="image_box">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-0 pe-0 pe-lg-3 pe-xl-3 mb-4 mb-lg-0 mb-xl-0">
                                     <div class="imgs">
-                                        <img src="{{ asset('/web/assets/images/about/about-3.jpg') }}" class="img-fluid one_img" alt="about">
+                                        <img src="{{ asset('/web/assets/images/about/accounting-img2.webp') }}" class="img-fluid one_img" alt="about">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-3 pe-0 pe-lg-0 pe-xl-0">
@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="image_content_inner viceo_en">
-                            <h2> 30+ Years Of Experience</h2>
+                            <h2> 10+ Years Of Experience</h2>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="extra_content image_with_content dark_color">
                             <div class="simple_image">
                                 <img src="{{ asset('/web/assets/images/ae.png') }}" alt="img">
-                                <h2> Since 1998, <br> Operating in Dubai. </h2>
+                                <h2> Since 2014, <br> Operating in Dubai. </h2>
                             </div>
                         </div>
                         <!--===============spacing==============-->
@@ -57,6 +57,14 @@
                             <div class="title_sections three left">
                                 <p class="text-justify">As with any newly introduced regulation, the advent of VAT presents inherent challenges for businesses in their preparatory phase. At our firm, we boast a dedicated cadre of proficient VAT Consultants meticulously trained to navigate these challenges. Our adept VAT team operating within the Lower Gulf, in collaboration with our global network of esteemed VAT experts across AUREGA, stands poised to offer strategic guidance and seamless implementation solutions. Our concerted efforts are aimed at assisting organizations in fulfilling their VAT commitments, curbing VAT liabilities, and notably supporting clients without complete VAT recovery capabilities.</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="content_box_cn style_one">
+                        <div class="txt_content">
+                            <h3><a href="javascript:void(0)">VAT Consultation and Compliance</a></h3>
+                            <p class="text-justify">With VAT intricacies in the UAE, compliance is crucial. We provide comprehensive VAT consultation and compliance services, ensuring your business operates seamlessly within the regulations.</p>
                         </div>
                     </div>
                 </div>

@@ -72,7 +72,7 @@
                             <div class="contnet">
                                 <h3> Post Address </h3>
                                 <p>
-                                    #106, Bay Square 11, Business Bay, Dubai
+                                    <a href="{{ route('location.map') }}" target="_blank">#106, Bay Square 11, Business Bay, Dubai</a>
                                 </p>
                             </div>
                         </div>
@@ -104,7 +104,8 @@
                             <div class="contnet">
                                 <h3> Operation Hours </h3>
                                 <p>
-                                    Monday-Saturday: 09.00 am to 06.00 pm
+                                    Monday-Friday: 09.00 am to 06.00 pm<br />
+                                    Saturday: 10.00 am to 04.00 pm<br />
                                 </p>
                             </div>
                         </div>
@@ -144,7 +145,7 @@
         <!--===============spacing==============-->
     </section>
     <section class="contact-map-section">
-        <div class="container p-0">
+        <div class="container p-0" id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14441.857782445455!2d55.2611684!3d25.1875552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f693560ad9fe9%3A0xdb3b467956c16a9a!2sAurega%20Group!5e0!3m2!1sen!2sin!4v1676375849520!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <!--===============spacing==============-->

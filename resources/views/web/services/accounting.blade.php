@@ -8,13 +8,13 @@
                 <div class="col-xl-6 col-lg-12 mb-5 mb-lg-5 mb-xl-0">
                     <div class="image_boxes style_four">
                         <div class="image_box one">
-                            <img src="{{ asset('/web/assets/images/about/about-11.jpg') }}" class="img-fluid" alt="about">
+                            <img src="{{ asset('/web/assets/images/about/accounting-img1.webp') }}" class="img-fluid" alt="about">
                         </div>
                         <div class="image_box">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-0 pe-0 pe-lg-3 pe-xl-3 mb-4 mb-lg-0 mb-xl-0">
                                     <div class="imgs">
-                                        <img src="{{ asset('/web/assets/images/about/about-3.jpg') }}" class="img-fluid one_img" alt="about">
+                                        <img src="{{ asset('/web/assets/images/about/accounting-img2.webp') }}" class="img-fluid one_img" alt="about">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-3 pe-0 pe-lg-0 pe-xl-0">
@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="image_content_inner viceo_en">
-                            <h2> 30+ Years Of Experience</h2>
+                            <h2> 10+ Years Of Experience</h2>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="extra_content image_with_content dark_color">
                             <div class="simple_image">
                                 <img src="{{ asset('/web/assets/images/ae.png') }}" alt="img">
-                                <h2> Since 1998, <br> Operating in Dubai. </h2>
+                                <h2> Since 2014, <br> Operating in Dubai. </h2>
                             </div>
                         </div>
                         <!--===============spacing==============-->
@@ -62,7 +62,7 @@
 
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-12">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
                             <h3><a href="javascript:void(0)">Comprehensive Accounting Solutions</a></h3>
@@ -70,27 +70,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-12">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
-                            <h3><a href="javascript:void(0)">Strategic Tax Advisory</a></h3>
-                            <p class="text-justify">Navigating the intricate realm of UAE taxation demands insight and foresight. Our tax advisors offer strategic counsel, minimizing tax liabilities while aximizing opportunities for your business growth.</p>
+                            <h3><a href="javascript:void(0)">Internal Auditing Service</a></h3>
+                            <p class="text-justify">Internal auditing helps businesses manage risks, plan for the future, and make the right decisions. Aurega Accounting & Tax Advisory guides companies to improve internal performance and boost operating efficiency by taking a risk-based approach. We aim to help you steer clear of roadblocks and improve your overall results.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-12">
                     <div class="content_box_cn style_one">
                         <div class="txt_content">
-                            <h3><a href="javascript:void(0)">VAT Consultation and Compliance</a></h3>
-                            <p class="text-justify">With VAT intricacies in the UAE, compliance is crucial. We provide comprehensive VAT consultation and compliance services, ensuring your business operates seamlessly within the regulations.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="content_box_cn style_one">
-                        <div class="txt_content">
-                            <h3><a href="javascript:void(0)">Financial Planning and Advisory</a></h3>
-                            <p class="text-justify">Beyond compliance, we aim to enhance your financial health. Our advisory services encompass comprehensive financial planning, budgeting, and strategic guidance to help you achieve your long-term goals.</p>
+                            <h3><a href="javascript:void(0)">CFO services</a></h3>
+                            <p class="text-justify">Our Chief Financial Officer (CFO) services involve a range of financial management and strategic planning responsibilities tailored to the needs of businesses</p>
+                            <ol>
+                                <li><strong>Financial Strategy:</strong> Crafting financial strategies aligned with the company's goals, including financial planning, budgeting, and forecasting.</li>
+                                <li><strong>Risk Management:</strong> Identifying and mitigating financial risks to protect the company's interests, especially in a market with unique regulatory and economic aspects.</li>
+                                <li><strong>Financial Reporting:</strong> Ensuring accurate and timely financial reporting in compliance with local regulations and international accounting standards.</li>
+                                <li><strong>Cash Flow Management:</strong> Managing cash flows effectively to support business operations, optimize liquidity, and manage working capital efficiently.</li>
+                                <li><strong>Business Expansion:</strong> Providing financial insights and support for business expansion plans, mergers, acquisitions, or partnerships in Dubai or the broader UAE market.</li>
+                                <li><strong>Compliance and Regulatory Matters:</strong> Staying updated and ensuring compliance with local financial regulations, taxation laws, and corporate governance standards.</li>
+                                <li><strong>Financial Analysis:</strong> Conducting thorough financial analysis to provide insights into the company's performance, profitability, and areas for improvement.</li>
+                                <li><strong>Investment Strategies:</strong> Advising on investment opportunities and strategies within the Dubai market or international markets.</li>
+                                <li><strong>Taxation and Advisory:</strong> Providing guidance on tax optimization, incentives, and strategies to minimize tax liabilities while staying compliant with UAE tax laws.</li>
+                                <li><strong>Financial Team Management:</strong> Overseeing and managing the finance team, ensuring they are equipped to handle the company's financial functions effectively.</li>
+                                <li><strong>Technology Integration:</strong> Evaluating and integrating financial technologies and systems to streamline processes and improve efficiency.</li>
+                            </ol>
                         </div>
                     </div>
                 </div>

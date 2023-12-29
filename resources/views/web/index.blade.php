@@ -16,7 +16,7 @@
                                     <h6>Beyond Accounting, Crafting Strategies</h6>
                                     <p class="description">Financial Statement Preparation, Account Reconciliation, Cost Accounting and more...
                                     </p>
-                                    <a href="#" target="_blank" rel="nofollow" class="theme-btn one  animated _zoomIn">
+                                    <a href="{{ route('services.accounting') }}" target="_blank" rel="nofollow" class="theme-btn one  animated _zoomIn">
                                         Read More </a>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                                     <h6>Beyond Accounting, Crafting Strategies</h6>
                                     <p class="description">Monthly and yearly reports, Salary Processing, Payroll reporting, Employee Benefits and more...
                                     </p>
-                                    <a href="#" target="_blank" rel="nofollow" class="theme-btn one">
+                                    <a href="{{ route('services.accounting') }}" target="_blank" rel="nofollow" class="theme-btn one">
                                         Read More </a>
                                 </div>
                             </div>
@@ -65,13 +65,37 @@
                                     <p class="description">Duty obligations of business it will
                                         frequently occur that pleasures have to be repudiated and annoyances accepted.
                                     </p>
-                                    <a href="#" target="_blank" rel="nofollow" class="theme-btn one">
+                                    <a href="{{ route('services.finance') }}" target="_blank" rel="nofollow" class="theme-btn one">
                                         Read More </a>
                                 </div>
                             </div>
                             <div class="col-lg-5 col-md-12  col-sm-12 col-xs-12 image_column">
                                 <div class="slider_image">
                                     <img src="{{ asset('/web/assets/images/sliders/slider-2-3.png') }}" class="img-fluid" alt="slider image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <div class="slide-item-content content_left">
+                    <div class="image-layer" style="background-image:url('{{ asset('/web/assets/images/sliders/slider-4-bg.webp') }}')"></div>
+                    <div class="auto-container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 col-md-12  col-sm-12 col-xs-12">
+                                <div class="slider_content">
+                                    <h1>Vat and Tax Advisory</h1>
+                                    <h6>Beyond Accounting, Crafting Strategies</h6>
+                                    <p class="description">Our advisory services encompass comprehensive financial planning, budgeting, and strategic guidance to help you achieve your long-term goals.
+                                    </p>
+                                    <a href="{{ route('services.tax') }}" target="_blank" rel="nofollow" class="theme-btn one">
+                                        Read More </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12  col-sm-12 col-xs-12 image_column">
+                                <div class="slider_image">
+                                    <img src="{{ asset('/web/assets/images/sliders/slider-4-1.webp') }}" class="img-fluid" alt="slider image">
                                 </div>
                             </div>
                         </div>
@@ -91,8 +115,8 @@
                     <div class="title_all_box style_one dark_color">
                         <div class="title_sections left">
                             <div class="before_title"> Know who we are </div>
-                            <h2> Aurega </h2>
-                            <p class="text-justify"> At <a href="{{ route('index') }}">AUREGA</a>, we understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
+                            <h4> Aurega Accounting and Tax Advisory LLC</h4>
+                            <p class="text-justify"> At <a href="{{ route('index') }}">Aurega Accounting and Tax Advisory</a>, we understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
                         </div>
                     </div>
                     <!--===============spacing==============-->
@@ -108,7 +132,7 @@
                                 <h2>
                                     <a href="#" target="_blank" rel="nofollow">Our Approach to Simplifying Your Financials</a>
                                 </h2>
-                                <p class="text-justify"> Navigating the intricate web of financial obligations can be overwhelming for businesses. From intricate tax regulations to the meticulous demands of bookkeeping, the complexities can hinder growth and efficiency. At <a href="{{ route('index') }}">AUREGA ACCOUNTING SERVICES</a>, we believe in liberating you from these burdens, enabling you to focus on what truly matters - the success of your business.</p>
+                                <p class="text-justify"> Navigating the intricate web of financial obligations can be overwhelming for businesses. From intricate tax regulations to the meticulous demands of bookkeeping, the complexities can hinder growth and efficiency. At <a href="{{ route('index') }}">AUREGA ACCOUNTING</a> and <a href="{{ route('index') }}">TAX ADVISORY SERVICES</a>, we believe in liberating you from these burdens, enabling you to focus on what truly matters - the success of your business.</p>
                             </div>
                         </div>
                     </div>
@@ -154,7 +178,7 @@
                                 <div class="service_box style_one dark_color">
                                     <div class="service_content">
                                         <div class="image ">
-                                            <img src="{{ asset('/web/assets/images/service-illu-1.png') }}" class="img-fluid" alt="Service Image" />
+                                            <img src="{{ asset('/web/assets/images/service.webp') }}" class="img-fluid" alt="Service Image" />
                                         </div>
                                         <div class="content_inner">
                                             <h2>
@@ -179,7 +203,7 @@
                                         </div>
                                         <div class="content_inner">
                                             <h2>
-                                                <a href="#"> Bookkeeping & Payroll </a>
+                                                <a href="#"> Tax Advisory </a>
                                             </h2>
                                             <p> monthly reports, Salary Processing, Payroll reporting, Employee Benefits
                                             </p>
@@ -277,8 +301,8 @@
                 <div class="col-lg-12">
                     <div class="title_all_box style_one text-center dark_color">
                         <div class="title_sections ">
-                            <div class="before_title">Why Choose Aurega</div>
-                            <h2>Customers Experience</h2>
+                            <!--<div class="before_title"></div>-->
+                            <h2>Why Choose Aurega</h2>
                         </div>
                         <!--===============spacing==============-->
                         <div class="pd_bottom_15"></div>
@@ -288,21 +312,21 @@
                 <div class="tabs_all_box  tabs_all_box_start type_one">
                     <div class="tab_over_all_box">
                         <div class="tabs_header clearfix">
-                            <ul class="showcase_tabs_btns nav-pills nav   clearfix">
+                            <ul class="showcase_tabs_btns nav-pills nav clearfix">
                                 <li class="nav-item">
-                                    <a class="s_tab_btn nav-link active" data-tab="#tabtabone">01. Expertise and Experience</a>
+                                    <a class="s_tab_btn nav-link active" data-tab="#tabtabone"><span class="fa fa-star fill"></span> Expertise and Experience</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="s_tab_btn nav-link" data-tab="#tabtabtwo">02. Personalized Service</a>
+                                    <a class="s_tab_btn nav-link" data-tab="#tabtabtwo"><span class="fa fa-star fill"></span> Personalized Service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="s_tab_btn nav-link" data-tab="#tabtabthree">03. Cost-Effectiveness</a>
+                                    <a class="s_tab_btn nav-link" data-tab="#tabtabthree"><span class="fa fa-star fill"></span> Cost-Effectiveness</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="s_tab_btn nav-link" data-tab="#tabtabtfour">04. Unwavering Commitment</a>
+                                    <a class="s_tab_btn nav-link" data-tab="#tabtabtfour"><span class="fa fa-star fill"></span> Unwavering Commitment</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="s_tab_btn nav-link" data-tab="#tabtabfive">05. Timely and Reliable Service</a>
+                                    <a class="s_tab_btn nav-link" data-tab="#tabtabfive"><span class="fa fa-star fill"></span> Timely and Reliable Service</a>
                                 </li>
                             </ul>
                             <div class="toll_free">
@@ -315,18 +339,18 @@
                                 <div class="s_tab fade active-tab show" id="tabtabone">
                                     <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/tab-image.jpg") }}')">
                                         <div class="content_image">
-                                            <h6>Why Choose Aurega</h6>
+                                            <!--<h6>Why Choose Aurega</h6>-->
 
                                             <h2>Expertise and Experience</h2>
 
-                                            <p>At AUREGA ACCOUNTING SERVICES our wealth of experience spans the intricacies of UAE accounting, bookkeeping, and taxation. We're well-versed in local regulations, allowing us to provide accurate, reliable, and up-to-date advice to businesses of all sizes.</p>
+                                            <p>At AUREGA ACCOUNTING and TAX ADVISORY SERVICES our wealth of experience spans the intricacies of UAE accounting, bookkeeping, and taxation. We're well-versed in local regulations, allowing us to provide accurate, reliable, and up-to-date advice to businesses of all sizes.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="s_tab fade" id="tabtabtwo">
                                     <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/blog/blog-image-8.jpg") }}')">
                                         <div class="content_image">
-                                            <h6>Why Choose Aurega</h6>
+                                            <!--<h6>Why Choose Aurega</h6>-->
 
                                             <h2>Personalized Service</h2>
 
@@ -337,7 +361,7 @@
                                 <div class="s_tab fade" id="tabtabthree">
                                     <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/testi-image.jpg") }}')">
                                         <div class="content_image">
-                                            <h6>Why Choose Aurega</h6>
+                                            <!--<h6>Why Choose Aurega</h6>-->
 
                                             <h2>Cost-Effectiveness</h2>
 
@@ -348,7 +372,7 @@
                                 <div class="s_tab fade" id="tabtabtfour">
                                     <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/about-4.jpg") }}')">
                                         <div class="content_image">
-                                            <h6>Why Choose Aurega</h6>
+                                            <!--<h6>Why Choose Aurega</h6>-->
 
                                             <h2>Unwavering Commitment</h2>
 
@@ -359,7 +383,7 @@
                                 <div class="s_tab fade" id="tabtabfive">
                                     <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/project-2-img.jpg") }}')">
                                         <div class="content_image">
-                                            <h6>Why Choose Aurega</h6>
+                                            <!--<h6>Why Choose Aurega</h6>-->
 
                                             <h2>Timely and Reliable Service</h2>
 

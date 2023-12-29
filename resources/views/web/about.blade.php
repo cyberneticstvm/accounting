@@ -20,17 +20,17 @@
                         <div class="extra_content image_with_content dark_color">
                             <div class="simple_image">
                                 <img src="{{ asset('/web/assets/images/ae.png') }}" alt="img">
-                                <h2> Since 1998, <br> Operating in Dubai.</h2>
+                                <h2> Since 2014, <br> Operating in Dubai.</h2>
                             </div>
                         </div>
                         <!--===============spacing==============-->
                         <div class="pd_bottom_20"></div>
                         <!--===============spacing==============-->
                         <div class="description_box">
-                            <p class="text-justify">Welcome to <a href="{{ route('index') }}">AUREGA ACCOUNTING SERVICES</a>, your trusted partner for comprehensive accounting, bookkeeping, and tax advisory services in the UAE. With a deep understanding of the local regulatory landscape and a commitment to excellence, we cater to businesses seeking expert financial guidance and compliance support. </p><br />
+                            <p class="text-justify">Welcome to <a href="{{ route('index') }}">AUREGA ACCOUNTING</a> and <a href="{{ route('index') }}">TAX ADVISORY</a>, your trusted partner for comprehensive accounting, bookkeeping, and tax advisory services in the UAE. With a deep understanding of the local regulatory landscape and a commitment to excellence, we cater to businesses seeking expert financial guidance and compliance support. </p><br />
                             <p class="text-justify">Our team comprises seasoned professionals dedicated to delivering tailored solutions that align with your specific needs. Drawing from extensive experience, we navigate the intricate realm of UAE regulations with finesse, ensuring your financial matters are managed efficiently and in compliance with all requirements.</p><br />
-                            <p class="text-justify">At <a href="{{ route('index') }}">AUREGA ACCOUNTING SERVICES</a>, we believe that success is a collaborative effort. By partnering with us, you gain not just a service provider but a trusted ally dedicated to empowering your financial journey. Whether you're an established corporation, an entrepreneur, or an individual seeking financial guidance, we stand ready to support your ambitions and secure your financial future.</p><br />
-                            <p class="text-justify">At <a href="{{ route('index') }}">AUREGA</a>, we are committed to being your trusted partner, providing comprehensive accounting and tax advisory services that empower your business to thrive in the dynamic Dubai market. Contact us today to discover how we can support your financial success.</p>
+                            <p class="text-justify">At <a href="{{ route('index') }}">AUREGA</a>, We believe that success is a collaborative effort. By partnering with us, you gain not just a service provider but a trusted ally dedicated to empowering your financial journey. Whether you're an established corporation, an entrepreneur, or an individual seeking financial guidance, we stand ready to support your ambitions and secure your financial future.</p><br />
+                            <p class="text-justify">We are committed to being your trusted partner, providing comprehensive accounting and tax advisory services that empower your business to thrive in the dynamic Dubai market. Contact us today to discover how we can support your financial success.</p>
                         </div>
                         <!--===============spacing==============-->
                         <div class="pd_bottom_25"></div>
@@ -43,7 +43,7 @@
                                             <img src="{{ asset('/web/assets/images/icon-img-n-1.png') }}" class="img-fluid svg_image" alt="icon png">
                                         </div>
                                         <div class="txt_content">
-                                            <h3><a href="#" target="_blank" rel="nofollow">Tailored Advice &amp; Support</a>
+                                            <h3><a href="javascript:void(0)">Tailored Advice &amp; Support</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -59,7 +59,7 @@
                                             <img src="{{ asset('/web/assets/images/icon-img-n-2.png') }}" class="img-fluid svg_image" alt="icon png">
                                         </div>
                                         <div class="txt_content">
-                                            <h3><a href="#" target="_blank" rel="nofollow">Flexible Company Policies</a></h3>
+                                            <h3><a href="javascript:void(0)">Flexible Company Policies</a></h3>
                                         </div>
                                     </div>
                                     <!--===============spacing==============-->
@@ -85,8 +85,8 @@
                         </div>
                         <div class="authour_quotes">
                             <i class="icon-quote"></i>
-                            <h6>Making What's Possible in Accounting and Taxation</h6>
-                            <p>/ Aurega</p>
+                            <h6>We are committed to being your trusted partner.</h6>
+                            <p>/ <a href="{{ route('index') }}" class="text-white">Aurega Accounting and Tax Advisory</a></p>
                         </div>
                     </div>
                 </div>

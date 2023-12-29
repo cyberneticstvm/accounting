@@ -89,4 +89,12 @@ class WebController extends Controller
         $description = "";
         return view('web.services.vat', compact('title', 'keywords', 'description'));
     }
+
+    public function map()
+    {
+        $title = "";
+        $keywords = "";
+        $description = "";
+        return view('web.location-map', compact('title', 'keywords', 'description'));
+    }
 }

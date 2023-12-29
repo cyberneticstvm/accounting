@@ -155,6 +155,7 @@
                     'help',
                     'code'
                 ],
+                toolbar: 'numlist bullist',
                 file_picker_types: 'image'
             });
         });

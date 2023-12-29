@@ -82,9 +82,9 @@
                             <div class="footer_widgets about_company light_color">
                                 <div class="about_company_inner">
                                     <div class="footer_logo">
-                                        <h3><a class="text-white" href="{{ route('index') }}" target="_blank" rel="nofollow">
-                                                Aurega
-                                            </a></h3>
+                                        <h5><a class="text-white" href="{{ route('index') }}" target="_blank" rel="nofollow">
+                                                Aurega Accounting and Tax Advisory LLC
+                                            </a></h5>
                                     </div>
                                     <!--===============spacing==============-->
                                     <div class="mr_bottom_20"></div>
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <div class="col-lg-1 hidden-lg"></div>
-                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
                             <div class="footer_widgets wid_tit style_one">
                                 <div class="fo_wid_title">
                                     <h2>Services</h2>
@@ -130,44 +130,14 @@
                                         <div class="navigation_foo_inner">
                                             <div class="menu-information-container">
                                                 <ul class="menu">
-                                                    <li class="menu-item"><a href="#">Accounting</a></li>
-                                                    <li class="menu-item"><a href="#">Bookkeeping & Payroll</a></li>
-                                                    <li class="menu-item"><a href="#">Financial Consulting</a></li>
-                                                    <li class="menu-item"><a href="#">Management Consulting</a></li>
-                                                    <li class="menu-item"><a href="#">CFO</a></li>
-                                                    <li class="menu-item"><a href="#">VAT</a></li>
-                                                    <li class="menu-item"><a href="#">Tax Consultation</a></li>
-                                                    <li class="menu-item"><a href="#">Internal Auditing</a></li>
+                                                    <li class="menu-item"><a href="{{ route('services.accounting') }}">Accounting and Bookkeeping</a></li>
+                                                    <li class="menu-item"><a href="{{ route('services.tax') }}">TAX Advisory</a></li>
+                                                    <li class="menu-item"><a href="{{ route('services.finance') }}">Financial Accounting and Consulting</a></li>
+                                                    <li class="menu-item"><a href="{{ route('services.finance') }}">Management Accounting and Consulting</a></li>
+                                                    <li class="menu-item"><a href="{{ route('services.vat') }}">VAT Services</a></li>
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer_widgets wid_tit style_one">
-                                <div class="fo_wid_title">
-                                    <h2>Services</h2>
-                                </div>
-                            </div>
-                            <!--===============spacing==============-->
-                            <div class="mr_bottom_20"></div>
-                            <!--===============spacing==============-->
-                            <div class="footer_widgets clearfix navigation_foo light_color style_one">
-                                <div class="navigation_foo_box">
-                                    <div class="navigation_foo_inner">
-
-                                        <ul class="menu">
-                                            <li class="menu-item"><a href="#">Financing Options</a></li>
-                                            <li class="menu-item"><a href="#">Feasibility Market Research</a></li>
-                                            <li class="menu-item"><a href="#">ESR</a></li>
-                                            <li class="menu-item"><a href="#">AML</a></li>
-                                            <li class="menu-item"><a href="#">Corporate TAX</a></li>
-                                            <li class="menu-item"><a href="#">Software Selection & Implementation</a></li>
-                                            <li class="menu-item"><a href="#">Corporate Secretarial</a></li>
-                                        </ul>
-
                                     </div>
                                 </div>
                             </div>
@@ -342,7 +312,7 @@
                                 <div class="post_contet_modal">
                                     <h2> Latest Blogs</h2>
                                     <div class="post_enable">
-                                        @forelse(blogs() as $key => $item)
+                                        @forelse(blogs()->take(5) as $key => $item)
                                         <div class="modal_post_grid">
                                             <a href="{{ route('blog.single', $item->slug) }}">
                                                 <img width="852" height="812" src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="main_img wp-post-image" alt="{{ $item->title }}" />
