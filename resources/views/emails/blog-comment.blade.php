@@ -8,7 +8,7 @@
 <body>
     Dear Aurega,
     <p>You've recieved a comment on below blog.</p><br />
-    <p>Title: {{ $bolg->title }}</p>
+    <p>Title: {{ $data->blog->title }}</p>
     <p>Posted by: {{ $data->name }}</p>
     <br />
     <br />

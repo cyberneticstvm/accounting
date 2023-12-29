@@ -68,8 +68,8 @@ class EmailController extends Controller
             $blog = Blog::findOrFail(decrypt($request->blog_id));
             $input = $request->all();
             $input['blog_id'] = $blog->id;
-            Comment::create($input);
-            Mail::to($this->email)->send(new BlogCommentEmail($request, $blog));
+            $owner = Comment::create($input);
+            Mail::to($this->email)->send(new BlogCommentEmail($owner));
         } catch (Exception $e) {
             return redirect()->route('success.message')->with("error", $e->getMessage());
         }

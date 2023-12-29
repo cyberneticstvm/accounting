@@ -16,11 +16,10 @@ class BlogCommentEmail extends Mailable
     /**
      * Create a new message instance.
      */
-    protected $data, $blog;
-    public function __construct($request, $blog)
+    private $data;
+    public function __construct($request)
     {
         $this->data = $request;
-        $this->blog = $blog;
     }
 
     /**
@@ -40,7 +39,7 @@ class BlogCommentEmail extends Mailable
     {
         return new Content(
             view: 'emails.blog-comment',
-            with: ['data' => $this->data, 'blog' => $this->blog]
+            with: ['data' => $this->data]
         );
     }
 

@@ -56,31 +56,43 @@
                                 <div class="container_no">
                                     <div class="row justify-content-center">
                                         <div class="col-lg-12">
-                                            <div id="respond" class="comment-respond">
+                                            <div id="" class="comment-respond">
                                                 <h3 id="reply-title" class="comment-reply-title">
                                                     Post a comment
                                                 </h3>
-                                                <form action="{{ route('blog.comment) }}" method="post">
+                                                <form action="{{ route('blog.comment') }}" method="post">
                                                     @csrf
                                                     <input type="hidden" name="blog_id" value="{{ encrypt($blog->id) }}" />
                                                     <p class="title_para">Your email address will not be published.</p>
-                                                    <p class="comment-form-comment"><label for="comment">Leave a
-                                                            Reply</label><textarea placeholder="Write your comment here..." id="comment" name="comment" rows="12" aria-required="true"></textarea></p>
+                                                    <p class="comment-form-comment"><label for="comment">Leave a Reply </label><textarea placeholder="Write your comment here..." id="comment" name="comment" rows="12" aria-required="true"></textarea>
+                                                        @error('comment')
+                                                        <small class="text-danger">{{ $errors->first('comment') }}</small>
+                                                        @enderror
+                                                    </p>
                                                     <p class="comment-form-author">
                                                         <label for="name">Full Name</label>
-                                                        <input id="author" placeholder="ex. John Doe" name="author" type="text" value="" size="30" aria-required="true">
+                                                        <input id="author" placeholder="ex. John Doe" name="name" type="text" value="" size="30" aria-required="true">
+                                                        @error('name')
+                                                        <small class="text-danger">{{ $errors->first('name') }}</small>
+                                                        @enderror
                                                     </p>
                                                     <p class="comment-form-email">
                                                         <label for="email">Email address</label>
                                                         <input id="email" placeholder="ex. john@mail.com" name="email" type="text" value="" size="30" aria-required="true">
+                                                        @error('email')
+                                                        <small class="text-danger">{{ $errors->first('email') }}</small>
+                                                        @enderror
                                                     </p>
                                                     <p class="comment-form-url">
                                                         <label for="contact_number">Contact Number</label>
                                                         <input id="contact_number" name="contact_number" placeholder="Contact Number" type="text" value="" size="30">
+                                                        @error('contact_number')
+                                                        <small class="text-danger">{{ $errors->first('contact_number') }}</small>
+                                                        @enderror
                                                     </p>
                                                     <div class="clearfix"></div>
                                                     <p class="form-submit">
-                                                        <input name="submit" type="submit" id="submit" class="submit btn-submit" value="Post  comment">
+                                                        <button type="submit" class="theme_btn btn-submit w-100">Post comment</button>
                                                     </p>
                                                 </form>
                                             </div>
