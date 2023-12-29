@@ -9,6 +9,13 @@ use Illuminate\Support\Facades\Mail;
 
 class EmailController extends Controller
 {
+    protected $email;
+
+    public function __construct()
+    {
+        $this->email = 'mail@cybernetics.me'; //'aas@auregagroup.com';
+    }
+
     public function contactSubmit(Request $request)
     {
         $this->validate($request, [
@@ -17,7 +24,7 @@ class EmailController extends Controller
             'contact_number' => 'required',
             'message' => 'required',
         ]);
-        Mail::to('mail@cybernetics.me')->send(new ContactUsEmail($request));
+        Mail::to($this->email)->send(new ContactUsEmail($request));
         return redirect()->route('success.message')->with("success", "We have recieved your message successfully. Our team will reach out you shortly.");
     }
 
@@ -26,7 +33,7 @@ class EmailController extends Controller
         $this->validate($request, [
             'email_mobile' => 'required',
         ]);
-        Mail::to('mail@cybernetics.me')->send(new RequestCallbackEmail($request));
+        Mail::to($this->email)->send(new RequestCallbackEmail($request));
         return redirect()->route('success.message')->with("success", "We have recieved your callback request successfully. Our team will reach out you shortly.");
     }
 
