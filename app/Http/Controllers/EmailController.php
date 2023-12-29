@@ -32,6 +32,9 @@ class EmailController extends Controller
 
     public function successMessage()
     {
-        return view('web.message');
+        $title = "";
+        $keywords = "";
+        $description = "";
+        return view('web.message', compact('title', 'keywords', 'description'));
     }
 }
