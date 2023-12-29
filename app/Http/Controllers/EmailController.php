@@ -68,6 +68,7 @@ class EmailController extends Controller
             $blog = Blog::findOrFail(decrypt($request->blog_id));
             $input = $request->all();
             $input['blog_id'] = $blog->id;
+            $input['status'] = 'pending';
             $owner = Comment::create($input);
             Mail::to($this->email)->send(new BlogCommentEmail($owner));
         } catch (Exception $e) {
