@@ -86,7 +86,7 @@
                         <div class="authour_quotes">
                             <i class="icon-quote"></i>
                             <h6>We are committed to being your trusted partner.</h6>
-                            <p>/ <a href="{{ route('index') }}" class="text-white">Aurega Accounting and Tax Advisory</a></p>
+                            <p class="text-center"><a href="{{ asset('/storage/docs/company-profile.pdf') }}" target="_blank" class="text-white">View Our Company Profile</a></p>
                         </div>
                     </div>
                 </div>
