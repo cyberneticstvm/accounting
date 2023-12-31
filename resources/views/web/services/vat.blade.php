@@ -14,12 +14,12 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-0 pe-0 pe-lg-3 pe-xl-3 mb-4 mb-lg-0 mb-xl-0">
                                     <div class="imgs">
-                                        <img src="{{ asset('/web/assets/images/about/accounting-img2.webp') }}" class="img-fluid one_img" alt="about">
+                                        <img src="{{ asset('/web/assets/images/about/7.jpeg') }}" class="img-fluid one_img" alt="about">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-3 pe-0 pe-lg-0 pe-xl-0">
                                     <div class="imgs">
-                                        <img src="{{ asset('/web/assets/images/about/about-4.jpg') }}" class="img-fluid one_img" alt="about">
+                                        <img src="{{ asset('/web/assets/images/about/8.jpeg') }}" class="img-fluid one_img" alt="about">
                                     </div>
                                 </div>
                             </div>
