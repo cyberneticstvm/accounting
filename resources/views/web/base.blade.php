@@ -360,11 +360,11 @@
 
     </div>
     <!-- Back to top with progress indicator-->
-    <div class="prgoress_indicator">
+    <!--<div class="prgoress_indicator">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
-    </div>
+    </div>-->
     <!---========================== javascript ==========================-->
     <script type='text/javascript' src="{{ asset('web/assets/js/jquery-3.6.0.min.js') }}"></script>
     <script type='text/javascript' src="{{ asset('web/assets/js/bootstrap.min.js') }}"></script>
@@ -391,6 +391,22 @@
             });
         });
     </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6593b25d8d261e1b5f4e2203/1hj4f1g4p';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
