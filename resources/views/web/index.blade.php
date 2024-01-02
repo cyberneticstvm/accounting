@@ -503,7 +503,7 @@
                                                 <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
                                             </div>
                                             <div class="comment text-justify">
-                                                I would like to express my deep appreciation for the outstanding support provided by AUREGA Accounting & Tax Advisory. Their commitment to client satisfaction and their meticulous approach make them the go-to accounting firm.
+                                                I would like to express my deep appreciation for the outstanding support provided by AUREGA Accounting & Tax Advisory. Excellent service.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
@@ -534,7 +534,7 @@
                                                 <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
                                             </div>
                                             <div class="comment text-justify">
-                                                AUREGA has been an invaluable asset to our organization. Their expertise in tax planning and strategic financial advice has helped us optimize our financial resources. Their professionalism, reliability, and proactive approach make them a trusted partner for any business seeking top-notch accounting services.
+                                                AUREGA has been an invaluable asset to our organization. Their expertise in tax planning and strategic financial advice has helped us optimize our financial resources. Recommended.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
@@ -565,7 +565,7 @@
                                                 <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
                                             </div>
                                             <div class="comment text-justify">
-                                                I am extremely satisfied with the exceptional accounting services provided by AUREGA Accounting Services. Their attention to detail, prompt responsiveness, and personalized approach have made them an indispensable resource for our company.
+                                                Excellent Service by Aurega Accounting, Highly Recommended.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
@@ -596,7 +596,7 @@
                                                 <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
                                             </div>
                                             <div class="comment text-justify">
-                                                Aurega Accounting Service’s expertise in financial analysis and forecasting has helped us make informed decisions and achieve our growth targets. Their professionalism, integrity, and commitment to excellence make them a trusted partner for any organization looking for top-quality accounting services.
+                                                Aurega Accounting Service's expertise in financial analysis and forecasting has helped us make informed decisions and achieve our growth targets. Their professionalism, integrity, and commitment to excellence make them a trusted partner for any organization looking for top-quality accounting services.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
