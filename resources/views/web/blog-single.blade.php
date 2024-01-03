@@ -16,6 +16,7 @@
                             <!--===============spacing==============-->
                             <div class="post_single_content">
                                 <h5>{{ $blog->title }}</h5>
+                                <p class="title">{{ $blog->blog_category }}</p>
                                 <!--===============spacing==============-->
                                 <div class="pd_bottom_15"></div>
                                 <!--===============spacing==============-->
