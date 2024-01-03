@@ -22,7 +22,7 @@
                             </div>
                             <div class="col-lg-5 col-md-12  col-sm-12 col-xs-12 image_column">
                                 <div class="slider_image">
-                                    <img src="{{ asset('/web/assets/images/sliders/slider-2-1.png') }}" class="img-fluid" alt="slider image">
+                                    <img src="{{ asset('/web/assets/images/sliders/first.png') }}" class="img-fluid" alt="slider image">
                                 </div>
                             </div>
                         </div>
