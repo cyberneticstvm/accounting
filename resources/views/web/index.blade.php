@@ -171,7 +171,7 @@
                 <div class="col-xl-6 col-lg-12">
                     <div class="service_wrapper">
                         <div class="move_image_absolute">
-                            <img src="{{ asset('/web/assets/images/about/about-1-1.png') }}" class="class-fluid" alt="image" />
+                            <img src="{{ asset('/web/assets/images/about/8.jpeg') }}" class="class-fluid" alt="image" />
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
