@@ -41,6 +41,7 @@ class BlogController extends Controller
             'title' => 'required',
             'status' => 'required',
             'category' => 'required',
+            'blog_category' => 'required',
             'featured_image' => 'required|mimes:jpg,jpeg,png,webp|max:1024',
         ]);
         $input = $request->all();
@@ -84,6 +85,7 @@ class BlogController extends Controller
             'title' => 'required',
             'status' => 'required',
             'category' => 'required',
+            'blog_category' => 'required',
             'image' => 'sometimes|required|mimes:jpg,jpeg,png,webp|max:1024',
         ]);
         $input = $request->all();

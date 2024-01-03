@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('hashtags')->nullable();
             $table->string('featured_image')->nullable();
             $table->longText('content')->nullable();
+            $table->enum('blog_category', ['Accounting & Bookkeeping', 'Tax Advisory', 'VAT', 'General'])->nullable();
             $table->boolean('status')->comment('1-publish, 0-draft')->default(0);
             $table->unsignedBigInteger('created_by')->references('id')->on('users');
             $table->unsignedBigInteger('updated_by')->references('id')->on('users');

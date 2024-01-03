@@ -34,9 +34,13 @@
                             <label>Hashtags</label>
                             {{ html()->text($name='hashtags', $value=$blog->hashtags)->class('form-control')->placeholder('Hashtags')->required()}}
                         </div>
-                        <div class="col-12 mt-3">
-                            <label>Category</label><br>
-                            {{ html()->select($name='category', $value=array('Blog'=>'Blog', 'Guide'=>'Guide'), $blog->category)->class('form-control')->placeholder('Select Category')->required()}}
+                        <div class="col-6 mt-3">
+                            <label>Type</label><br>
+                            {{ html()->select($name='category', $value=array('Blog'=>'Blog', 'Guide'=>'Guide'), $blog->category)->class('form-control')->placeholder('Select Type')->required()}}
+                        </div>
+                        <div class="col-6 mt-3">
+                            <label>Blog Category</label><br>
+                            {{ html()->select($name='blog_category', $value=array('Accounting & Bookkeeping'=>'Accounting & Bookkeeping', 'Tax Advisory'=>'Tax Advisory', 'VAT' => 'VAT', 'General' => 'General'), $blog->blog_category)->class('form-control')->placeholder('Select Blog Category')->required()}}
                         </div>
                         <div class="col-12 mt-3">
                             <label>Blog Content</label>
