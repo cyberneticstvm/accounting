@@ -116,7 +116,7 @@
                         <div class="title_sections left">
                             <div class="before_title"> Know who we are </div>
                             <h4> Aurega Accounting and Tax Advisory LLC</h4>
-                            <p class="text-justify"> At <a href="{{ route('index') }}">Aurega Accounting and Tax Advisory</a>, we understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
+                            <p class="text-justify"> At <a href="https://wa.me/+971503446939" target="_blank">Aurega Accounting and Tax Advisory</a>, we understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
                         </div>
                     </div>
                     <!--===============spacing==============-->
@@ -132,7 +132,7 @@
                                 <h2>
                                     <a href="#" target="_blank" rel="nofollow">Our Approach to Simplifying Your Financials</a>
                                 </h2>
-                                <p class="text-justify"> Navigating the intricate web of financial obligations can be overwhelming for businesses. From intricate tax regulations to the meticulous demands of bookkeeping, the complexities can hinder growth and efficiency. At <a href="{{ route('index') }}">AUREGA ACCOUNTING</a> and <a href="{{ route('index') }}">TAX ADVISORY SERVICES</a>, we believe in liberating you from these burdens, enabling you to focus on what truly matters - the success of your business.</p>
+                                <p class="text-justify"> Navigating the intricate web of financial obligations can be overwhelming for businesses. From intricate tax regulations to the meticulous demands of bookkeeping, the complexities can hinder growth and efficiency. At <a href="{{ route('contact') }}">AUREGA ACCOUNTING</a> and <a href="{{ route('contact') }}">TAX ADVISORY SERVICES</a>, we believe in liberating you from these burdens, enabling you to focus on what truly matters - the success of your business.</p>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                                 <div class="service_box style_one dark_color">
                                     <div class="service_content">
                                         <div class="image ">
-                                            <img src="{{ asset('/web/assets/images/service.webp') }}" class="img-fluid" alt="Service Image" />
+                                            <img src="{{ asset('/web/assets/images/service-illu-2.png') }}" class="img-fluid" alt="Service Image" />
                                         </div>
                                         <div class="content_inner">
                                             <h2>
@@ -186,7 +186,7 @@
                                             </h2>
                                             <p> Financial Statement Preparation, Account Reconciliation
                                             </p>
-                                            <a href="#" class="read_more"> Read more </a>
+                                            <a href="{{ route('services.accounting') }}" class="read_more"> Read more </a>
                                         </div>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@
                                             </h2>
                                             <p> monthly reports, Salary Processing, Payroll reporting, Employee Benefits
                                             </p>
-                                            <a href="#" class="read_more"> Read more </a>
+                                            <a href="{{ route('services.tax') }}" class="read_more"> Read more </a>
                                         </div>
                                     </div>
                                 </div>
@@ -227,8 +227,7 @@
                                 <h2>
                                     <a href="#" target="_blank" rel="nofollow"> Experience Relief Today </a>
                                 </h2>
-                                <p class="text-justify"> Don't let financial intricacies hinder your business growth. Partner with [Your Company] to experience a seamless, simplified approach to managing your finances. Together, we'll navigate the complexities, allowing you to focus on what truly matters - the success and prosperity of your business.</p>
-                                <p class="text-justify">"Choosing <a href="{{ route('index') }}">AUREGA</a> means opting for a committed partner dedicated to providing not just accounting services, but a comprehensive financial strategy aligned with your company goals. Our exceptional expertise, personalized approach, commitment to compliance, and track record of excellence make us a top choice for your businesses seeking reliable accounting services in the UAE."</p>
+                                <p class="text-justify">Don't let financial intricacies hinder your business growth. Partner with AUREGA to experience a seamless, simplified approach to managing your finances. Together, we'll navigate the complexities, allowing you to focus on what truly matters - the success and prosperity of your business.</p>
                             </div>
                         </div>
                     </div>
@@ -314,7 +313,7 @@
                         <div class="tabs_header clearfix">
                             <ul class="showcase_tabs_btns nav-pills nav clearfix">
                                 <li class="nav-item">
-                                    <a class="s_tab_btn nav-link active" data-tab="#tabtabone"><span class="fa fa-star fill"></span> Expertise and Experience</a>
+                                    <a class="s_tab_btn nav-link active" data-tab="#tabtabone"> Expertise and Experience</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="s_tab_btn nav-link" data-tab="#tabtabtwo"><span class="fa fa-star fill"></span> Personalized Service</a>
@@ -370,7 +369,7 @@
                                     </div>
                                 </div>
                                 <div class="s_tab fade" id="tabtabtfour">
-                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/about-4.jpg") }}')">
+                                    <div class="tab_content one" style="background-image:url('{{ asset("/web/assets/images/about/1.jpeg") }}')">
                                         <div class="content_image">
                                             <!--<h6>Why Choose Aurega</h6>-->
 
