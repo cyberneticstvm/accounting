@@ -178,7 +178,7 @@
                                 <div class="service_box style_one dark_color">
                                     <div class="service_content">
                                         <div class="image ">
-                                            <img src="{{ asset('/web/assets/images/service-illu-2.png') }}" class="img-fluid" alt="Service Image" />
+                                            <img src="{{ asset('/web/assets/images/service-illu-10.png') }}" class="img-fluid" alt="Service Image" />
                                         </div>
                                         <div class="content_inner">
                                             <h2>
@@ -199,7 +199,7 @@
                                 <div class="service_box style_one dark_color last">
                                     <div class="service_content">
                                         <div class="image ">
-                                            <img src="{{ asset('/web/assets/images/service-illu-1.png') }}" class="img-fluid" alt="Service Image" />
+                                            <img src="{{ asset('/web/assets/images/service-illu-11.png') }}" class="img-fluid" alt="Service Image" />
                                         </div>
                                         <div class="content_inner">
                                             <h2>

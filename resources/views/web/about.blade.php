@@ -44,10 +44,10 @@
                     <div class="image_boxes style_two">
                         <img src="{{ asset('/web/assets/images/shape-1.png') }}" class="background_image" alt="image">
                         <div class="image one">
-                            <img src="{{ asset('/web/assets/images/about/pic1.webp') }}" class="img-fluid" alt="image">
+                            <img src="{{ asset('/web/assets/images/about/pic1.jpeg') }}" class="img-fluid" alt="image">
                         </div>
                         <div class="image two">
-                            <img src="{{ asset('/web/assets/images/about/pic2.webp') }}" class="img-fluid" alt="image">
+                            <img src="{{ asset('/web/assets/images/about/pic2.jpeg') }}" class="img-fluid" alt="image">
                         </div>
                         <div class="authour_quotes">
                             <i class="icon-quote"></i>

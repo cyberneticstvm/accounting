@@ -135,6 +135,11 @@
                                     <small>instagram</small>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://www.youtube.com/@auregagroup7318" target="_blank"> <span class="fa fa-youtube"></span>
+                                    <small>youtube</small>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
