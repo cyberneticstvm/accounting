@@ -71,7 +71,7 @@
                             </div>
                             <div class="col-lg-5 col-md-12  col-sm-12 col-xs-12 image_column">
                                 <div class="slider_image">
-                                    <img src="{{ asset('/web/assets/images/sliders/slider-2-3.png') }}" class="img-fluid" alt="slider image">
+                                    <img src="{{ asset('/web/assets/images/sliders/slid-3.webp') }}" class="img-fluid" alt="slider image">
                                 </div>
                             </div>
                         </div>
@@ -464,7 +464,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/2.jpeg') }}" alt="image">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
@@ -475,7 +475,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -495,7 +495,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/4.jpeg') }}" alt="image">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
@@ -506,7 +506,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -537,7 +537,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -557,7 +557,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/5.jpeg') }}" alt="image">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
@@ -568,7 +568,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -588,7 +588,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/6.jpeg') }}" alt="image">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
@@ -599,7 +599,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/authour-image.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">

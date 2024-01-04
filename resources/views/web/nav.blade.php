@@ -33,7 +33,7 @@
                                         <span class="icon-location2"></span>
                                         <div class="content">
                                             <h6 class="titles"> Address</h6>
-                                            <p>#106, Bay Square 11, Business Bay, Dubai</p>
+                                            <p><a href="{{ route('location.map') }}" target="_blank">#106, Bay Square 11, Business Bay, Dubai</a></p>
                                         </div>
                                     </div>
                                 </div>
