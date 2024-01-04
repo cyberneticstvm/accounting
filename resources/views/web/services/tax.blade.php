@@ -70,13 +70,6 @@
                             <p class="text-justify">Optimize your tax strategies with our corporate tax services. Our team stays updated with the latest tax laws and regulations, offering tailored solutions for tax planning, compliance, and effective tax management to minimize liabilities and enhance profitability.</p>
                         </div>
                     </div>
-                    <div class="image_boxes style_two">
-                        <div class="authour_quotes">
-                            <i class="icon-quote"></i>
-                            <h6>We are committed to being your trusted partner.</h6>
-                            <p class="text-center"><a href="{{ asset('/storage/docs/company-profile.pdf') }}" target="_blank" class="text-white">View Our Company Profile</a></p>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="content_box_cn style_one">
