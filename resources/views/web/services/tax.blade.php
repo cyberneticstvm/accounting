@@ -79,6 +79,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-6 col-lg-12">
+                    <div class="image_boxes style_two">
+                        <div class="authour_quotes">
+                            <i class="icon-quote"></i>
+                            <h6>We are committed to being your trusted partner.</h6>
+                            <p class="text-center"><a href="{{ asset('/storage/docs/company-profile.pdf') }}" target="_blank" class="text-white">View Our Company Profile</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--===============spacing==============-->
             <div class="mr_bottom_30"></div>
