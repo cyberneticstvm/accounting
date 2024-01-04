@@ -410,7 +410,7 @@
                 <div class="col-lg-12">
                     <div class="title_all_box style_one text-center dark_color">
                         <div class="title_sections ">
-                            <div class="before_title">Our Clients</div>
+                            <!--<div class="before_title">Our Clients</div>-->
                             <h2>Customers Feedback</h2>
                         </div>
                         <!--===============spacing==============-->
