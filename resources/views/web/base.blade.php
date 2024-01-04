@@ -168,7 +168,7 @@
                                             </div>
                                             <div class="con_content">
                                                 <h5> Mail Us :</h5>
-                                                <a href="tel:aas@auregagroup.com"> aas@auregagroup.com</a>
+                                                <a href="mailto:aas@auregagroup.com"> aas@auregagroup.com</a>
                                             </div>
                                         </div>
                                     </div>
