@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12">
-                    <div class="style_two">
+                    <div class="image_boxes">
                         <div class="authour_quotes">
                             <i class="icon-quote"></i>
                             <h6>We are committed to being your trusted partner.</h6>
