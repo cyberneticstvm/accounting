@@ -475,7 +475,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -506,7 +506,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -537,7 +537,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -568,7 +568,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -599,7 +599,7 @@
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/auth-2.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="image">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
