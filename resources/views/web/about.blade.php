@@ -35,40 +35,6 @@
                         <!--===============spacing==============-->
                         <div class="pd_bottom_25"></div>
                         <!--===============spacing==============-->
-                        <div class="row gutter_15px">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="icon_box_all  style_two">
-                                    <div class="icon_content  icon_imgs ">
-                                        <div class="icon">
-                                            <img src="{{ asset('/web/assets/images/icon-img-n-1.png') }}" class="img-fluid svg_image" alt="icon png">
-                                        </div>
-                                        <div class="txt_content">
-                                            <h3><a href="javascript:void(0)">Tailored Advice &amp; Support</a>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                    <!--===============spacing==============-->
-                                    <div class="pd_bottom_25"></div>
-                                    <!--===============spacing==============-->
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <div class="icon_box_all  style_two">
-                                    <div class="icon_content  icon_imgs ">
-                                        <div class="icon">
-                                            <img src="{{ asset('/web/assets/images/icon-img-n-2.png') }}" class="img-fluid svg_image" alt="icon png">
-                                        </div>
-                                        <div class="txt_content">
-                                            <h3><a href="javascript:void(0)">Flexible Company Policies</a></h3>
-                                        </div>
-                                    </div>
-                                    <!--===============spacing==============-->
-                                    <div class="pd_bottom_25"></div>
-                                    <!--===============spacing==============-->
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="theme_btn_all color_one">
                             <a href="{{ route('contact') }}" rel="nofollow" class="theme-btn five">Contact us<i class="icon-right-arrow"></i></a>
                         </div>
