@@ -328,7 +328,7 @@
                                     </div>
                                 </div>
                                 <div class="copright">
-                                    © {{ date('Y') }} Aurega Group. All Rights Reserved.
+                                    © {{ date('Y') }} Aurega Group Limited. All Rights Reserved.
                                 </div>
                             </div>
                         </div>
