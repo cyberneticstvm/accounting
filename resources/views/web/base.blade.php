@@ -194,7 +194,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="footer_copy_content">
-                                © {{ date('Y') }} <a href="https://auregagroup.com" target="_blank">Aurega Group.</a> All Rights
+                                © {{ date('Y') }} <a href="https://auregagroup.com" target="_blank">Aurega Group Limited.</a> All Rights
                                 Reserved.
                             </div>
                         </div>
