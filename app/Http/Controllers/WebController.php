@@ -17,7 +17,7 @@ class WebController extends Controller
 
     public function about()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.about', compact('title', 'keywords', 'description'));
@@ -25,7 +25,7 @@ class WebController extends Controller
 
     public function faqs()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.faqs', compact('title', 'keywords', 'description'));
@@ -33,7 +33,7 @@ class WebController extends Controller
 
     public function blogs()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         $blogs = Blog::where('category', 'blog')->where('status', 1)->latest()->paginate(10);
@@ -42,17 +42,17 @@ class WebController extends Controller
 
     public function blog(string $slug)
     {
-        $title = "";
         $keywords = "";
         $description = "";
         $blog = Blog::where('slug', $slug)->firstOrFail();
+        $title = $blog->title;
         $blogs = Blog::where('id', '!=', $blog->id)->where('category', 'blog')->where('status', 1)->latest()->limit(10)->get();
         return view('web.blog-single', compact('title', 'keywords', 'description', 'blogs', 'blog'));
     }
 
     public function contact()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.contact', compact('title', 'keywords', 'description'));
@@ -60,7 +60,7 @@ class WebController extends Controller
 
     public function accounting()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.services.accounting', compact('title', 'keywords', 'description'));
@@ -68,7 +68,7 @@ class WebController extends Controller
 
     public function tax()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.services.tax', compact('title', 'keywords', 'description'));
@@ -76,7 +76,7 @@ class WebController extends Controller
 
     public function finance()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.services.finance', compact('title', 'keywords', 'description'));
@@ -84,7 +84,7 @@ class WebController extends Controller
 
     public function vat()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.services.vat', compact('title', 'keywords', 'description'));
@@ -92,7 +92,7 @@ class WebController extends Controller
 
     public function map()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.location-map', compact('title', 'keywords', 'description'));
