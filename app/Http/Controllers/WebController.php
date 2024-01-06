@@ -9,7 +9,7 @@ class WebController extends Controller
 {
     public function index()
     {
-        $title = "";
+        $title = "Accounting, Tax & Advisory Services";
         $keywords = "";
         $description = "";
         return view('web.index', compact('title', 'keywords', 'description'));
