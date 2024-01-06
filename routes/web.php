@@ -31,6 +31,9 @@ Route::middleware(['web'])->group(function () {
         Route::get('/services/financial-and-management-accounting-consultancy', 'finance')->name('services.finance');
         Route::get('/services/vat-services', 'vat')->name('services.vat');
         Route::get('/location/map', 'map')->name('location.map');
+
+        Route::get('/sitemap.xml', 'sitemap');
+        Route::get('/robots.txt', 'robots');
     });
 
     Route::controller(EmailController::class)->group(function () {

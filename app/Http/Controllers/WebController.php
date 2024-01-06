@@ -97,4 +97,14 @@ class WebController extends Controller
         $description = "";
         return view('web.location-map', compact('title', 'keywords', 'description'));
     }
+
+    public function sitemap()
+    {
+        return response()->view('web.sitemap')->header('Content-Type', 'text/xml');
+    }
+
+    public function robots()
+    {
+        return response()->view('web.robots')->header('Content-Type', 'text/plain');
+    }
 }
