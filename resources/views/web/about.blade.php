@@ -19,7 +19,7 @@
                         <!--===============spacing==============-->
                         <div class="extra_content image_with_content dark_color">
                             <div class="simple_image">
-                                <img src="{{ asset('/web/assets/images/ae.png') }}" alt="img">
+                                <img src="{{ asset('/web/assets/images/ae.png') }}" alt="Aurega Accounting">
                                 <h2> Since 2014, <br> Operating in Dubai.</h2>
                             </div>
                         </div>
@@ -42,12 +42,12 @@
                 </div>
                 <div class="col-xl-6 col-lg-12">
                     <div class="image_boxes style_two">
-                        <img src="{{ asset('/web/assets/images/shape-1.png') }}" class="background_image" alt="image">
+                        <img src="{{ asset('/web/assets/images/shape-1.png') }}" class="background_image" alt="Aurega Accounting">
                         <div class="image one">
-                            <img src="{{ asset('/web/assets/images/about/pic1.jpeg') }}" class="img-fluid" alt="image">
+                            <img src="{{ asset('/web/assets/images/about/pic1.jpeg') }}" class="img-fluid" alt="Aurega Accounting">
                         </div>
                         <div class="image two">
-                            <img src="{{ asset('/web/assets/images/about/pic2.jpeg') }}" class="img-fluid" alt="image">
+                            <img src="{{ asset('/web/assets/images/about/pic2.jpeg') }}" class="img-fluid" alt="Aurega Accounting">
                         </div>
                         <div class="authour_quotes">
                             <i class="icon-quote"></i>

@@ -17,7 +17,7 @@
                         <div class="news_box style_two grid_box _card has_images">
                             <div class="content_box">
                                 <div class="overlay"> </div>
-                                <img src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="img-fluid" alt="img">
+                                <img src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="img-fluid" alt="{{ $item->title }}">
                                 <div class="category">
                                     <a href="{{ route('blog.single', $item->slug) }}" class="categories"><i class="icon-folder"></i>{{ $item->blog_category }}</a>
                                 </div>
@@ -26,7 +26,7 @@
                                     <h2 class="title"><a href="{{ route('blog.single', $item->slug) }}" rel="bookmark">{{ $item->title }}</a></h2>
                                 </div>
                                 <div class="auhtour_box">
-                                    <img alt="img" src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" height="60" width="60" class="img-fluid">
+                                    <img alt="Aurega Accounting" src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" height="60" width="60" class="img-fluid">
                                     <div class="contnet_a">
                                         <p>Tags</p>
                                         <h4>{{ $item->hashtags }}</h4>

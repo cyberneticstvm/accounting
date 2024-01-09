@@ -8,18 +8,18 @@
                 <div class="col-xl-6 col-lg-12 mb-5 mb-lg-5 mb-xl-0">
                     <div class="image_boxes style_four">
                         <div class="image_box one">
-                            <img src="{{ asset('/web/assets/images/about/finance-img1.webp') }}" class="img-fluid" alt="about">
+                            <img src="{{ asset('/web/assets/images/about/finance-img1.webp') }}" class="img-fluid" alt="Aurega Accounting">
                         </div>
                         <div class="image_box">
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-0 pe-0 pe-lg-3 pe-xl-3 mb-4 mb-lg-0 mb-xl-0">
                                     <div class="imgs">
-                                        <img src="{{ asset('/web/assets/images/about/9.jpeg') }}" class="img-fluid one_img" alt="about">
+                                        <img src="{{ asset('/web/assets/images/about/9.jpeg') }}" class="img-fluid one_img" alt="Aurega Accounting">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 ps-0 ps-lg-3 pe-0 pe-lg-0 pe-xl-0">
                                     <div class="imgs">
-                                        <img src="{{ asset('/web/assets/images/about/4.jpeg') }}" class="img-fluid one_img" alt="about">
+                                        <img src="{{ asset('/web/assets/images/about/4.jpeg') }}" class="img-fluid one_img" alt="Aurega Accounting">
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                         <!--===============spacing==============-->
                         <div class="extra_content image_with_content dark_color">
                             <div class="simple_image">
-                                <img src="{{ asset('/web/assets/images/ae.png') }}" alt="img">
+                                <img src="{{ asset('/web/assets/images/ae.png') }}" alt="Aurega Accounting">
                                 <h2> Since 2014, <br> Operating in Dubai. </h2>
                             </div>
                         </div>

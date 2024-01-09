@@ -171,14 +171,14 @@
                 <div class="col-xl-6 col-lg-12">
                     <div class="service_wrapper">
                         <div class="move_image_absolute">
-                            <img src="{{ asset('/web/assets/images/about/8.jpeg') }}" class="class-fluid" alt="image" />
+                            <img src="{{ asset('/web/assets/images/about/8.jpeg') }}" class="class-fluid" alt="Aurega Accounting" />
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="service_box style_one dark_color">
                                     <div class="service_content">
                                         <div class="image ">
-                                            <img src="{{ asset('/web/assets/images/service-illu-10.png') }}" class="img-fluid" alt="Service Image" />
+                                            <img src="{{ asset('/web/assets/images/service-illu-10.png') }}" class="img-fluid" alt="Aurega Accounting" />
                                         </div>
                                         <div class="content_inner">
                                             <h2>
@@ -199,7 +199,7 @@
                                 <div class="service_box style_one dark_color last">
                                     <div class="service_content">
                                         <div class="image ">
-                                            <img src="{{ asset('/web/assets/images/service-illu-11.png') }}" class="img-fluid" alt="Service Image" />
+                                            <img src="{{ asset('/web/assets/images/service-illu-11.png') }}" class="img-fluid" alt="Aurega Accounting" />
                                         </div>
                                         <div class="content_inner">
                                             <h2>
@@ -464,18 +464,18 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/2.jpeg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/2.jpeg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
                                             </div>
                                             <div class="comment text-justify">
                                                 I am highly impressed with the exceptional services provided by AUREGA Accounting Services. They have demonstrated exceptional knowledge and expertise in managing our company's financial records. Their attention to detail, professionalism, and prompt service have been instrumental in our financial success.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="Aurega Accounting">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -495,18 +495,18 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/4.jpeg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/4.jpeg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
                                             </div>
                                             <div class="comment text-justify">
                                                 I would like to express my deep appreciation for the outstanding support provided by AUREGA Accounting & Tax Advisory. Excellent service.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="Aurega Accounting">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -526,18 +526,18 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
                                             </div>
                                             <div class="comment text-justify">
                                                 AUREGA has been an invaluable asset to our organization. Their expertise in tax planning and strategic financial advice has helped us optimize our financial resources. Recommended.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="Aurega Accounting">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -557,18 +557,18 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/5.jpeg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/5.jpeg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
                                             </div>
                                             <div class="comment text-justify">
                                                 Excellent Service by Aurega Accounting, Highly Recommended.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="Aurega Accounting">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">
@@ -588,18 +588,18 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/6.jpeg') }}" alt="image">
+                                            <img src="{{ asset('/web/assets/images/about/6.jpeg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
                                             <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="image">
+                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
                                             </div>
                                             <div class="comment text-justify">
                                                 Aurega Accounting Service's expertise in financial analysis and forecasting has helped us make informed decisions and achieve our growth targets. Their professionalism, integrity, and commitment to excellence make them a trusted partner for any organization looking for top-quality accounting services.
                                             </div>
                                             <div class="details clearfix">
                                                 <div class="c_image">
-                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="image">
+                                                    <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="Aurega Accounting">
                                                 </div>
                                                 <div class="c_content">
                                                     <div class="content_in">

@@ -50,8 +50,8 @@
                 <div class="col-lg-2 col-md-9 col-sm-9 col-xs-9 logo_column">
                     <div class="header_logo_box">
                         <a href="{{ route('index') }}" class="logo navbar-brand">
-                            <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega" class="logo_default">
-                            <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega" class="logo__sticky">
+                            <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting" class="logo_default">
+                            <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting" class="logo__sticky">
                         </a>
                     </div>
                 </div>

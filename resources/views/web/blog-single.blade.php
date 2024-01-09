@@ -9,7 +9,7 @@
                     <section class="blog_single_details_outer">
                         <div class="single_content_upper">
                             <div class="blog_feature_image">
-                                <img src="{{ ($blog->featured_image) ? asset($blog->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="wp-post-image" alt="img">
+                                <img src="{{ ($blog->featured_image) ? asset($blog->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="wp-post-image" alt="{{ $blog->title }}">
                             </div>
                             <!--===============spacing==============-->
                             <div class="pd_bottom_20"></div>
@@ -117,7 +117,7 @@
                             @forelse($blogs as $key => $item)
                             <div class="blog_in clearfix image_in">
                                 <div class="image">
-                                    <img decoding="async" src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" alt="img">
+                                    <img decoding="async" src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" alt="{{ $item->title }}">
                                 </div>
                                 <div class="content_inner">
                                     <p class="post-date"><span class="icon-calendar"></span>{{ $item->created_at->format('d, M Y') }}</p>
