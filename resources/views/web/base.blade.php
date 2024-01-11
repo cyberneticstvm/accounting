@@ -35,10 +35,27 @@
     <link rel='stylesheet' href="{{ asset('/web/assets/css/style.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{ asset('/web/assets/css/scss/elements/theme-css.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' id="creote-color-switcher-css" href="{{ asset('/web/assets/css/scss/elements/color-switcher/color1.css') }}" type='text/css' media='all' />
+    <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
     <!-- Style-->
 </head>
 
 <body class="home theme-creote page-home-default-one">
+    <!-- Whatsapp -->
+    <div class="mystickyelements-fixed mystickyelements-position-right mystickyelements-position-screen-center mystickyelements-position-mobile-right mystickyelements-on-hover mystickyelements-size-medium mystickyelements-mobile-size-medium mystickyelements-templates-default">
+        <div class="mystickyelement-lists-wrap">
+            <ul class="mystickyelements-lists mystickyno-minimize">
+                <li id="mystickyelements-social-whatsapp" class="mystickyelements-social-icon-li mystickyelements-social-whatsapp  element-desktop-on element-mobile-on">
+                    <span class="mystickyelements-social-icon social-whatsapp social-custom" style="background: #30D5C8">
+                        <a href="https://api.whatsapp.com/send?phone=971503446939&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i></a>
+                    </span>
+                    <span class="mystickyelements-social-text" style="background: #30D5C8;">
+                        <a href="https://api.whatsapp.com/send?phone=971503446939&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank" rel="noopener">WhatsApp</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Whatsapp -->
     <div id="page" class="page_wapper hfeed site">
         <div id="wrapper_full" class="content_all_warpper">
             <!----page-header----->
@@ -409,6 +426,16 @@
                 $(".btn-submit").attr("disabled", true);
                 $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");
             });
+
+            $(".mystickyelements-fixed").hover(function() {
+                $("#mystickyelements-social-whatsapp").addClass("elements-active elements-hover-active");
+                $(".mystickyelements-fixed").addClass("mystickyelements-on-click");
+            });
+
+            $(".mystickyelements-fixed").mouseleave(function() {
+                $("#mystickyelements-social-whatsapp").removeClass("elements-active elements-hover-active");
+                $(".mystickyelements-fixed").removeClass("mystickyelements-on-click");
+            })
         });
     </script>
 
