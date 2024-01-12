@@ -374,22 +374,22 @@
             <ul class="float_menu_box">
                 <i class="close fa fa-times"></i>
                 <li class="floating_menu_text {{ (request()->segment(1) == '') ? 'active' : '' }}">
-                    <a href="/"> Home </a>
+                    <a href="{{ route('index') }}"> Home </a>
                 </li>
                 <li class="floating_menu_text {{ (request()->segment(1) == 'about') ? 'active' : '' }}">
-                    <a href="/"> About Us </a>
+                    <a href="{{ route('about') }}"> About Us </a>
                 </li>
                 <li class="floating_menu_text {{ (request()->segment(1) == 'services') ? 'active' : '' }}">
-                    <a href="/"> Services </a>
+                    <a href="{{ route('services.accounting') }}"> Services </a>
                 </li>
                 <li class="floating_menu_text {{ (request()->segment(1) == 'faqs') ? 'active' : '' }}">
-                    <a href="/"> FAQs </a>
+                    <a href="{{ route('faqs') }}"> FAQs </a>
                 </li>
                 <li class="floating_menu_text {{ (request()->segment(1) == 'blogs') ? 'active' : '' }}">
-                    <a href="/"> Blog </a>
+                    <a href="{{ route('blogs') }}"> Blog </a>
                 </li>
                 <li class="floating_menu_text {{ (request()->segment(1) == 'contact') ? 'active' : '' }}">
-                    <a href="/"> Contact Us </a>
+                    <a href="{{ route('contact') }}"> Contact Us </a>
                 </li>
             </ul>
         </div>
