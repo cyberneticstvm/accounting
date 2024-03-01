@@ -34,6 +34,8 @@ Route::middleware(['web'])->group(function () {
 
         Route::get('/sitemap.xml', 'sitemap');
         Route::get('/robots.txt', 'robots');
+
+        Route::get('/landing', 'landing')->name('landing');
     });
 
     Route::controller(EmailController::class)->group(function () {

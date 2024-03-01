@@ -98,6 +98,14 @@ class WebController extends Controller
         return view('web.location-map', compact('title', 'keywords', 'description'));
     }
 
+    public function landing()
+    {
+        $title = "Accounting, Tax & Advisory Services";
+        $keywords = "Accounting services Dubai, Tax consultant Dubai, Financial advisory, Auditing services, Payroll services, Bookkeeping";
+        $description = "Budgeting and forecasting, Accounting software solutions, Financial advisory Dubai, Corporate tax planning Dubai";
+        return view('web.landing', compact('title', 'keywords', 'description'));
+    }
+
     public function sitemap()
     {
         return response()->view('web.sitemap')->header('Content-Type', 'text/xml');
