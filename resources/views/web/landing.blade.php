@@ -56,7 +56,7 @@
         </div>
     </div>
     <!-- End Whatsapp -->
-    <div id="page" class="page_wapper hfeed site">
+    <div id="page" class="page_wapper hfeed site" id="">
         <div id="wrapper_full" class="content_all_warpper">
             <!----page-header----->
             <!----pre loader----->
