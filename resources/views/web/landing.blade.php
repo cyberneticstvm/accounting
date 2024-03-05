@@ -161,7 +161,7 @@
                 </header>
             </div>
             <div id="content" class="site-content">
-                <section class="banner-section bg_op_1" style="background-image: url('{{ asset('/web/assets/images/sliders/banner-9.jpg') }}');">
+                <section class="banner-section bg_op_1" style="background-image: url('{{ asset('/web/assets/images/sliders/slider-2-bg.webp') }}');">
                     <!--===============spacing==============-->
                     <div class="pd_top_100"></div>
                     <!--===============spacing==============-->
@@ -171,8 +171,8 @@
                                 <div class="title_all_box style_one dark_color">
                                     <div class="title_sections">
                                         <div class="before_title">Accounting Solutions for your business</div>
-                                        <h2 class="title_big">From paper work to peace of mind</h2>
-                                        <p>Empower your business with the right structure. Your requirements simplified.</p>
+                                        <h2 class="title_big text-white">From paper work to peace of mind</h2>
+                                        <p class="text-white">Empower your business with the right structure. Your requirements simplified.</p>
                                     </div>
                                 </div>
                                 <!--===============spacing==============-->
@@ -199,27 +199,28 @@
                                         <div class="pd_bottom_10"></div>
                                         <!--===============spacing==============-->
                                         <div class="contact_form_shortcode">
-                                            <form action="#" method="post" class="wpcf7-form init">
+                                            <form action="{{ route('form.submit.landing') }}" method="post" class="wpcf7-form init">
+                                                @csrf
                                                 <p>
                                                     <label><br>
-                                                        <input type="text" name="your-name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Name"></span><br>
+                                                        <input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Name"></span><br>
                                                         <i class="fa fa-user"></i><br>
                                                     </label>
                                                 </p>
                                                 <p><label><br>
-                                                        <input type="email" name="your-email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Email"></span><br>
+                                                        <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Email"></span><br>
                                                         <i class="fa fa-envelope"></i><br>
                                                     </label>
                                                 </p>
                                                 <p>
                                                     <label><br>
-                                                        <input type="text" name="Mobile Number" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Mobile with Country Code"></span><br>
+                                                        <input type="text" name="mobile" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Mobile with Country Code"></span><br>
                                                         <i class="fa fa-mobile fa-lg"></i><br>
                                                     </label>
                                                 </p>
                                                 <p>
                                                     <label><br>
-                                                        <select class="form-control" placeholder="Select Service">
+                                                        <select class="form-control" placeholder="Select Service" name="service">
                                                             <option value="">Select Service</option>
                                                             <option value="">Accounting & Bookkeeping</option>
                                                             <option value="">Tax Advisory</option>
@@ -232,7 +233,7 @@
                                                 </p>
                                                 <p>
                                                     <label><br>
-                                                        <textarea class="form-control" placeholder="Your Message"></textarea><br>
+                                                        <textarea class="form-control" placeholder="Your Message" name="message"></textarea><br>
                                                         <br>
                                                     </label>
                                                 </p>
@@ -247,6 +248,73 @@
                     </div>
                     <!--===============spacing==============-->
                     <div class="pd_bottom_100"></div>
+                    <!--===============spacing==============-->
+                </section>
+                <section class="about-section mt-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-12">
+                                <div class="about_content position-relative z_99">
+                                    <div class="title_all_box style_one text-left  dark_color">
+                                        <div class="title_sections">
+                                            <div class="before_title">About Aurega</div>
+                                            <h1>Leading Trustworthy Bookkeeping & Taxation service firm in Dubai</h1>
+                                        </div>
+                                    </div>
+                                    <!--===============spacing==============-->
+                                    <div class="pd_bottom_15"></div>
+                                    <!--===============spacing==============-->
+                                    <div class="extra_content image_with_content dark_color">
+                                        <div class="simple_image">
+                                            <img src="{{ asset('/web/assets/images/ae.png') }}" alt="Aurega Accounting">
+                                            <h2> Since 2014, <br> Operating in Dubai.</h2>
+                                        </div>
+                                    </div>
+                                    <!--===============spacing==============-->
+                                    <div class="pd_bottom_20"></div>
+                                    <!--===============spacing==============-->
+                                    <div class="description_box">
+                                        <p class="text-justify">Aurega Accounting and Tax Advisory LLC stands as a premier provider of accounting services in Dubai, boasting over 15 years of industry experience. As certified professional chartered accountants, we specialize in delivering comprehensive bookkeeping and taxation services to a diverse clientele.</p><br />
+                                        <p class="text-justify">At Aurega, we excel in managing your daily finances with precision and efficiency. Our meticulous bookkeeping services ensure the accurate recording of your income and expenses, maintaining up-to-date financial records. This clarity in your business's financial standing empowers you to make informed and strategic decisions, driving success and growth.</p>
+                                    </div>
+                                    <!--===============spacing==============-->
+                                    <div class="pd_bottom_20"></div>
+                                    <!--===============spacing==============-->
+                                    <div class="title_all_box style_one text-left  dark_color">
+                                        <div class="">
+                                            <h2>Why Choose Us?</h2>
+                                            <p class="text-justify">Over two decades of substantial experience offering fully outsourced and co-sourced accounting solutions. Consistent delivery of high-quality results, meeting deadlines and adhering to your financial constraints. Commitment to accounting for performance with precision, objectivity, and ethical standards. Team comprising experts with extensive knowledge of the Middle Eastern market and its regulatory framework. Dedicated to providing personalized and professional services, prioritizing client satisfaction.</p>
+                                        </div>
+                                    </div>
+
+                                    <!--===============spacing==============-->
+                                    <div class="pd_bottom_25"></div>
+                                    <!--===============spacing==============-->
+                                    <div class="theme_btn_all color_one">
+                                        <a href="{{ route('contact') }}" rel="nofollow" class="theme-btn five">Contact us<i class="icon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-12">
+                                <div class="image_boxes style_two">
+                                    <img src="{{ asset('/web/assets/images/shape-1.png') }}" class="background_image" alt="Aurega Accounting">
+                                    <div class="image one">
+                                        <img src="{{ asset('/web/assets/images/about/pic1.jpeg') }}" class="img-fluid" alt="Aurega Accounting">
+                                    </div>
+                                    <div class="image two">
+                                        <img src="{{ asset('/web/assets/images/about/pic2.jpeg') }}" class="img-fluid" alt="Aurega Accounting">
+                                    </div>
+                                    <div class="authour_quotes">
+                                        <i class="icon-quote"></i>
+                                        <h6>We are committed to being your trusted partner.</h6>
+                                        <p class="text-center"><a href="{{ asset('/storage/docs/company-profile.pdf') }}" target="_blank" class="text-white">View Our Company Profile</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===============spacing==============-->
+                    <div class="pd_bottom_70"></div>
                     <!--===============spacing==============-->
                 </section>
             </div>
@@ -345,7 +413,8 @@
                                             <h6> Contact</h6>
                                             <div class="con_content">
                                                 <h5> Phone :</h5>
-                                                <a href="tel:+971503446939"> +(971) 50 344 6939</a>
+                                                <a href="tel:+971503446939"> +(971) 50 344 6939</a>,
+                                                <a href="tel:+97143494444"> +(971) 4 349 4444</a>
                                             </div>
                                             <div class="con_content">
                                                 <h5> Mail Us :</h5>
@@ -460,6 +529,91 @@
         <!---==============floating menu=================-->
 
     </div>
+
+    <div class="modal_popup one">
+        <div class="modal-popup-inner">
+            <div class="close-modal"><i class="fa fa-times"></i></div>
+            <div class="modal_box">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 form_inner">
+                        <div class="form_content">
+                            <form method="post" action="{{ route('form.submit.landing') }}">
+                                @csrf
+                                <p>
+                                    <label> Your name<br />
+                                        <input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Name" required />
+                                        <br />
+                                        <i class="fa fa-user"></i><br />
+                                    </label>
+                                </p>
+                                <p><label> Your email<br />
+                                        <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Email" required />
+                                        <br />
+                                        <i class="fa fa-envelope"></i><br />
+                                    </label>
+                                </p>
+                                <p>
+                                    <label> Contact Number<br />
+                                        <input type="text" name="mobile" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Mobile Number with Country Code" required />
+                                        <br />
+                                        <i class="fa fa-mobile"></i><br />
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>Service<br>
+                                        <select class="form-control" placeholder="Select Service" name="service">
+                                            <option value="">Select Service</option>
+                                            <option value="">Accounting & Bookkeeping</option>
+                                            <option value="">Tax Advisory</option>
+                                            <option value="">VAT Services</option>
+                                            <option value="">Financial Management</option>
+                                            <option value="">General Services</option>
+                                        </select><br>
+                                        <br>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label> Your message<br />
+                                        <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Enter Your Message" required></textarea>
+                                        <br />
+                                        <i class="fa fa-comments"></i><br />
+                                    </label>
+                                </p>
+                                <p><input class="btn-submit" type="submit" value="Submit" /></p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12 about_company_inner">
+                        <div class="abt_content">
+                            <div class="logo">
+                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega" class="company_logo_modal">
+                            </div>
+                            <div class="text">
+                                <p class="text-justify"> We understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
+                                <a href="{{ route('about') }}">Read More</a>
+                            </div>
+                            <div class="post_contet_modal">
+                                <h2> Latest Blogs</h2>
+                                <div class="post_enable">
+                                    @forelse(blogs()->take(5) as $key => $item)
+                                    <div class="modal_post_grid">
+                                        <a href="{{ route('blog.single', $item->slug) }}">
+                                            <img width="852" height="812" src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="main_img wp-post-image" alt="{{ $item->title }}" />
+                                        </a>
+                                    </div>
+                                    @empty
+                                    @endforelse
+                                </div>
+                            </div>
+                            <div class="copright">
+                                © {{ date('Y') }} Aurega Group Limited. All Rights Reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Back to top with progress indicator-->
     <!--<div class="prgoress_indicator">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -486,6 +640,7 @@
     <!---========================== javascript ==========================-->
     <script>
         $(function() {
+            $('.modal_popup').addClass('contact-popup-visible');
             $('form').submit(function() {
                 $(".btn-submit").attr("disabled", true);
                 $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");

@@ -193,7 +193,8 @@
                                             <h6> Contact</h6>
                                             <div class="con_content">
                                                 <h5> Phone :</h5>
-                                                <a href="tel:+971503446939"> +(971) 50 344 6939</a>
+                                                <a href="tel:+971503446939"> +(971) 50 344 6939</a>,
+                                                <a href="tel:+97143494444"> +(971) 4 349 4444</a>
                                             </div>
                                             <div class="con_content">
                                                 <h5> Mail Us :</h5>

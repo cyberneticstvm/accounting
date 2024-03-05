@@ -34,7 +34,6 @@ Route::middleware(['web'])->group(function () {
 
         Route::get('/sitemap.xml', 'sitemap');
         Route::get('/robots.txt', 'robots');
-
         Route::get('/landing', 'landing')->name('landing');
     });
 
@@ -43,6 +42,7 @@ Route::middleware(['web'])->group(function () {
         Route::post('/contact', 'contactSubmit')->name('contact.submit');
         Route::post('/requestcallback', 'requestCallBack')->name('request.callback.submit');
         Route::get('/message', 'successMessage')->name('success.message');
+        Route::post('/landing', 'submitLanding')->name('form.submit.landing');
     });
 });
 
