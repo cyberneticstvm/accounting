@@ -392,6 +392,11 @@
                                             <span>FAQs</span>
                                         </a>
                                     </li>
+                                    <li class="menu-item menu-item-has-children nav-item {{ (request()->segment(1) == 'team') ? 'active' : '' }}">
+                                        <a href="{{ route('team') }}" class="dropdown-toggle nav-link">
+                                            <span>Team</span>
+                                        </a>
+                                    </li>
                                     <li class="menu-item menu-item-has-children nav-item {{ (request()->segment(1) == 'blogs') ? 'active' : '' }}">
                                         <a href="{{ route('blogs') }}" class="dropdown-toggle nav-link">
                                             <span>Blog</span>

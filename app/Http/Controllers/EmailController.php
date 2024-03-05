@@ -83,7 +83,7 @@ class EmailController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
-            'email' => 'required|email:rfs',
+            'email' => 'required|email:rfs,dns',
             'mobile' => 'required',
             'service' => 'required',
             'message' => 'required',
@@ -91,7 +91,7 @@ class EmailController extends Controller
         $input = $request->all();
         try {
             Lead::create($input);
-            //Mail::to($this->email)->send(new LeadFormEmail($request));
+            Mail::to($this->email)->send(new LeadFormEmail($request));
         } catch (Exception $e) {
             return redirect()->route('success.message')->with("error", $e->getMessage());
         }

@@ -203,37 +203,37 @@
                                                 @csrf
                                                 <p>
                                                     <label><br>
-                                                        <input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Name"></span><br>
+                                                        <input type="text" name="name" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Name" required></span><br>
                                                         <i class="fa fa-user"></i><br>
                                                     </label>
                                                 </p>
                                                 <p><label><br>
-                                                        <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Email"></span><br>
+                                                        <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Email" required></span><br>
                                                         <i class="fa fa-envelope"></i><br>
                                                     </label>
                                                 </p>
                                                 <p>
                                                     <label><br>
-                                                        <input type="text" name="mobile" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Mobile with Country Code"></span><br>
+                                                        <input type="text" name="mobile" value="" size="40" aria-required="true" aria-invalid="false" placeholder="Enter Your Mobile with Country Code" required></span><br>
                                                         <i class="fa fa-mobile fa-lg"></i><br>
                                                     </label>
                                                 </p>
                                                 <p>
                                                     <label><br>
-                                                        <select class="form-control" placeholder="Select Service" name="service">
+                                                        <select class="form-control" placeholder="Select Service" name="service" required>
                                                             <option value="">Select Service</option>
-                                                            <option value="">Accounting & Bookkeeping</option>
-                                                            <option value="">Tax Advisory</option>
-                                                            <option value="">VAT Services</option>
-                                                            <option value="">Financial Management</option>
-                                                            <option value="">General Services</option>
+                                                            <option value="Accounting & Bookkeeping">Accounting & Bookkeeping</option>
+                                                            <option value="Tax Advisory">Tax Advisory</option>
+                                                            <option value="VAT Services">VAT Services</option>
+                                                            <option value="Financial Management">Financial Management</option>
+                                                            <option value="General Services">General Services</option>
                                                         </select><br>
                                                         <br>
                                                     </label>
                                                 </p>
                                                 <p>
                                                     <label><br>
-                                                        <textarea class="form-control" placeholder="Your Message" name="message"></textarea><br>
+                                                        <textarea class="form-control" placeholder="Your Message" name="message" required></textarea><br>
                                                         <br>
                                                     </label>
                                                 </p>
@@ -561,13 +561,13 @@
                                 </p>
                                 <p>
                                     <label>Service<br>
-                                        <select class="form-control" placeholder="Select Service" name="service">
+                                        <select class="form-control" placeholder="Select Service" name="service" required>
                                             <option value="">Select Service</option>
-                                            <option value="">Accounting & Bookkeeping</option>
-                                            <option value="">Tax Advisory</option>
-                                            <option value="">VAT Services</option>
-                                            <option value="">Financial Management</option>
-                                            <option value="">General Services</option>
+                                            <option value="Accounting & Bookkeeping">Accounting & Bookkeeping</option>
+                                            <option value="Tax Advisory">Tax Advisory</option>
+                                            <option value="VAT Services">VAT Services</option>
+                                            <option value="Financial Management">Financial Management</option>
+                                            <option value="General Services">General Services</option>
                                         </select><br>
                                         <br>
                                     </label>

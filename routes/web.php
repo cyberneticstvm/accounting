@@ -30,6 +30,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/services/tax-advisory', 'tax')->name('services.tax');
         Route::get('/services/financial-and-management-accounting-consultancy', 'finance')->name('services.finance');
         Route::get('/services/vat-services', 'vat')->name('services.vat');
+        Route::get('/team', 'team')->name('team');
         Route::get('/location/map', 'map')->name('location.map');
 
         Route::get('/sitemap.xml', 'sitemap');

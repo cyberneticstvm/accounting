@@ -31,6 +31,14 @@ class WebController extends Controller
         return view('web.faqs', compact('title', 'keywords', 'description'));
     }
 
+    public function team()
+    {
+        $title = "Accounting, Tax & Advisory Services";
+        $keywords = "Accounting services Dubai, Tax consultant Dubai, Financial advisory, Auditing services, Payroll services, Bookkeeping";
+        $description = "Budgeting and forecasting, Accounting software solutions, Financial advisory Dubai, Corporate tax planning Dubai";
+        return view('web.team', compact('title', 'keywords', 'description'));
+    }
+
     public function blogs()
     {
         $title = "Accounting, Tax & Advisory Services";
