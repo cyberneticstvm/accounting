@@ -60,11 +60,11 @@
         <div id="wrapper_full" class="content_all_warpper">
             <!----page-header----->
             <!----pre loader----->
-            <div class="preloader-wrap">
+            <!--<div class="preloader-wrap">
                 <div class="preloader" style="background-image:url('{{ asset("/web/assets/images/preloader.gif") }}')">
                 </div>
                 <div class="overlay"></div>
-            </div>
+            </div>-->
             <!----pre loader end----->
             <div class="header_area " id="header_contents">
                 <!-- <div class="top_bar style_three bg_op_1 pd_top_20 pd_bottom_5 d_md_none">
