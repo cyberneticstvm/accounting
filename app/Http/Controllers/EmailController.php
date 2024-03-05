@@ -85,8 +85,6 @@ class EmailController extends Controller
             'name' => 'required',
             'email' => 'required|email:rfs,dns',
             'mobile' => 'required',
-            'service' => 'required',
-            'message' => 'required',
         ]);
         $input = $request->all();
         try {

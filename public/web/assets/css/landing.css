@@ -1,0 +1,11 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .modal_popup .modal-popup-inner {
+        max-width: 30% !important;
+    }
+}
+
+@media (min-width: 1281px) {
+    .modal_popup .modal-popup-inner {
+        max-width: 30% !important;
+    }
+}

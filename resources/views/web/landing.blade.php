@@ -36,6 +36,7 @@
     <link rel='stylesheet' href="{{ asset('/web/assets/css/scss/elements/theme-css.css') }}" type='text/css' media='all' />
     <link rel='stylesheet' id="creote-color-switcher-css" href="{{ asset('/web/assets/css/scss/elements/color-switcher/color1.css') }}" type='text/css' media='all' />
     <link href="{{ asset('/web/assets/css/mystickyelement.css') }}" rel="stylesheet">
+    <link rel='stylesheet' href="{{ asset('/web/assets/css/landing.css') }}" type='text/css' media='all' />
     <!-- Style-->
 </head>
 
@@ -535,7 +536,7 @@
             <div class="close-modal"><i class="fa fa-times"></i></div>
             <div class="modal_box">
                 <div class="row">
-                    <div class="col-lg-5 col-md-12 form_inner">
+                    <div class="col form_inner">
                         <div class="form_content">
                             <form method="post" action="{{ route('form.submit.landing') }}">
                                 @csrf
@@ -559,7 +560,7 @@
                                         <i class="fa fa-mobile"></i><br />
                                     </label>
                                 </p>
-                                <p>
+                                <!--<p>
                                     <label>Service<br>
                                         <select class="form-control" placeholder="Select Service" name="service" required>
                                             <option value="">Select Service</option>
@@ -578,36 +579,9 @@
                                         <br />
                                         <i class="fa fa-comments"></i><br />
                                     </label>
-                                </p>
+                                </p>-->
                                 <p><input class="btn-submit" type="submit" value="Submit" /></p>
                             </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-12 about_company_inner">
-                        <div class="abt_content">
-                            <div class="logo">
-                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega" class="company_logo_modal">
-                            </div>
-                            <div class="text">
-                                <p class="text-justify"> We understand the intricacies of financial management and the importance of robust accounting practices for businesses to thrive in today's dynamic marketplace. As a leading accounting and tax advisory service based in the vibrant city of Dubai, we specialize in providing tailored financial solutions to meet the diverse needs of businesses, entrepreneurs, and individuals.</p>
-                                <a href="{{ route('about') }}">Read More</a>
-                            </div>
-                            <div class="post_contet_modal">
-                                <h2> Latest Blogs</h2>
-                                <div class="post_enable">
-                                    @forelse(blogs()->take(5) as $key => $item)
-                                    <div class="modal_post_grid">
-                                        <a href="{{ route('blog.single', $item->slug) }}">
-                                            <img width="852" height="812" src="{{ ($item->featured_image) ? asset($item->featured_image) : asset('/web/assets/images/blog/blog-image-9.jpg') }}" class="main_img wp-post-image" alt="{{ $item->title }}" />
-                                        </a>
-                                    </div>
-                                    @empty
-                                    @endforelse
-                                </div>
-                            </div>
-                            <div class="copright">
-                                © {{ date('Y') }} Aurega Group Limited. All Rights Reserved.
-                            </div>
                         </div>
                     </div>
                 </div>
