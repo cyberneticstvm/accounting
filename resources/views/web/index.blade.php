@@ -423,7 +423,7 @@
                     <div class="project_caro_section carousel style_three ">
                         <div class="swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden" data-swiper="{
                                           &quot;autoplay&quot;: {
-                                            &quot;delay&quot;: 6000
+                                            &quot;delay&quot;: 3000
                                           },
                                           &quot;freeMode&quot;: false,
                                           &quot;loop&quot;: true,
@@ -456,7 +456,7 @@
                             <div class="swiper-wrapper" id="swiper-wrapper-7ddafdf6cbb5bcae" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1300px, 0px, 0px);">
 
 
-                                <div class="swiper-slide" role="group" aria-label="1 / 7" data-swiper-slide-index="2" style="width: 315px; margin-right: 10px;">
+                                <div class="swiper-slide" role="group" aria-label="1 / 7" data-swiper-slide-index="1" style="width: 315px; margin-right: 10px;">
                                     <div class="project_post style_nine">
                                         <div class="image">
                                             <img width="742" height="495" src="{{ asset('/web/assets/images/team/ashraf.webp') }}" class="img-fluid" alt="img">
@@ -470,7 +470,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" role="group" aria-label="2 / 7" data-swiper-slide-index="3" style="width: 315px; margin-right: 10px;">
+                                <div class="swiper-slide" role="group" aria-label="2 / 7" data-swiper-slide-index="2" style="width: 315px; margin-right: 10px;">
                                     <div class="project_post style_nine">
                                         <div class="image">
                                             <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/yogesh.webp') }}" class="img-fluid" alt="img">
@@ -484,7 +484,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" role="group" aria-label="3 / 7" data-swiper-slide-index="4" style="width: 315px; margin-right: 10px;">
+                                <div class="swiper-slide" role="group" aria-label="3 / 7" data-swiper-slide-index="3" style="width: 315px; margin-right: 10px;">
                                     <div class="project_post style_nine">
                                         <div class="image">
                                             <img width="746" height="497" src="{{ asset('/web/assets/images/team/rohit.webp') }}" class="img-fluid" alt="img">
@@ -498,7 +498,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 7" data-swiper-slide-index="5" style="width: 315px; margin-right: 10px;">
+                                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 7" data-swiper-slide-index="4" style="width: 315px; margin-right: 10px;">
                                     <div class="project_post style_nine">
                                         <div class="image">
                                             <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/sufia.webp') }}" class="img-fluid" alt="img">
@@ -512,7 +512,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 7" data-swiper-slide-index="6" style="width: 315px; margin-right: 10px;">
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 7" data-swiper-slide-index="5" style="width: 315px; margin-right: 10px;">
                                     <div class="project_post style_nine">
                                         <div class="image">
                                             <img width="746" height="497" src="{{ asset('/web/assets/images/team/purush.webp') }}" class="img-fluid" alt="img">
@@ -526,7 +526,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 7" data-swiper-slide-index="7" style="width: 315px; margin-right: 10px;">
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 7" data-swiper-slide-index="6" style="width: 315px; margin-right: 10px;">
                                     <div class="project_post style_nine">
                                         <div class="image">
                                             <img width="742" height="495" src="{{ asset('/web/assets/images/team/renil.webp') }}" class="img-fluid" alt="img">
@@ -540,7 +540,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="8" style="width: 315px; margin-right: 10px;">
+                                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="7" style="width: 315px; margin-right: 10px;">
                                     <div class="project_post style_nine">
                                         <div class="image">
                                             <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/imran.webp') }}" class="img-fluid" alt="img">
