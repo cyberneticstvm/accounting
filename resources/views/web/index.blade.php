@@ -401,6 +401,172 @@
         <!--===============spacing==============-->
     </section>
     <!---tab-end--->
+    <div class="pd_bottom_90"></div>
+    <section class="project-section bg_op_1">
+
+        <div class="medium-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title_all_box style_one text-center dark_color">
+                        <div class="title_sections ">
+                            <!--<div class="before_title">Our Clients</div>-->
+                            <h2>Team Members</h2>
+                        </div>
+                        <!--===============spacing==============-->
+                        <div class="pd_bottom_15"></div>
+                        <!--===============spacing==============-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="project_caro_section carousel style_three ">
+                        <div class="swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden" data-swiper="{
+                                          &quot;autoplay&quot;: {
+                                            &quot;delay&quot;: 6000
+                                          },
+                                          &quot;freeMode&quot;: false,
+                                          &quot;loop&quot;: true,
+                                          &quot;speed&quot;: 1000,
+                                          &quot;centeredSlides&quot;: false,
+                                          &quot;slidesPerView&quot;: 4,
+                                          &quot;spaceBetween&quot;: 10,
+                                          &quot;pagination&quot;: {
+                                            &quot;el&quot;: &quot;.swiper-pagination&quot;,
+                                            &quot;clickable&quot;: true
+                                          },
+                                          &quot;breakpoints&quot;: {
+                                             &quot;1200&quot;: {
+                                                &quot;slidesPerView&quot;: 4
+                                             },
+                                             &quot;1024&quot;: {
+                                              &quot;slidesPerView&quot;: 3 
+                                             },
+                                            &quot;768&quot;: {
+                                              &quot;slidesPerView&quot;: 2 
+                                            },
+                                            &quot;576&quot;: {
+                                              &quot;slidesPerView&quot;: 1 
+                                            },
+                                            &quot;0&quot;: {
+                                              &quot;slidesPerView&quot;: 1 
+                                            }
+                                          }
+                                        }">
+                            <div class="swiper-wrapper" id="swiper-wrapper-7ddafdf6cbb5bcae" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1300px, 0px, 0px);">
+
+
+                                <div class="swiper-slide" role="group" aria-label="1 / 7" data-swiper-slide-index="2" style="width: 315px; margin-right: 10px;">
+                                    <div class="project_post style_nine">
+                                        <div class="image">
+                                            <img width="742" height="495" src="{{ asset('/web/assets/images/team/ashraf.webp') }}" class="img-fluid" alt="img">
+                                            <div class="image_zoom_box ">
+                                                <a href="{{ asset('/web/assets/images/team/ashraf.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="project_caro_content">
+                                            <p>Mr. Ashraf M. Rahman</p>
+                                            <h2 class="title_pro"><a href="#" rel="bookmark">Chairman & CEO</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="2 / 7" data-swiper-slide-index="3" style="width: 315px; margin-right: 10px;">
+                                    <div class="project_post style_nine">
+                                        <div class="image">
+                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/yogesh.webp') }}" class="img-fluid" alt="img">
+                                            <div class="image_zoom_box ">
+                                                <a href="{{ asset('/web/assets/images/team/yogesh.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="project_caro_content">
+                                            <p>Mr. Yogesh Bhola</p>
+                                            <h2 class="title_pro"><a href="#" rel="bookmark">Managing Director</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="3 / 7" data-swiper-slide-index="4" style="width: 315px; margin-right: 10px;">
+                                    <div class="project_post style_nine">
+                                        <div class="image">
+                                            <img width="746" height="497" src="{{ asset('/web/assets/images/team/rohit.webp') }}" class="img-fluid" alt="img">
+                                            <div class="image_zoom_box ">
+                                                <a href="{{ asset('/web/assets/images/team/rohit.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="project_caro_content">
+                                            <p>CA Rohit Kavale</p>
+                                            <h2 class="title_pro"><a href="#" rel="bookmark">Head of Finance and Taxation</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 7" data-swiper-slide-index="5" style="width: 315px; margin-right: 10px;">
+                                    <div class="project_post style_nine">
+                                        <div class="image">
+                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/sufia.webp') }}" class="img-fluid" alt="img">
+                                            <div class="image_zoom_box ">
+                                                <a href="{{ asset('/web/assets/images/team/sufia.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="project_caro_content">
+                                            <p>Ms. Sufia Alam I</p>
+                                            <h2 class="title_pro"><a href="#" rel="bookmark">CFO & Senior Tax Accounting Manager</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 7" data-swiper-slide-index="6" style="width: 315px; margin-right: 10px;">
+                                    <div class="project_post style_nine">
+                                        <div class="image">
+                                            <img width="746" height="497" src="{{ asset('/web/assets/images/team/purush.webp') }}" class="img-fluid" alt="img">
+                                            <div class="image_zoom_box ">
+                                                <a href="{{ asset('/web/assets/images/team/purush.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="project_caro_content">
+                                            <p>Mr. Purushothaman Arunagiri</p>
+                                            <h2 class="title_pro"><a href="#" rel="bookmark">Accounts and Admin Manager</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 7" data-swiper-slide-index="7" style="width: 315px; margin-right: 10px;">
+                                    <div class="project_post style_nine">
+                                        <div class="image">
+                                            <img width="742" height="495" src="{{ asset('/web/assets/images/team/renil.webp') }}" class="img-fluid" alt="img">
+                                            <div class="image_zoom_box ">
+                                                <a href="{{ asset('/web/assets/images/team/renil.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="project_caro_content">
+                                            <p>Mr. Renil Thomas</p>
+                                            <h2 class="title_pro"><a href="#" rel="bookmark">Accountant (VAT & TAX)</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="8" style="width: 315px; margin-right: 10px;">
+                                    <div class="project_post style_nine">
+                                        <div class="image">
+                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/imran.webp') }}" class="img-fluid" alt="img">
+                                            <div class="image_zoom_box ">
+                                                <a href="{{ asset('/web/assets/images/team/imran.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="project_caro_content">
+                                            <p>Mr. Imran Mansoor</p>
+                                            <h2 class="title_pro"><a href="#" rel="bookmark">Business Development Manager</a></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p_pagination">
+                                <div class="pswiper-pagination"></div>
+                            </div>
+
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <section class="testimonial-section">
         <!--===============spacing==============-->
         <div class="pd_bottom_80"></div>
@@ -464,12 +630,9 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/2.jpeg') }}" alt="Aurega Accounting">
+                                            <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
-                                            <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
-                                            </div>
                                             <div class="comment text-justify">
                                                 I am highly impressed with the exceptional services provided by AUREGA Accounting Services. They have demonstrated exceptional knowledge and expertise in managing our company's financial records. Their attention to detail, professionalism, and prompt service have been instrumental in our financial success.
                                             </div>
@@ -495,12 +658,9 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/4.jpeg') }}" alt="Aurega Accounting">
+                                            <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
-                                            <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
-                                            </div>
                                             <div class="comment text-justify">
                                                 I would like to express my deep appreciation for the outstanding support provided by AUREGA Accounting & Tax Advisory. Excellent service.
                                             </div>
@@ -526,12 +686,9 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/banner-four-bg.jpg') }}" alt="Aurega Accounting">
+                                            <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
-                                            <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
-                                            </div>
                                             <div class="comment text-justify">
                                                 AUREGA has been an invaluable asset to our organization. Their expertise in tax planning and strategic financial advice has helped us optimize our financial resources. Recommended.
                                             </div>
@@ -557,12 +714,9 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/5.jpeg') }}" alt="Aurega Accounting">
+                                            <img src="{{ asset('/web/assets/images/about/female.png') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
-                                            <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
-                                            </div>
                                             <div class="comment text-justify">
                                                 Excellent Service by Aurega Accounting, Highly Recommended.
                                             </div>
@@ -588,12 +742,9 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial_box clearfix">
                                         <div class="image">
-                                            <img src="{{ asset('/web/assets/images/about/6.jpeg') }}" alt="Aurega Accounting">
+                                            <img src="{{ asset('/web/assets/images/about/male.jpg') }}" alt="Aurega Accounting">
                                         </div>
                                         <div class="authour_details">
-                                            <div class="b_image">
-                                                <img src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" alt="Aurega Accounting">
-                                            </div>
                                             <div class="comment text-justify">
                                                 Aurega Accounting Service's expertise in financial analysis and forecasting has helped us make informed decisions and achieve our growth targets. Their professionalism, integrity, and commitment to excellence make them a trusted partner for any organization looking for top-quality accounting services.
                                             </div>

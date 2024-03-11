@@ -162,7 +162,7 @@
                 </header>
             </div>
             <div id="content" class="site-content">
-                <section class="banner-section bg_op_1" style="background-image: url('{{ asset('/web/assets/images/sliders/slider-2-bg.webp') }}');">
+                <section class="banner-section bg_op_1" style="background-image: url('{{ asset('/web/assets/images/sliders/5.png') }}');">
                     <!--===============spacing==============-->
                     <div class="pd_top_100"></div>
                     <!--===============spacing==============-->
@@ -275,19 +275,9 @@
                                     <div class="pd_bottom_20"></div>
                                     <!--===============spacing==============-->
                                     <div class="description_box">
-                                        <p class="text-justify">Aurega Accounting and Tax Advisory LLC stands as a premier provider of accounting services in Dubai, boasting over 15 years of industry experience. As certified professional chartered accountants, we specialize in delivering comprehensive bookkeeping and taxation services to a diverse clientele.</p><br />
+                                        <p class="text-justify">Aurega Accounting and Tax Advisory LLC stands as a premier provider of accounting services in Dubai, boasting over 10 years of industry experience. As certified professional chartered accountants, we specialize in delivering comprehensive bookkeeping and taxation services to a diverse clientele.</p><br />
                                         <p class="text-justify">At Aurega, we excel in managing your daily finances with precision and efficiency. Our meticulous bookkeeping services ensure the accurate recording of your income and expenses, maintaining up-to-date financial records. This clarity in your business's financial standing empowers you to make informed and strategic decisions, driving success and growth.</p>
                                     </div>
-                                    <!--===============spacing==============-->
-                                    <div class="pd_bottom_20"></div>
-                                    <!--===============spacing==============-->
-                                    <div class="title_all_box style_one text-left  dark_color">
-                                        <div class="">
-                                            <h2>Why Choose Us?</h2>
-                                            <p class="text-justify">Over two decades of substantial experience offering fully outsourced and co-sourced accounting solutions. Consistent delivery of high-quality results, meeting deadlines and adhering to your financial constraints. Commitment to accounting for performance with precision, objectivity, and ethical standards. Team comprising experts with extensive knowledge of the Middle Eastern market and its regulatory framework. Dedicated to providing personalized and professional services, prioritizing client satisfaction.</p>
-                                        </div>
-                                    </div>
-
                                     <!--===============spacing==============-->
                                     <div class="pd_bottom_25"></div>
                                     <!--===============spacing==============-->
@@ -305,11 +295,10 @@
                                     <div class="image two">
                                         <img src="{{ asset('/web/assets/images/about/pic2.jpeg') }}" class="img-fluid" alt="Aurega Accounting">
                                     </div>
-                                    <div class="authour_quotes">
-                                        <i class="icon-quote"></i>
-                                        <h6>We are committed to being your trusted partner.</h6>
-                                        <p class="text-center"><a href="{{ asset('/storage/docs/company-profile.pdf') }}" target="_blank" class="text-white">View Our Company Profile</a></p>
-                                    </div>
+                                </div>
+                                <div class="">
+                                    <h2>Why Choose Us?</h2>
+                                    <p class="text-justify">Over two decades of substantial experience offering fully outsourced and co-sourced accounting solutions. Consistent delivery of high-quality results, meeting deadlines and adhering to your financial constraints. Commitment to accounting for performance with precision, objectivity, and ethical standards. Team comprising experts with extensive knowledge of the Middle Eastern market and its regulatory framework. Dedicated to providing personalized and professional services, prioritizing client satisfaction.</p>
                                 </div>
                             </div>
                         </div>
@@ -614,7 +603,10 @@
     <!---========================== javascript ==========================-->
     <script>
         $(function() {
-            $('.modal_popup').addClass('contact-popup-visible');
+            setTimeout(function() {
+                $('.modal_popup').addClass('contact-popup-visible');
+            }, 20000);
+
             $('form').submit(function() {
                 $(".btn-submit").attr("disabled", true);
                 $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");
