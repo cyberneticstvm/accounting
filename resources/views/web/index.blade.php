@@ -435,6 +435,10 @@
                                             &quot;el&quot;: &quot;.swiper-pagination&quot;,
                                             &quot;clickable&quot;: true
                                           },
+                                          &quot;navigation&quot;: {
+                                            &quot;nextEl&quot;: &quot;.swiper-button-next&quot;,
+                                            &quot;prevEl&quot;: &quot;.swiper-button-prev&quot;
+                                            },
                                           &quot;breakpoints&quot;: {
                                              &quot;1200&quot;: {
                                                 &quot;slidesPerView&quot;: 4
@@ -466,7 +470,7 @@
                                         </div>
                                         <div class="project_caro_content">
                                             <p>Mr. Ashraf M. Rahman</p>
-                                            <h2 class="title_pro"><a href="#" rel="bookmark">Chairman & CEO</a></h2>
+                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Chairman & CEO</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -480,7 +484,7 @@
                                         </div>
                                         <div class="project_caro_content">
                                             <p>Mr. Yogesh Bhola</p>
-                                            <h2 class="title_pro"><a href="#" rel="bookmark">Managing Director</a></h2>
+                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Managing Director</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -494,7 +498,7 @@
                                         </div>
                                         <div class="project_caro_content">
                                             <p>CA Rohit Kavale</p>
-                                            <h2 class="title_pro"><a href="#" rel="bookmark">Head of Finance and Taxation</a></h2>
+                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Head of Finance and Taxation</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -507,8 +511,8 @@
                                             </div>
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>Ms. Sufia Alam I</p>
-                                            <h2 class="title_pro"><a href="#" rel="bookmark">CFO & Senior Tax Accounting Manager</a></h2>
+                                            <p>Ms. Sufia Alam</p>
+                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">CFO & Senior Tax Accounting Manager</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -522,7 +526,7 @@
                                         </div>
                                         <div class="project_caro_content">
                                             <p>Mr. Purushothaman Arunagiri</p>
-                                            <h2 class="title_pro"><a href="#" rel="bookmark">Accounts and Admin Manager</a></h2>
+                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Accounts and Admin Manager</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -536,7 +540,7 @@
                                         </div>
                                         <div class="project_caro_content">
                                             <p>Mr. Renil Thomas</p>
-                                            <h2 class="title_pro"><a href="#" rel="bookmark">Accountant (VAT & TAX)</a></h2>
+                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Accountant (VAT & TAX)</a></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -550,14 +554,16 @@
                                         </div>
                                         <div class="project_caro_content">
                                             <p>Mr. Imran Mansoor</p>
-                                            <h2 class="title_pro"><a href="#" rel="bookmark">Business Development Manager</a></h2>
+                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Business Development Manager</a></h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="p_pagination">
+                            <!--<div class="p_pagination">
                                 <div class="pswiper-pagination"></div>
-                            </div>
+                            </div>-->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
 
                             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                         </div>

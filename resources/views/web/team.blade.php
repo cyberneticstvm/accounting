@@ -73,7 +73,7 @@
                             <img src="{{ asset('/web/assets/images/team/sufia.webp') }}" alt="CFO & Senior Tax Accounting Manager - Aurega" />
                         </div>
                         <div class="col-9 txt_content">
-                            <h3><a href="#" target="_blank" rel="nofollow">Ms. Sufia Alam I</a></h3>
+                            <h3><a href="#" target="_blank" rel="nofollow">Ms. Sufia Alam</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">CFO & Senior Tax Accounting Manager</a></h5>
                             <p class="text-justify">Ms. Sufia Alam emerges as a seasoned Accounting & Finance professional with an impressive track record spanning over 17 years. Her diverse industry exposure encompasses sectors such as oil & gas, energy, broadcasting & media solutions, banking, and manufacturing. Within these industries, she has undertaken a range of responsibilities, including full cycle accounting, General Ledger management, financial analysis, tax compliance, and audit processes, as well as comprehensive Accounting & Financial Reporting.</p>
                             <p class="text-justify">Commencing her career in 2007 with Task FZCO, Ms. Alam subsequently transitioned to Standard Chartered Bank in 2009, followed by a move to SONY Corporation in 2010. Currently serving as the CFO & Senior Tax Accounting Manager at Aurega Accounting and Tax Advisory L.L.C, her role encompasses a broad spectrum of strategic and tactical responsibilities. These include budget management, cost-benefit analysis, and forecasting needs, reflecting her involvement in crucial financial decision-making processes.</p>
