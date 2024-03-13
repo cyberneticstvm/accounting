@@ -13,10 +13,10 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 mb-xl-0">
                 <div class="icon_box_all style_one dark_color_one">
                     <div class="row">
-                        <div class="col-3 member_image image img_hover-1">
-                            <img src="{{ asset('/web/assets/images/team/ashraf.webp') }}" alt="CEO & Chairman - Aurega" />
+                        <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
+                            <img src="{{ asset('/web/assets/images/team/15.jpg') }}" alt="CEO & Chairman - Aurega" />
                         </div>
-                        <div class="col-9 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
                             <h3><a href="#" target="_blank" rel="nofollow">Mr. Ashraf M. Rahman</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">Chairman & CEO</a></h5>
                             <p class="text-justify">Mr. Ashraf M. Rahman's professional journey is marked by a wealth of experience and notable achievements. Commencing his career in 1998 with Lootah Group, he played a significant role in the United Nations 'Oil for Food Program,' showcasing early involvement in international affairs. Subsequently, his transition to a Financial Services company in 2003 saw him managing substantial investment portfolios totaling US $90.7 million for high net-worth individuals. Furthermore, he excelled in raising private equity and offering strategic advice on financial restructuring.</p>
@@ -32,10 +32,10 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 mb-xl-0">
                 <div class="icon_box_all style_one dark_color_one">
                     <div class="row">
-                        <div class="col-3 member_image image img_hover-1">
-                            <img src="{{ asset('/web/assets/images/team/yogesh.webp') }}" alt="Managing Director - Aurega" />
+                        <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
+                            <img src="{{ asset('/web/assets/images/team/17.jpg') }}" alt="Managing Director - Aurega" />
                         </div>
-                        <div class="col-9 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
                             <h3><a href="#" target="_blank" rel="nofollow">Mr. Yogesh Bhola</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">Managing Director</a></h5>
                             <p class="text-justify">Mr. Yogesh Bhola, in his capacity as the Managing Director of Aurega Corporate Services L.L.C & Managing Partner of Dr Alter by Aurega Fashion, brings forth a wealth of expertise amassed over more than 22 years of diverse professional experience. His proficiency extends to offering specialized advice on critical aspects of business, including Company Formation, Business set up, Branch/representative office establishment, Offshore incorporation, and the Registration of Trade Marks, Patents, and Copyrights.</p>
@@ -50,10 +50,10 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 mb-xl-0">
                 <div class="icon_box_all style_one dark_color_one">
                     <div class="row">
-                        <div class="col-3 member_image image img_hover-1">
-                            <img src="{{ asset('/web/assets/images/team/rohit.webp') }}" alt="Head of Finance and Taxation - Aurega" />
+                        <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
+                            <img src="{{ asset('/web/assets/images/team/6.jpg') }}" alt="Head of Finance and Taxation - Aurega" />
                         </div>
-                        <div class="col-9 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
                             <h3><a href="#" target="_blank" rel="nofollow">CA Rohit Kavale</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">Head of Finance and Taxation</a></h5>
                             <p class="text-justify">Mr. Rohit Kavale's professional journey reflects a commendable trajectory within the finance and taxation domain. Commencing his career as a Chartered Accountant in 2012, he has accumulated 14 years of diverse industry experience. His initial engagement involved providing comprehensive financial services to clients in the Mumbai region, encompassing internal audit, income tax, value-added tax, goods and services tax, as well as broader accounting and advisory services.</p>
@@ -69,10 +69,10 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 mb-xl-0">
                 <div class="icon_box_all style_one dark_color_one">
                     <div class="row">
-                        <div class="col-3 member_image image img_hover-1">
-                            <img src="{{ asset('/web/assets/images/team/sufia.webp') }}" alt="CFO & Senior Tax Accounting Manager - Aurega" />
+                        <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
+                            <img src="{{ asset('/web/assets/images/team/7.jpg') }}" alt="CFO & Senior Tax Accounting Manager - Aurega" />
                         </div>
-                        <div class="col-9 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
                             <h3><a href="#" target="_blank" rel="nofollow">Ms. Sufia Alam</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">CFO & Senior Tax Accounting Manager</a></h5>
                             <p class="text-justify">Ms. Sufia Alam emerges as a seasoned Accounting & Finance professional with an impressive track record spanning over 17 years. Her diverse industry exposure encompasses sectors such as oil & gas, energy, broadcasting & media solutions, banking, and manufacturing. Within these industries, she has undertaken a range of responsibilities, including full cycle accounting, General Ledger management, financial analysis, tax compliance, and audit processes, as well as comprehensive Accounting & Financial Reporting.</p>
@@ -88,10 +88,10 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 mb-xl-0">
                 <div class="icon_box_all style_one dark_color_one">
                     <div class="row">
-                        <div class="col-3 member_image image img_hover-1">
-                            <img src="{{ asset('/web/assets/images/team/purush.webp') }}" alt="Accounts and Admin Manager - Aurega" />
+                        <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
+                            <img src="{{ asset('/web/assets/images/team/3.png') }}" alt="Accounts and Admin Manager - Aurega" />
                         </div>
-                        <div class="col-9 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
                             <h3><a href="#" target="_blank" rel="nofollow">Mr. Purushothaman Arunagiri</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">Accounts and Admin Manager</a></h5>
                             <p class="text-justify">Mr. Purushothaman Arunagiri holds the position of Accounts and Admin Manager at Aurega, where he demonstrates a self-managed and result-oriented approach. His professional background encompasses a comprehensive skill set and extensive experience spanning various domains including financial analysis, profit and loss management, project management office (PMO) functions, estimating, forecasting, administration, budgeting, warranty management, client relations, business finance operations, and process management in the Business Process Services (BPS) industry.</p>
@@ -105,10 +105,10 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 mb-xl-0">
                 <div class="icon_box_all style_one dark_color_one">
                     <div class="row">
-                        <div class="col-3 member_image image img_hover-1">
-                            <img src="{{ asset('/web/assets/images/team/renil.webp') }}" alt="Accountant (VAT & TAX) - Aurega" />
+                        <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
+                            <img src="{{ asset('/web/assets/images/team/2.png') }}" alt="Accountant (VAT & TAX) - Aurega" />
                         </div>
-                        <div class="col-9 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
                             <h3><a href="#" target="_blank" rel="nofollow">Mr. Renil Thomas</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">Accountant (VAT & TAX)</a></h5>
                             <p class="text-justify">Mr. Renil Thomas, holding the position of Accountant - VAT & Tax at Aurega Accounting and Tax Advisory L.L.C., possesses a robust educational background and professional experience conducive to his role. With a Master of Business Administration (MBA) degree in Finance and Financial Management Services from Bharathiar University, Coimbatore, and a Bachelor of Commerce (B.Com) degree specializing in Finance and Taxation from MES College Erumely, Mr. Thomas demonstrates a comprehensive understanding of financial principles and tax regulations.</p>
@@ -124,10 +124,10 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-4 mb-lg-0 mb-xl-0">
                 <div class="icon_box_all style_one dark_color_one">
                     <div class="row">
-                        <div class="col-3 member_image image img_hover-1">
-                            <img src="{{ asset('/web/assets/images/team/imran.webp') }}" alt="Business Development Manager - Aurega" />
+                        <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
+                            <img src="{{ asset('/web/assets/images/team/8.jpg') }}" alt="Business Development Manager - Aurega" />
                         </div>
-                        <div class="col-9 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
                             <h3><a href="#" target="_blank" rel="nofollow">Mr. Imran Mansoor</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">Business Development Manager</a></h5>
                             <p class="text-justify">Mr. Imran Mansoor brings a wealth of expertise to his role as Business Development Manager at Aurega Group L.L.C., characterized by his accomplished and results-driven approach. His professional background encompasses various facets of business administration, including business establishment, human resources management, and logistics operations. Notably, Imran has demonstrated proficiency in managing business development and marketing activities, overseeing projects from inception to completion, and formulating strategic plans to capitalize on new business opportunities.</p>
