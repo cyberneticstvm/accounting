@@ -461,100 +461,79 @@
 
 
                                 <div class="swiper-slide" role="group" aria-label="1 / 7" data-swiper-slide-index="1" style="width: 315px; margin-right: 10px;">
-                                    <div class="project_post style_nine">
+                                    <div class="project_post">
                                         <div class="image">
-                                            <img width="742" height="495" src="{{ asset('/web/assets/images/team/ashraf.webp') }}" class="img-fluid" alt="img">
-                                            <div class="image_zoom_box ">
-                                                <a href="{{ asset('/web/assets/images/team/ashraf.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
-                                            </div>
+                                            <img width="742" height="495" src="{{ asset('/web/assets/images/team/15.jpg') }}" class="img-fluid" alt="img">
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>Mr. Ashraf M. Rahman</p>
-                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Chairman & CEO</a></h2>
+                                            <h5>Mr. Ashraf M. Rahman</h5>
+                                            <p class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Chairman & CEO</a></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide" role="group" aria-label="2 / 7" data-swiper-slide-index="2" style="width: 315px; margin-right: 10px;">
-                                    <div class="project_post style_nine">
+                                    <div class="project_post">
                                         <div class="image">
-                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/yogesh.webp') }}" class="img-fluid" alt="img">
-                                            <div class="image_zoom_box ">
-                                                <a href="{{ asset('/web/assets/images/team/yogesh.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
-                                            </div>
+                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/17.jpg') }}" class="img-fluid" alt="img">
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>Mr. Yogesh Bhola</p>
-                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Managing Director</a></h2>
+                                            <h5>Mr. Yogesh Bhola</h5>
+                                            <p class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Managing Director</a></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide" role="group" aria-label="3 / 7" data-swiper-slide-index="3" style="width: 315px; margin-right: 10px;">
-                                    <div class="project_post style_nine">
+                                    <div class="project_post">
                                         <div class="image">
-                                            <img width="746" height="497" src="{{ asset('/web/assets/images/team/rohit.webp') }}" class="img-fluid" alt="img">
-                                            <div class="image_zoom_box ">
-                                                <a href="{{ asset('/web/assets/images/team/rohit.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
-                                            </div>
+                                            <img width="746" height="497" src="{{ asset('/web/assets/images/team/6.jpg') }}" class="img-fluid" alt="img">
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>CA Rohit Kavale</p>
-                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Head of Finance and Taxation</a></h2>
+                                            <h5>CA Rohit Kavale</h5>
+                                            <p class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Head of Finance and Taxation</a></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 7" data-swiper-slide-index="4" style="width: 315px; margin-right: 10px;">
-                                    <div class="project_post style_nine">
+                                    <div class="project_post">
                                         <div class="image">
-                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/sufia.webp') }}" class="img-fluid" alt="img">
-                                            <div class="image_zoom_box ">
-                                                <a href="{{ asset('/web/assets/images/team/sufia.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
-                                            </div>
+                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/7.jpg') }}" class="img-fluid" alt="img">
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>Ms. Sufia Alam</p>
-                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">CFO & Senior Tax Accounting Manager</a></h2>
+                                            <h5>Ms. Sufia Alam</h5>
+                                            <p class="title_pro"><a href="{{ route('team') }}" rel="bookmark">CFO & Senior Tax Accounting Manager</a></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 7" data-swiper-slide-index="5" style="width: 315px; margin-right: 10px;">
-                                    <div class="project_post style_nine">
+                                    <div class="project_post">
                                         <div class="image">
-                                            <img width="746" height="497" src="{{ asset('/web/assets/images/team/purush.webp') }}" class="img-fluid" alt="img">
-                                            <div class="image_zoom_box ">
-                                                <a href="{{ asset('/web/assets/images/team/purush.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
-                                            </div>
+                                            <img width="746" height="497" src="{{ asset('/web/assets/images/team/3.png') }}" class="img-fluid" alt="img">
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>Mr. Purushothaman Arunagiri</p>
-                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Accounts and Admin Manager</a></h2>
+                                            <h5>Mr. Purushothaman Arunagiri</h5>
+                                            <p class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Accounts and Admin Manager</a></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 7" data-swiper-slide-index="6" style="width: 315px; margin-right: 10px;">
-                                    <div class="project_post style_nine">
+                                    <div class="project_post">
                                         <div class="image">
-                                            <img width="742" height="495" src="{{ asset('/web/assets/images/team/renil.webp') }}" class="img-fluid" alt="img">
-                                            <div class="image_zoom_box ">
-                                                <a href="{{ asset('/web/assets/images/team/renil.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
-                                            </div>
+                                            <img width="742" height="495" src="{{ asset('/web/assets/images/team/2.png') }}" class="img-fluid" alt="img">
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>Mr. Renil Thomas</p>
-                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Accountant (VAT & TAX)</a></h2>
+                                            <h5>Mr. Renil Thomas</h5>
+                                            <p class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Accountant (VAT & TAX)</a></p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide" role="group" aria-label="7 / 7" data-swiper-slide-index="7" style="width: 315px; margin-right: 10px;">
-                                    <div class="project_post style_nine">
+                                    <div class="project_post">
                                         <div class="image">
-                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/imran.webp') }}" class="img-fluid" alt="img">
-                                            <div class="image_zoom_box ">
-                                                <a href="{{ asset('/web/assets/images/team/imran.webp') }}" data-fancybox="gallery"><span class="fa fa-plus zoom_icon"></span></a>
-                                            </div>
+                                            <img loading="lazy" width="999" height="665" src="{{ asset('/web/assets/images/team/8.jpg') }}" class="img-fluid" alt="img">
                                         </div>
                                         <div class="project_caro_content">
-                                            <p>Mr. Imran Mansoor</p>
-                                            <h2 class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Business Development Manager</a></h2>
+                                            <h5>Mr. Imran Mansoor</h5>
+                                            <p class="title_pro"><a href="{{ route('team') }}" rel="bookmark">Business Development Manager</a></p>
                                         </div>
                                     </div>
                                 </div>

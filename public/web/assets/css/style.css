@@ -648,3 +648,10 @@ body.home .page_header_default {
 .title_all_box.style_three .title_sections h6 {
   font-size: 35px !important;
 }
+
+.project_post .image img {
+  border-radius: 25px;
+  width: 95%;
+  height: 100% !important;
+  border: 15px solid #f8f9fa;
+}
