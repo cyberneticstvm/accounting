@@ -20730,7 +20730,7 @@ header .flaticon-list {
 .icon_box_all.style_one {
   background: #fff;
   box-shadow: var(--box-shadow);
-  /*padding: 35px 30px 30px;*/
+  padding: 35px 0px 30px;
   border-radius: 10px;
 }
 
