@@ -16,7 +16,7 @@
                         <div class="col-md-3 col-sm-3 col-xs-12 member_image image img_hover-1">
                             <img src="{{ asset('/web/assets/images/team/15.jpg') }}" alt="CEO & Chairman - Aurega" />
                         </div>
-                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content">
+                        <div class="col-md-9 col-sm-9 col-xs-12 txt_content mt-5">
                             <h3><a href="#" target="_blank" rel="nofollow">Mr. Ashraf M. Rahman</a></h3>
                             <h5><a href="#" target="_blank" rel="nofollow" class="text-muted">Chairman & CEO</a></h5>
                             <p class="text-justify">Mr. Ashraf M. Rahman's professional journey is marked by a wealth of experience and notable achievements. Commencing his career in 1998 with Lootah Group, he played a significant role in the United Nations 'Oil for Food Program,' showcasing early involvement in international affairs. Subsequently, his transition to a Financial Services company in 2003 saw him managing substantial investment portfolios totaling US $90.7 million for high net-worth individuals. Furthermore, he excelled in raising private equity and offering strategic advice on financial restructuring.</p>
