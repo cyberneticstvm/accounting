@@ -659,3 +659,7 @@ body.home .page_header_default {
 .member_image img {
   border-radius: 20px !important;
 }
+
+.txt_content p {
+  letter-spacing: 1px !important;
+}
