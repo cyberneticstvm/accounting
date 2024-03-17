@@ -91,6 +91,24 @@
                                                         <small class="text-danger">{{ $errors->first('contact_number') }}</small>
                                                         @enderror
                                                     </p>
+                                                    <div class="row form-group">
+                                                        <label for="validate">Validate</label>
+                                                        <div class="col-md-3">
+                                                            <input id="num1" name="num1" placeholder="0" type="text" value="{{ $num1 }}" class="text-center" readonly>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <input id="op" name="op" placeholder="+" class="text-center" type="text" value="" readonly>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <input id="num2" name="num2" class="text-center" placeholder="0" type="text" value="{{ $num2 }}" readonly>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <input id="answer" name="answer" class="text-center" placeholder="0" type="text" value="">
+                                                            @error('answer')
+                                                            <small class="text-danger">{{ $errors->first('answer') }}</small>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
                                                     <div class="clearfix"></div>
                                                     <p class="form-submit">
                                                         <button type="submit" class="theme_btn btn-submit w-100">Post comment</button>

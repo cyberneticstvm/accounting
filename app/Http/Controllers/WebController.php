@@ -55,7 +55,9 @@ class WebController extends Controller
         $blog = Blog::where('slug', $slug)->firstOrFail();
         $title = $blog->title;
         $blogs = Blog::where('id', '!=', $blog->id)->where('category', 'blog')->where('status', 1)->latest()->limit(10)->get();
-        return view('web.blog-single', compact('title', 'keywords', 'description', 'blogs', 'blog'));
+        $num1 = rand(1, 99);
+        $num2 = rand(1, 99);
+        return view('web.blog-single', compact('title', 'keywords', 'description', 'blogs', 'blog', 'num1', 'num2'));
     }
 
     public function contact()
