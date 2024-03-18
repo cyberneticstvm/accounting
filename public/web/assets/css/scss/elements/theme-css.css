@@ -10996,7 +10996,7 @@ header .flaticon-list {
 
 .two_column .news_box.style_six .content_box,
 .two_column .news_box.style_two .content_box {
-  /*min-height: 370px;*/
+  min-height: 370px;
 }
 
 .one_column .news_box.style_six .content_box .content_mid,
