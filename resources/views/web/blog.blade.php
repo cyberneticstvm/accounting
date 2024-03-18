@@ -24,7 +24,7 @@
                             </div>
                             <div class="content_mid">
                                 <span class="date_in_number">{{ $item->created_at->format('d, M Y') }}</span>
-                                <h2 class="title"><a href="{{ route('blog.single', $item->slug) }}" rel="bookmark">{{ $item->title }}</a></h2>
+                                <h5 class="title"><a href="{{ route('blog.single', $item->slug) }}" rel="bookmark">{{ $item->title }}</a></h5>
                             </div>
                             <div class="auhtour_box">
                                 <!--<img alt="Aurega Accounting" src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" height="60" width="60" class="img-fluid">-->
