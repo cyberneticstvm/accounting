@@ -25,12 +25,12 @@
                                     <span class="date_in_number">{{ $item->created_at->format('d, M Y') }}</span>
                                     <h2 class="title"><a href="{{ route('blog.single', $item->slug) }}" rel="bookmark">{{ $item->title }}</a></h2>
                                 </div>
-                                <div class="auhtour_box">
-                                    <img alt="Aurega Accounting" src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" height="60" width="60" class="img-fluid">
-                                    <div class="contnet_a">
-                                        <p>Tags</p>
-                                        <h4>{{ $item->hashtags }}</h4>
-                                    </div>
+                            </div>
+                            <div class="auhtour_box">
+                                <!--<img alt="Aurega Accounting" src="{{ asset('/web/assets/images/aurega-logo-transparent.png') }}" height="60" width="60" class="img-fluid">-->
+                                <div class="contnet_a">
+                                    <!--<p>Tags</p>-->
+                                    <h4>{{ $item->hashtags }}</h4>
                                 </div>
                             </div>
                         </div>
