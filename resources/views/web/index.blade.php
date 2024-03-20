@@ -541,7 +541,7 @@
                             <!--<div class="p_pagination">
                                 <div class="pswiper-pagination"></div>
                             </div>-->
-                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-prev bg-dark text-white"></div>
                             <div class="swiper-button-next"></div>
 
                             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
