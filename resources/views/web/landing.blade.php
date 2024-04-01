@@ -171,16 +171,17 @@
                             <div class="col-xl-6 col-lg-6 col-md-12">
                                 <div class="title_all_box style_one dark_color">
                                     <div class="title_sections">
-                                        <div class="before_title">Accounting Solutions for your business</div>
-                                        <h2 class="title_big text-white">From paper work to peace of mind</h2>
-                                        <p class="text-white">Empower your business with the right structure. Your requirements simplified.</p>
+                                        <div class="before_title">HAVE YOU COMPLETED YOUR</div>
+                                        <h2 class="title_big text-white">UAE CORPORATE <span class="">TAX</span> REGISTRATION?</h2>
+                                        <p class="before_title">AVOID LATE REGISTRATION PENALITY OF AED 10.000</p>
+                                        <p class="text-white">Learn all about UAE Corporate Tax for your Business to unlock its potential benifits with AUREGA</p>
                                     </div>
                                 </div>
                                 <!--===============spacing==============-->
                                 <div class="pd_bottom_20"></div>
                                 <!--===============spacing==============-->
                                 <div class="theme_btn_all color_one">
-                                    <a href="{{ route('contact') }}" rel="nofollow" class="theme-btn one">Contact Now</a>
+                                    <a href="{{ route('contact') }}" rel="nofollow" class="theme-btn one">Speak to Our Tax Experts Today</a>
                                 </div>
                                 <!--===============spacing==============-->
                                 <div class="pd_bottom_40"></div>
