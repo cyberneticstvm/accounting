@@ -65,7 +65,9 @@ class WebController extends Controller
         $title = "Accounting, Tax & Advisory Services";
         $keywords = "Accounting services Dubai, Tax consultant Dubai, Financial advisory, Auditing services, Payroll services, Bookkeeping";
         $description = "Budgeting and forecasting, Accounting software solutions, Financial advisory Dubai, Corporate tax planning Dubai";
-        return view('web.contact', compact('title', 'keywords', 'description'));
+        $num1 = rand(1, 99);
+        $num2 = rand(1, 99);
+        return view('web.contact', compact('title', 'keywords', 'description', 'num1', 'num2'));
     }
 
     public function accounting()

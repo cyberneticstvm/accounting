@@ -30,13 +30,18 @@ class EmailController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email:rfs,dns',
-            'contact_number' => 'required',
+            'contact_number' => 'required|numeric',
             'message' => 'required',
+            'answer' => 'required',
         ]);
         try {
-            $input = $request->all();
-            Contact::create($input);
-            Mail::to($this->email)->send(new ContactUsEmail($request));
+            if ($request->answer != ($request->num1 + $request->num2)) :
+                throw new Exception("Validation Failed!");
+            else :
+                $input = $request->all();
+                Contact::create($input);
+                Mail::to($this->email)->send(new ContactUsEmail($request));
+            endif;
         } catch (Exception $e) {
             return redirect()->route('success.message')->with("error", $e->getMessage());
         }
